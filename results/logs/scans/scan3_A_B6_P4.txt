@@ -1,0 +1,7 @@
+type A, base 6, period 4
+  ov=1001  reachable=3 terminals=0
+  ov=0101  reachable=65 terminals=2
+    distinct cin=1010  (first K=5) -> outer_B6_P4_ov0101_cin1010.txt
+    distinct cin=0101  (first K=6) -> outer_B6_P4_ov0101_cin0101.txt
+  ov=1111  reachable=1 terminals=0
+summary: patterns=3, with outer solution=0, inconclusive=0

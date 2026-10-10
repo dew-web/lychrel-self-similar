@@ -1,0 +1,6 @@
+bin/
+work/
+*.o
+__pycache__/
+*.pyc
+.DS_Store

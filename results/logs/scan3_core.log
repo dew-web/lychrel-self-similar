@@ -1,0 +1,81 @@
+== outer_B4_P6_ov001001_cin001001.txt
+B=4 P=6 par0=0 delta=1  RUN self-loop=ok  reachable states=25  => CORE FOUND (1 layers + center, window 3 digits)
+   core (low->high): 323
+   independent window simulation over one period: PERIODIC (ok)
+   FULL NUMBER x0 (47 digits): 10333333333333333333333230000000000000000000000
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+B=4 P=6 par0=1 delta=1  RUN self-loop=ok  reachable states=37  => CORE FOUND (1 layers + center, window 4 digits)
+   core (low->high): 3233
+   independent window simulation over one period: PERIODIC (ok)
+   FULL NUMBER x0 (48 digits): 103333333333333333333333230000000000000000000000
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+== outer_B4_P6_ov001001_cin100100.txt
+B=4 P=6 par0=0 delta=1  RUN self-loop=ok  reachable states=15  => no periodic core of ANY length
+B=4 P=6 par0=1 delta=1  RUN self-loop=ok  reachable states=15  => no periodic core of ANY length
+== outer_B6_P4_ov0101_cin0101.txt
+B=6 P=4 par0=0 delta=1  RUN self-loop=ok  reachable states=95  => no periodic core of ANY length
+B=6 P=4 par0=1 delta=1  RUN self-loop=ok  reachable states=95  => no periodic core of ANY length
+== outer_B6_P4_ov0101_cin1010.txt
+B=6 P=4 par0=0 delta=1  RUN self-loop=ok  reachable states=95  => no periodic core of ANY length
+B=6 P=4 par0=1 delta=1  RUN self-loop=ok  reachable states=95  => no periodic core of ANY length
+== outer_B6_P8_ov01010101_cin01010101.txt
+B=6 P=8 par0=0 delta=2  RUN self-loop=ok  reachable states=25810  => no periodic core of ANY length
+B=6 P=8 par0=1 delta=2  RUN self-loop=ok  reachable states=25810  => no periodic core of ANY length
+== outer_B6_P8_ov01010101_cin10101010.txt
+B=6 P=8 par0=0 delta=2  RUN self-loop=ok  reachable states=25810  => no periodic core of ANY length
+B=6 P=8 par0=1 delta=2  RUN self-loop=ok  reachable states=25810  => no periodic core of ANY length
+== outer_B7_P6_ov001001_cin100100.txt
+B=7 P=6 par0=0 delta=1  RUN self-loop=ok  reachable states=89  => no periodic core of ANY length
+B=7 P=6 par0=1 delta=1  RUN self-loop=ok  reachable states=89  => no periodic core of ANY length
+== outer_B7_P6_ov001001_cin110110.txt
+B=7 P=6 par0=0 delta=1  RUN self-loop=ok  reachable states=79  => no periodic core of ANY length
+B=7 P=6 par0=1 delta=1  RUN self-loop=ok  reachable states=79  => no periodic core of ANY length
+== outer_B3_P10_ov1100111001_cin1010010100.txt
+B=3 P=10 par0=0 delta=3  RUN self-loop=ok  reachable states=8275  => no periodic core of ANY length
+B=3 P=10 par0=1 delta=3  RUN self-loop=ok  reachable states=8275  => no periodic core of ANY length
+== outer_B3_P10_ov1100111001_cin1011010110.txt
+B=3 P=10 par0=0 delta=3  RUN self-loop=ok  reachable states=1463466  => no periodic core of ANY length
+B=3 P=10 par0=1 delta=3  RUN self-loop=ok  reachable states=1463466  => no periodic core of ANY length
+== outer_B9_P10_ov1000110001_cin0111101111.txt
+B=9 P=10 par0=0 delta=2  RUN self-loop=ok  reachable states=106057  => CORE FOUND (5 layers + center, window 11 digits)
+   core (low->high): 18502185018
+   independent window simulation over one period: PERIODIC (ok)
+   FULL NUMBER x0 (153 digits): 101256346112820800663070583218878850210858287820788888888888888888888888105812058100000000000000000000000782087205811204808870238508037588811821254465208
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+B=9 P=10 par0=1 delta=2  RUN self-loop=ok  reachable states=10105  => CORE FOUND (2 layers + center, window 6 digits)
+   core (low->high): 185018
+   independent window simulation over one period: PERIODIC (ok)
+   FULL NUMBER x0 (148 digits): 1012563461128208006630705832188788502108582878207888888888888888888888881058100000000000000000000000782087205811204808870238508037588811821254465208
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+== outer_B9_P10_ov1000110001_cin1000010000.txt
+B=9 P=10 par0=0 delta=2  RUN self-loop=ok  reachable states=106523  => CORE FOUND (5 layers + center, window 11 digits)
+   core (low->high): 70386703870
+   independent window simulation over one period: PERIODIC (ok)
+   FULL NUMBER x0 (143 digits): 10125634611282080066307058402868766240405838200000000000000000000007830768307888888888888888888888820385840435578702838508037588811821254465208
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+B=9 P=10 par0=1 delta=2  RUN self-loop=ok  reachable states=7617  => CORE FOUND (2 layers + center, window 6 digits)
+   core (low->high): 703870
+   independent window simulation over one period: PERIODIC (ok)
+   FULL NUMBER x0 (138 digits): 101256346112820800663070584028687662404058382000000000000000000000078307888888888888888888888820385840435578702838508037588811821254465208
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+== outer_B14_P4_ov0101_cin0101.txt
+B=14 P=4 par0=0 delta=1  RUN self-loop=ok  reachable states=415  => no periodic core of ANY length
+B=14 P=4 par0=1 delta=1  RUN self-loop=ok  reachable states=415  => no periodic core of ANY length
+== outer_B14_P8_ov01010101_cin01010101.txt
+B=14 P=8 par0=0 delta=2  RUN self-loop=ok  reachable states=80857  => no periodic core of ANY length
+B=14 P=8 par0=1 delta=2  RUN self-loop=ok  reachable states=80857  => no periodic core of ANY length
+== outer_B14_P10_ov0100101001_cin0100010111.txt
+B=14 P=10 par0=0 delta=2  RUN self-loop=ok  reachable states=1252093  => no periodic core of ANY length
+B=14 P=10 par0=1 delta=2  RUN self-loop=ok  reachable states=1252093  => no periodic core of ANY length
+== outer_B14_P10_ov0100101001_cin1011101000.txt
+B=14 P=10 par0=0 delta=2  RUN self-loop=ok  reachable states=1252093  => no periodic core of ANY length
+B=14 P=10 par0=1 delta=2  RUN self-loop=ok  reachable states=1252093  => no periodic core of ANY length
+== outer_B24_P4_ov0101_cin0101.txt
+B=24 P=4 par0=0 delta=1  RUN self-loop=ok  reachable states=240  => no periodic core of ANY length
+B=24 P=4 par0=1 delta=1  RUN self-loop=ok  reachable states=240  => no periodic core of ANY length
+== outer_B24_P6_ov001001_cin011011.txt
+B=24 P=6 par0=0 delta=1  RUN self-loop=ok  reachable states=1350  => no periodic core of ANY length
+B=24 P=6 par0=1 delta=1  RUN self-loop=ok  reachable states=1350  => no periodic core of ANY length
+== outer_B24_P8_ov01010101_cin01010101.txt
+B=24 P=8 par0=0 delta=2  RUN self-loop=ok  reachable states=26856  => no periodic core of ANY length
+B=24 P=8 par0=1 delta=2  RUN self-loop=ok  reachable states=26856  => no periodic core of ANY length

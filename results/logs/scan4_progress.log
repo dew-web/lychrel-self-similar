@@ -1,0 +1,26 @@
+start 14:00:43
+P=16 single pattern 0101010101010101 (8.4M cap):   ov=0101010101010101  reachable=8388608 terminals=0 (CAPACITY) single pattern result=0 
+A B=3 P=11 patterns=93 with_outer=0 capacity=0
+A B=3 P=12 patterns=179 with_outer=0 capacity=0
+A B=5 P=11 patterns=93 with_outer=0 capacity=0
+A B=5 P=12 patterns=179 with_outer=0 capacity=0
+A B=6 P=11 patterns=93 with_outer=0 capacity=0
+A B=6 P=12 patterns=179 with_outer=1 capacity=0
+   core outer_B6_P12_ov010101010101_cin001011001011.txt: found=0 verified=0
+   core outer_B6_P12_ov010101010101_cin001101001101.txt: found=0 verified=0
+   core outer_B6_P12_ov010101010101_cin010011010011.txt: found=0 verified=0
+   core outer_B6_P12_ov010101010101_cin010101010101.txt: found=0 verified=0
+   core outer_B6_P12_ov010101010101_cin101010101010.txt: found=0 verified=0
+   core outer_B6_P12_ov010101010101_cin101100101100.txt: found=0 verified=0
+   core outer_B6_P12_ov010101010101_cin110010110010.txt: found=0 verified=0
+   core outer_B6_P12_ov010101010101_cin110100110100.txt: found=0 verified=0
+A B=7 P=11 patterns=93 with_outer=0 capacity=0
+A B=7 P=12 patterns=179 with_outer=1 capacity=0
+   core outer_B7_P12_ov001001001001_cin100100100100.txt: found=0 verified=0
+   core outer_B7_P12_ov001001001001_cin110110110110.txt: found=0 verified=0
+A B=12 P=11 patterns=93 with_outer=0 capacity=0
+A B=12 P=12 patterns=179 with_outer=0 capacity=0
+A B=13 P=11 patterns=93 with_outer=0 capacity=0
+A B=13 P=12 patterns=179 with_outer=0 capacity=0
+A B=14 P=11 patterns=93 with_outer=0 capacity=0
+A B=14 P=12 patterns=179 with_outer=1 capacity=0

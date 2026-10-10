@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software or the base-9 result, please cite it as below."
+title: "Self-similar reverse-and-add cycles and a base-9 Lychrel family"
+authors:
+  - family-names: "<FAMILY NAME>"
+    given-names: "<GIVEN NAME>"
+date-released: 2026-10-11
+license: MIT

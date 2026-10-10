@@ -1,0 +1,23 @@
+start 08:15:28
+  ov=0101  reachable states=6  OUTER SOLUTION FOUND
+    direct simulation, 4 periods (each run +1 per period, no palindrome): VERIFIED
+  ov=11000100001  reachable states=10736  OUTER SOLUTION FOUND
+summary: patterns=93, with outer solution=1, inconclusive=0
+sanity P=22 doubled P=11 pattern:
+  ov=1100010000111000100001  reachable=8388608 terminals=1 (CAPACITY)
+    distinct cin=0100110011101001100111  (first K=29) -> outer_B10_P22_ov1100010000111000100001_cin0100110011101001100111.txt
+single pattern result=0
+P=2: patterns=1 with_terminals=0 capacity=0 maxreach=1 time=0s
+P=3: patterns=1 with_terminals=0 capacity=0 maxreach=1 time=0s
+P=4: patterns=3 with_terminals=0 capacity=0 maxreach=17 time=0s
+P=5: patterns=3 with_terminals=0 capacity=0 maxreach=23 time=0s
+P=6: patterns=7 with_terminals=0 capacity=0 maxreach=10 time=0s
+P=7: patterns=9 with_terminals=0 capacity=0 maxreach=5 time=0s
+P=8: patterns=19 with_terminals=0 capacity=0 maxreach=244785 time=5s
+P=9: patterns=29 with_terminals=0 capacity=0 maxreach=1577 time=0s
+P=10: patterns=55 with_terminals=0 capacity=0 maxreach=177 time=0s
+P=11: patterns=93 with_terminals=1 capacity=0 maxreach=18061 time=1s
+P=12: patterns=179 with_terminals=0 capacity=0 maxreach=8447 time=0s
+P=13: patterns=315 with_terminals=0 capacity=0 maxreach=1061 time=0s
+P=14: patterns=595 with_terminals=0 capacity=0 maxreach=182837 time=7s
+P=15: patterns=1095 with_terminals=0 capacity=0 maxreach=1289 time=0s

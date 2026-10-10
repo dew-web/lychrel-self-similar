@@ -1,0 +1,5 @@
+type A, base 24, period 5
+  ov=10001  reachable=1 terminals=0
+  ov=01001  reachable=5 terminals=0
+  ov=11101  reachable=1 terminals=0
+summary: patterns=3, with outer solution=0, inconclusive=0

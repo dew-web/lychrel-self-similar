@@ -1,0 +1,53 @@
+=== base 2, period 4 ===
+-- outer_B2_P4_ov0101_cin0101.txt
+B=2 P=4 par0=0 delta=1  RUN self-loop=ok  reachable states=11  => CORE FOUND (1 layers + center, window 3 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+B=2 P=4 par0=1 delta=1  RUN self-loop=ok  reachable states=15  => CORE FOUND (1 layers + center, window 4 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+=== base 4, period 6 ===
+-- outer_B4_P6_ov001001_cin001001.txt
+B=4 P=6 par0=0 delta=1  RUN self-loop=ok  reachable states=25  => CORE FOUND (1 layers + center, window 3 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+B=4 P=6 par0=1 delta=1  RUN self-loop=ok  reachable states=37  => CORE FOUND (1 layers + center, window 4 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+-- outer_B4_P6_ov001001_cin100100.txt
+B=4 P=6 par0=0 delta=1  RUN self-loop=ok  reachable states=15  => no periodic core of ANY length
+B=4 P=6 par0=1 delta=1  RUN self-loop=ok  reachable states=15  => no periodic core of ANY length
+=== base 26, period 4 ===
+-- outer_B26_P4_ov0101_cin0101.txt
+B=26 P=4 par0=0 delta=1  RUN self-loop=ok  reachable states=581  => CORE FOUND (2 layers + center, window 5 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+B=26 P=4 par0=1 delta=1  RUN self-loop=ok  reachable states=109  => CORE FOUND (1 layers + center, window 4 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+=== base 11, period 6 ===
+-- outer_B11_P6_ov001001_cin001001.txt
+B=11 P=6 par0=0 delta=1  RUN self-loop=ok  reachable states=186  => no periodic core of ANY length
+B=11 P=6 par0=1 delta=1  RUN self-loop=ok  reachable states=186  => no periodic core of ANY length
+-- outer_B11_P6_ov001001_cin011011.txt
+B=11 P=6 par0=0 delta=1  RUN self-loop=ok  reachable states=9673  => CORE FOUND (21 layers + center, window 43 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+B=11 P=6 par0=1 delta=1  RUN self-loop=ok  reachable states=8185  => CORE FOUND (20 layers + center, window 42 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+=== base 9, period 10 ===
+-- outer_B9_P10_ov1000110001_cin0111101111.txt
+B=9 P=10 par0=0 delta=2  RUN self-loop=ok  reachable states=106057  => CORE FOUND (5 layers + center, window 11 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+B=9 P=10 par0=1 delta=2  RUN self-loop=ok  reachable states=10105  => CORE FOUND (2 layers + center, window 6 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+-- outer_B9_P10_ov1000110001_cin1000010000.txt
+B=9 P=10 par0=0 delta=2  RUN self-loop=ok  reachable states=106523  => CORE FOUND (5 layers + center, window 11 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)
+B=9 P=10 par0=1 delta=2  RUN self-loop=ok  reachable states=7617  => CORE FOUND (2 layers + center, window 6 digits)
+   independent window simulation over one period: PERIODIC (ok)
+   direct reverse-and-add simulation, 6 periods: SELF-SIMILAR, NO PALINDROME (VERIFIED)

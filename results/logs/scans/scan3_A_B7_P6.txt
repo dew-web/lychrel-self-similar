@@ -1,0 +1,11 @@
+type A, base 7, period 6
+  ov=100001  reachable=1 terminals=0
+  ov=010001  reachable=297 terminals=0
+  ov=001001  reachable=1859 terminals=2
+    distinct cin=110110  (first K=7) -> outer_B7_P6_ov001001_cin110110.txt
+    distinct cin=100100  (first K=8) -> outer_B7_P6_ov001001_cin100100.txt
+  ov=111001  reachable=1 terminals=0
+  ov=110101  reachable=1 terminals=0
+  ov=101101  reachable=1 terminals=0
+  ov=111111  reachable=1 terminals=0
+summary: patterns=7, with outer solution=0, inconclusive=0

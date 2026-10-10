@@ -1,0 +1,3 @@
+type A, base 7, period 2
+  ov=11  reachable=1 terminals=0
+summary: patterns=1, with outer solution=0, inconclusive=0

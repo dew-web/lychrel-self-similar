@@ -1,0 +1,11 @@
+type A, base 21, period 7
+  ov=1000001  reachable=1 terminals=0
+  ov=0100001  reachable=35 terminals=0
+  ov=0010001  reachable=5 terminals=0
+  ov=1110001  reachable=1 terminals=0
+  ov=1101001  reachable=1 terminals=0
+  ov=1011001  reachable=1 terminals=0
+  ov=0111001  reachable=1 terminals=0
+  ov=1010101  reachable=1 terminals=0
+  ov=1111101  reachable=1 terminals=0
+summary: patterns=9, with outer solution=0, inconclusive=0

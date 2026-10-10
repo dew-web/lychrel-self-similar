@@ -1,0 +1,5 @@
+type A, base 23, period 4
+  ov=1001  reachable=1 terminals=0
+  ov=0101  reachable=258 terminals=0
+  ov=1111  reachable=1 terminals=0
+summary: patterns=3, with outer solution=0, inconclusive=0

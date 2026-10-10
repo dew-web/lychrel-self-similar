@@ -1,0 +1,3 @@
+type A, base 18, period 3
+  ov=101  reachable=1 terminals=0
+summary: patterns=1, with outer solution=0, inconclusive=0

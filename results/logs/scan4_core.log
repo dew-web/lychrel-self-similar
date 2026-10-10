@@ -1,0 +1,31 @@
+== outer_B6_P12_ov010101010101_cin001011001011.txt
+B=6 P=12 par0=0 delta=3  RUN self-loop=ok  reachable states=595074  => no periodic core of ANY length
+B=6 P=12 par0=1 delta=3  RUN self-loop=ok  reachable states=595074  => no periodic core of ANY length
+== outer_B6_P12_ov010101010101_cin001101001101.txt
+B=6 P=12 par0=0 delta=3  RUN self-loop=ok  reachable states=814774  => no periodic core of ANY length
+B=6 P=12 par0=1 delta=3  RUN self-loop=ok  reachable states=814774  => no periodic core of ANY length
+== outer_B6_P12_ov010101010101_cin010011010011.txt
+B=6 P=12 par0=0 delta=3  RUN self-loop=ok  reachable states=577952  => no periodic core of ANY length
+B=6 P=12 par0=1 delta=3  RUN self-loop=ok  reachable states=577952  => no periodic core of ANY length
+== outer_B6_P12_ov010101010101_cin010101010101.txt
+B=6 P=12 par0=0 delta=3  RUN self-loop=ok  reachable states=16777216  CAPACITY EXCEEDED (inconclusive)
+B=6 P=12 par0=1 delta=3  RUN self-loop=ok  reachable states=16777216  CAPACITY EXCEEDED (inconclusive)
+== outer_B6_P12_ov010101010101_cin101010101010.txt
+B=6 P=12 par0=0 delta=3  RUN self-loop=ok  reachable states=16777216  CAPACITY EXCEEDED (inconclusive)
+B=6 P=12 par0=1 delta=3  RUN self-loop=ok  reachable states=16777216  CAPACITY EXCEEDED (inconclusive)
+== outer_B6_P12_ov010101010101_cin101100101100.txt
+B=6 P=12 par0=0 delta=3  RUN self-loop=ok  reachable states=577952  => no periodic core of ANY length
+B=6 P=12 par0=1 delta=3  RUN self-loop=ok  reachable states=577952  => no periodic core of ANY length
+== outer_B6_P12_ov010101010101_cin110010110010.txt
+B=6 P=12 par0=0 delta=3  RUN self-loop=ok  reachable states=814774  => no periodic core of ANY length
+B=6 P=12 par0=1 delta=3  RUN self-loop=ok  reachable states=814774  => no periodic core of ANY length
+== outer_B6_P12_ov010101010101_cin110100110100.txt
+B=6 P=12 par0=0 delta=3  RUN self-loop=ok  reachable states=595074  => no periodic core of ANY length
+B=6 P=12 par0=1 delta=3  RUN self-loop=ok  reachable states=595074  => no periodic core of ANY length
+== outer_B7_P12_ov001001001001_cin100100100100.txt
+B=7 P=12 par0=0 delta=2  RUN self-loop=ok  reachable states=1579  => no periodic core of ANY length
+B=7 P=12 par0=1 delta=2  RUN self-loop=ok  reachable states=1579  => no periodic core of ANY length
+== outer_B7_P12_ov001001001001_cin110110110110.txt
+B=7 P=12 par0=0 delta=2  RUN self-loop=ok  reachable states=61128  => no periodic core of ANY length
+B=7 P=12 par0=1 delta=2  RUN self-loop=ok  reachable states=61128  => no periodic core of ANY length
+== outer_B14_P12_ov010101010101_cin010101010101.txt

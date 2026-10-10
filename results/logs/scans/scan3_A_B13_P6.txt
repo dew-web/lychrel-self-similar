@@ -1,0 +1,9 @@
+type A, base 13, period 6
+  ov=100001  reachable=1 terminals=0
+  ov=010001  reachable=13 terminals=0
+  ov=001001  reachable=10 terminals=0
+  ov=111001  reachable=1 terminals=0
+  ov=110101  reachable=1 terminals=0
+  ov=101101  reachable=1 terminals=0
+  ov=111111  reachable=1 terminals=0
+summary: patterns=7, with outer solution=0, inconclusive=0

@@ -1,0 +1,21 @@
+type A, base 12, period 8
+  ov=10000001  reachable=1 terminals=0
+  ov=01000001  reachable=1 terminals=0
+  ov=00100001  reachable=1 terminals=0
+  ov=11100001  reachable=1 terminals=0
+  ov=00010001  reachable=5 terminals=0
+  ov=11010001  reachable=1 terminals=0
+  ov=10110001  reachable=1 terminals=0
+  ov=01110001  reachable=1 terminals=0
+  ov=11001001  reachable=1 terminals=0
+  ov=10101001  reachable=1 terminals=0
+  ov=01101001  reachable=1 terminals=0
+  ov=10011001  reachable=1 terminals=0
+  ov=01011001  reachable=1 terminals=0
+  ov=11111001  reachable=1 terminals=0
+  ov=01010101  reachable=1625 terminals=0
+  ov=11110101  reachable=1 terminals=0
+  ov=11101101  reachable=1 terminals=0
+  ov=11011101  reachable=1 terminals=0
+  ov=11111111  reachable=1 terminals=0
+summary: patterns=19, with outer solution=0, inconclusive=0

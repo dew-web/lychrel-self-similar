@@ -1,0 +1,162 @@
+start 13:55:13
+A B=4 P=2 patterns=1 with_outer=0 capacity=0
+A B=4 P=3 patterns=1 with_outer=0 capacity=0
+A B=4 P=4 patterns=3 with_outer=0 capacity=0
+A B=4 P=5 patterns=3 with_outer=0 capacity=0
+A B=4 P=6 patterns=7 with_outer=1 capacity=0
+   core check outer_B4_P6_ov001001_cin001001.txt: 2 found, 1 verified
+   core check outer_B4_P6_ov001001_cin100100.txt: 0 found, 0 verified
+A B=6 P=2 patterns=1 with_outer=0 capacity=0
+A B=6 P=3 patterns=1 with_outer=0 capacity=0
+A B=6 P=4 patterns=3 with_outer=1 capacity=0
+   core check outer_B6_P4_ov0101_cin0101.txt: 0 found, 0 verified
+   core check outer_B6_P4_ov0101_cin1010.txt: 0 found, 0 verified
+A B=6 P=5 patterns=3 with_outer=0 capacity=0
+A B=6 P=6 patterns=7 with_outer=0 capacity=0
+A B=6 P=7 patterns=9 with_outer=0 capacity=0
+A B=6 P=8 patterns=19 with_outer=1 capacity=0
+   core check outer_B6_P8_ov01010101_cin01010101.txt: 0 found, 0 verified
+   core check outer_B6_P8_ov01010101_cin10101010.txt: 0 found, 0 verified
+A B=6 P=9 patterns=29 with_outer=0 capacity=0
+A B=6 P=10 patterns=55 with_outer=0 capacity=0
+A B=7 P=2 patterns=1 with_outer=0 capacity=0
+A B=7 P=3 patterns=1 with_outer=0 capacity=0
+A B=7 P=4 patterns=3 with_outer=0 capacity=0
+A B=7 P=5 patterns=3 with_outer=0 capacity=0
+A B=7 P=6 patterns=7 with_outer=1 capacity=0
+   core check outer_B7_P6_ov001001_cin100100.txt: 0 found, 0 verified
+   core check outer_B7_P6_ov001001_cin110110.txt: 0 found, 0 verified
+A B=7 P=7 patterns=9 with_outer=0 capacity=0
+A B=7 P=8 patterns=19 with_outer=0 capacity=0
+A B=7 P=9 patterns=29 with_outer=0 capacity=0
+A B=7 P=10 patterns=55 with_outer=0 capacity=0
+A B=3 P=2 patterns=1 with_outer=0 capacity=0
+A B=3 P=3 patterns=1 with_outer=0 capacity=0
+A B=3 P=4 patterns=3 with_outer=0 capacity=0
+A B=3 P=5 patterns=3 with_outer=0 capacity=0
+A B=3 P=6 patterns=7 with_outer=0 capacity=0
+A B=3 P=7 patterns=9 with_outer=0 capacity=0
+A B=3 P=8 patterns=19 with_outer=0 capacity=0
+A B=3 P=9 patterns=29 with_outer=0 capacity=0
+A B=3 P=10 patterns=55 with_outer=1 capacity=0
+   core check outer_B3_P10_ov1100111001_cin1010010100.txt: 0 found, 0 verified
+   core check outer_B3_P10_ov1100111001_cin1011010110.txt: 0 found, 0 verified
+A B=5 P=2 patterns=1 with_outer=0 capacity=0
+A B=5 P=3 patterns=1 with_outer=0 capacity=0
+A B=5 P=4 patterns=3 with_outer=0 capacity=0
+A B=5 P=5 patterns=3 with_outer=0 capacity=0
+A B=5 P=6 patterns=7 with_outer=0 capacity=0
+A B=5 P=7 patterns=9 with_outer=0 capacity=0
+A B=5 P=8 patterns=19 with_outer=0 capacity=0
+A B=5 P=9 patterns=29 with_outer=0 capacity=0
+A B=5 P=10 patterns=55 with_outer=0 capacity=0
+A B=9 P=2 patterns=1 with_outer=0 capacity=0
+A B=9 P=3 patterns=1 with_outer=0 capacity=0
+A B=9 P=4 patterns=3 with_outer=0 capacity=0
+A B=9 P=5 patterns=3 with_outer=0 capacity=0
+A B=9 P=6 patterns=7 with_outer=0 capacity=0
+A B=9 P=7 patterns=9 with_outer=0 capacity=0
+A B=9 P=8 patterns=19 with_outer=0 capacity=0
+A B=9 P=9 patterns=29 with_outer=0 capacity=0
+A B=9 P=10 patterns=55 with_outer=1 capacity=0
+   core check outer_B9_P10_ov1000110001_cin0111101111.txt: 2 found, 1 verified
+   core check outer_B9_P10_ov1000110001_cin1000010000.txt: 2 found, 1 verified
+A B=12 P=2 patterns=1 with_outer=0 capacity=0
+A B=12 P=3 patterns=1 with_outer=0 capacity=0
+A B=12 P=4 patterns=3 with_outer=0 capacity=0
+A B=12 P=5 patterns=3 with_outer=0 capacity=0
+A B=12 P=6 patterns=7 with_outer=0 capacity=0
+A B=12 P=7 patterns=9 with_outer=0 capacity=0
+A B=12 P=8 patterns=19 with_outer=0 capacity=0
+A B=12 P=9 patterns=29 with_outer=0 capacity=0
+A B=12 P=10 patterns=55 with_outer=0 capacity=0
+A B=13 P=2 patterns=1 with_outer=0 capacity=0
+A B=13 P=3 patterns=1 with_outer=0 capacity=0
+A B=13 P=4 patterns=3 with_outer=0 capacity=0
+A B=13 P=5 patterns=3 with_outer=0 capacity=0
+A B=13 P=6 patterns=7 with_outer=0 capacity=0
+A B=13 P=7 patterns=9 with_outer=0 capacity=0
+A B=13 P=8 patterns=19 with_outer=0 capacity=0
+A B=13 P=9 patterns=29 with_outer=0 capacity=0
+A B=13 P=10 patterns=55 with_outer=0 capacity=0
+A B=14 P=2 patterns=1 with_outer=0 capacity=0
+A B=14 P=3 patterns=1 with_outer=0 capacity=0
+A B=14 P=4 patterns=3 with_outer=1 capacity=0
+   core check outer_B14_P4_ov0101_cin0101.txt: 0 found, 0 verified
+A B=14 P=5 patterns=3 with_outer=0 capacity=0
+A B=14 P=6 patterns=7 with_outer=0 capacity=0
+A B=14 P=7 patterns=9 with_outer=0 capacity=0
+A B=14 P=8 patterns=19 with_outer=1 capacity=0
+   core check outer_B14_P8_ov01010101_cin01010101.txt: 0 found, 0 verified
+A B=14 P=9 patterns=29 with_outer=0 capacity=0
+A B=14 P=10 patterns=55 with_outer=1 capacity=1
+   core check outer_B14_P10_ov0100101001_cin0100010111.txt: 0 found, 0 verified
+   core check outer_B14_P10_ov0100101001_cin1011101000.txt: 0 found, 0 verified
+A B=15 P=2 patterns=1 with_outer=0 capacity=0
+A B=15 P=3 patterns=1 with_outer=0 capacity=0
+A B=15 P=4 patterns=3 with_outer=0 capacity=0
+A B=15 P=5 patterns=3 with_outer=0 capacity=0
+A B=15 P=6 patterns=7 with_outer=0 capacity=0
+A B=15 P=7 patterns=9 with_outer=0 capacity=0
+A B=15 P=8 patterns=19 with_outer=0 capacity=0
+A B=15 P=9 patterns=29 with_outer=0 capacity=0
+A B=15 P=10 patterns=55 with_outer=0 capacity=0
+A B=18 P=2 patterns=1 with_outer=0 capacity=0
+A B=18 P=3 patterns=1 with_outer=0 capacity=0
+A B=18 P=4 patterns=3 with_outer=0 capacity=0
+A B=18 P=5 patterns=3 with_outer=0 capacity=0
+A B=18 P=6 patterns=7 with_outer=0 capacity=0
+A B=18 P=7 patterns=9 with_outer=0 capacity=0
+A B=18 P=8 patterns=19 with_outer=0 capacity=0
+A B=19 P=2 patterns=1 with_outer=0 capacity=0
+A B=19 P=3 patterns=1 with_outer=0 capacity=0
+A B=19 P=4 patterns=3 with_outer=0 capacity=0
+A B=19 P=5 patterns=3 with_outer=0 capacity=0
+A B=19 P=6 patterns=7 with_outer=0 capacity=0
+A B=19 P=7 patterns=9 with_outer=0 capacity=0
+A B=19 P=8 patterns=19 with_outer=0 capacity=0
+A B=21 P=2 patterns=1 with_outer=0 capacity=0
+A B=21 P=3 patterns=1 with_outer=0 capacity=0
+A B=21 P=4 patterns=3 with_outer=0 capacity=0
+A B=21 P=5 patterns=3 with_outer=0 capacity=0
+A B=21 P=6 patterns=7 with_outer=0 capacity=0
+A B=21 P=7 patterns=9 with_outer=0 capacity=0
+A B=21 P=8 patterns=19 with_outer=0 capacity=0
+A B=22 P=2 patterns=1 with_outer=0 capacity=0
+A B=22 P=3 patterns=1 with_outer=0 capacity=0
+A B=22 P=4 patterns=3 with_outer=0 capacity=0
+A B=22 P=5 patterns=3 with_outer=0 capacity=0
+A B=22 P=6 patterns=7 with_outer=0 capacity=0
+A B=22 P=7 patterns=9 with_outer=0 capacity=0
+A B=22 P=8 patterns=19 with_outer=0 capacity=0
+A B=23 P=2 patterns=1 with_outer=0 capacity=0
+A B=23 P=3 patterns=1 with_outer=0 capacity=0
+A B=23 P=4 patterns=3 with_outer=0 capacity=0
+A B=23 P=5 patterns=3 with_outer=0 capacity=0
+A B=23 P=6 patterns=7 with_outer=0 capacity=0
+A B=23 P=7 patterns=9 with_outer=0 capacity=0
+A B=23 P=8 patterns=19 with_outer=0 capacity=0
+A B=24 P=2 patterns=1 with_outer=0 capacity=0
+A B=24 P=3 patterns=1 with_outer=0 capacity=0
+A B=24 P=4 patterns=3 with_outer=1 capacity=0
+   core check outer_B24_P4_ov0101_cin0101.txt: 0 found, 0 verified
+A B=24 P=5 patterns=3 with_outer=0 capacity=0
+A B=24 P=6 patterns=7 with_outer=1 capacity=0
+   core check outer_B24_P6_ov001001_cin011011.txt: 0 found, 0 verified
+A B=24 P=7 patterns=9 with_outer=0 capacity=0
+A B=24 P=8 patterns=19 with_outer=1 capacity=0
+   core check outer_B24_P8_ov01010101_cin01010101.txt: 0 found, 0 verified
+A B=25 P=2 patterns=1 with_outer=0 capacity=0
+A B=25 P=3 patterns=1 with_outer=0 capacity=0
+A B=25 P=4 patterns=3 with_outer=0 capacity=0
+A B=25 P=5 patterns=3 with_outer=0 capacity=0
+A B=25 P=6 patterns=7 with_outer=0 capacity=0
+A B=25 P=7 patterns=9 with_outer=0 capacity=0
+A B=25 P=8 patterns=19 with_outer=0 capacity=0
+BASES DONE 13:58:32
+A B=10 P=16 patterns=2067 with_outer=0 capacity=1 13:59:09
+A B=10 P=17 patterns=3855 with_outer=0 capacity=0 13:59:09
+A B=10 P=18 patterns=7315 with_outer=0 capacity=1 14:00:30
+A B=10 P=19 patterns=13797 with_outer=0 capacity=0 14:00:56
+A B=10 P=20 patterns=26271 with_outer=0 capacity=0 14:01:44
+ALLDONE

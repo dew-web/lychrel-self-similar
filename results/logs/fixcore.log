@@ -1,0 +1,3 @@
+== outer_B10_P11_ov11000100001_cin01001100111.txt
+B=10 P=11 par0=0 delta=2  RUN self-loop=ok  reachable states=17934  => no periodic core of ANY length
+B=10 P=11 par0=1 delta=2  RUN self-loop=ok  reachable states=17934  => no periodic core of ANY length
