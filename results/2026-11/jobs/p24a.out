@@ -1,0 +1,8 @@
+[start] 2026-11-17 02:30:16 host=r6n9 nproc=160
+  ov=000100010001000100010001  reachable=25769665845 canon=4294967281 sym=6 depth=724 terminals=3 (CAPACITY)
+    terminal cin=101101010010101101010010 (up to rotation by 4)
+single pattern: INCONCLUSIVE (capacity), 863.5 s wall, 160 threads
+layer 721 size 4079610 total 4284050818  862s
+layer 722 size 4051331 total 4288102149  862s
+layer 723 size 4025006 total 4292127155  863s
+[end] 2026-11-17 02:44:43 rc=0

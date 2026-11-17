@@ -1,0 +1,5 @@
+[start] 2026-11-17 02:19:02 host=r12n3 nproc=32
+B=242 cin=0101: 2 none, 0 cap, 0 VERIFIED
+B=350 cin=0101: 2 none, 0 cap, 0 VERIFIED
+B=434 cin=0101: 2 none, 0 cap, 0 VERIFIED
+B=467 cin=1100: 0 none, 0 cap, 2 VERIFIED

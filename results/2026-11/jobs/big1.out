@@ -1,0 +1,35 @@
+[start] 2026-11-16 21:54:30 host=r21n2 nproc=32
+== C 10 0101010101010101 3
+  ov=0101010101010101  reachable=2056506689 canon=257093987 sym=8 depth=592 terminals=0
+single pattern: no outer solution of any length, 172.0 s wall, 32 threads
+layer 591 size 128 total 257093987  172s
+== C 10 0101010101010101 6
+  ov=0101010101010101  reachable=2056506689 canon=257093987 sym=8 depth=592 terminals=0
+single pattern: no outer solution of any length, 170.2 s wall, 32 threads
+layer 591 size 128 total 257093987  170s
+== C 10 0010111000100101110001 3
+  ov=0010111000100101110001  reachable=43763921 canon=43763921 sym=1 depth=55 terminals=0
+single pattern: no outer solution of any length, 39.0 s wall, 32 threads
+layer 54 size 2560 total 43763921  39s
+== C 10 0010111000100101110001 6
+  ov=0010111000100101110001  reachable=43763921 canon=43763921 sym=1 depth=55 terminals=0
+single pattern: no outer solution of any length, 40.5 s wall, 32 threads
+layer 54 size 2560 total 43763921  40s
+== A 10 000100010001000100010001
+  ov=000100010001000100010001  reachable=3221088033 canon=536870913 sym=6 depth=174 terminals=3 (CAPACITY)
+    terminal cin=101101010010101101010010 (up to rotation by 4)
+single pattern: INCONCLUSIVE (capacity), 464.4 s wall, 32 threads
+layer 173 size 6666708 total 534870548  464s
+== C 10 000100010001000100010001 1
+  ov=000100010001000100010001  reachable=1073605173 canon=536870913 sym=2 depth=93 terminals=0 (CAPACITY)
+single pattern: INCONCLUSIVE (capacity), 463.0 s wall, 32 threads
+layer 92 size 12573186 total 526736691  463s
+== C 10 000100010001000100010001 3
+  ov=000100010001000100010001  reachable=3221088033 canon=536870913 sym=6 depth=174 terminals=0 (CAPACITY)
+single pattern: INCONCLUSIVE (capacity), 500.3 s wall, 32 threads
+layer 173 size 6666708 total 534870548  500s
+== A 10 010101010101010101010101
+  ov=010101010101010101010101  reachable=6442329697 canon=536870913 sym=12 depth=37 terminals=0 (CAPACITY)
+single pattern: INCONCLUSIVE (capacity), 461.9 s wall, 32 threads
+layer 36 size 44335750 total 500996901  462s
+[end] 2026-11-16 22:33:05 rc=0

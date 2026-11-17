@@ -1,0 +1,54 @@
+[start] 2026-11-16 21:12:06 host=r15n11 nproc=8
+old_P2.txt vs new_P2.txt: patterns old=1 new=1 mismatches=0
+old_P2.txt vs nosym_P2.txt: patterns old=1 new=1 mismatches=0
+old_P3.txt vs new_P3.txt: patterns old=1 new=1 mismatches=0
+old_P3.txt vs nosym_P3.txt: patterns old=1 new=1 mismatches=0
+old_P4.txt vs new_P4.txt: patterns old=3 new=3 mismatches=0
+old_P4.txt vs nosym_P4.txt: patterns old=3 new=3 mismatches=0
+old_P5.txt vs new_P5.txt: patterns old=3 new=3 mismatches=0
+old_P5.txt vs nosym_P5.txt: patterns old=3 new=3 mismatches=0
+old_P6.txt vs new_P6.txt: patterns old=7 new=7 mismatches=0
+old_P6.txt vs nosym_P6.txt: patterns old=7 new=7 mismatches=0
+old_P7.txt vs new_P7.txt: patterns old=9 new=9 mismatches=0
+old_P7.txt vs nosym_P7.txt: patterns old=9 new=9 mismatches=0
+old_P8.txt vs new_P8.txt: patterns old=19 new=19 mismatches=0
+old_P8.txt vs nosym_P8.txt: patterns old=19 new=19 mismatches=0
+old_P9.txt vs new_P9.txt: patterns old=29 new=29 mismatches=0
+old_P9.txt vs nosym_P9.txt: patterns old=29 new=29 mismatches=0
+old_P10.txt vs new_P10.txt: patterns old=55 new=55 mismatches=0
+old_P10.txt vs nosym_P10.txt: patterns old=55 new=55 mismatches=0
+old_P11.txt vs new_P11.txt: patterns old=93 new=93 mismatches=0
+old_P11.txt vs nosym_P11.txt: patterns old=93 new=93 mismatches=0
+old_P12.txt vs new_P12.txt: patterns old=179 new=179 mismatches=0
+old_P12.txt vs nosym_P12.txt: patterns old=179 new=179 mismatches=0
+old_P13.txt vs new_P13.txt: patterns old=315 new=315 mismatches=0
+old_P13.txt vs nosym_P13.txt: patterns old=315 new=315 mismatches=0
+old_P14.txt vs new_P14.txt: patterns old=595 new=595 mismatches=0
+old_P14.txt vs nosym_P14.txt: patterns old=595 new=595 mismatches=0
+old_P15.txt vs new_P15.txt: patterns old=1095 new=1095 mismatches=0
+old_P15.txt vs nosym_P15.txt: patterns old=1095 new=1095 mismatches=0
+old_B9_P10.txt vs new_B9_P10.txt: patterns old=55 new=55 mismatches=0
+2
+0
+old_B11_P6.txt vs new_B11_P6.txt: patterns old=7 new=7 mismatches=0
+2
+0
+old_B26_P4.txt vs new_B26_P4.txt: patterns old=3 new=3 mismatches=0
+1
+0
+old_B2_P4.txt vs new_B2_P4.txt: patterns old=3 new=3 mismatches=0
+1
+0
+old_B4_P6.txt vs new_B4_P6.txt: patterns old=7 new=7 mismatches=0
+2
+0
+old_B3_P10.txt vs new_B3_P10.txt: patterns old=55 new=55 mismatches=0
+2
+0
+old_B6_P8.txt vs new_B6_P8.txt: patterns old=19 new=19 mismatches=0
+2
+0
+old_B7_P8.txt vs new_B7_P8.txt: patterns old=19 new=19 mismatches=0
+0
+0
+[end] 2026-11-16 21:12:23 rc=0

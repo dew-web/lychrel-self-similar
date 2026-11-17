@@ -1,0 +1,33 @@
+[start] 2026-11-16 21:42:55 host=r17n5 nproc=16
+  ov=01010101  reachable=244785 canon=61249 sym=4 depth=88 terminals=0
+single pattern: no outer solution of any length, 0.5 s wall, 16 threads
+  ov=01010101  reachable=244785 canon=61249 sym=4 depth=87 terminals=0
+single pattern: no outer solution of any length, 0.3 s
+  ov=1000110001  reachable=956310 canon=478551 sym=2 depth=147 terminals=2
+    terminal cin=1000010000 (up to rotation by 5)
+    terminal cin=0111101111 (up to rotation by 5)
+single pattern: OUTER SOLUTION EXISTS, 1.5 s wall, 16 threads
+  ov=1000110001  reachable=956310 canon=478551 sym=2 depth=146 terminals=2
+single pattern: OUTER SOLUTION EXISTS, 2.0 s
+  ov=010101001010101001  reachable=7599801 canon=3800689 sym=2 depth=57 terminals=0
+single pattern: no outer solution of any length, 5.6 s wall, 16 threads
+  ov=010101001010101001  reachable=7599801 canon=3800689 sym=2 depth=56 terminals=0
+single pattern: no outer solution of any length, 34.1 s
+  ov=1100010000111000100001  reachable=26365607 canon=13191834 sym=2 depth=88 terminals=1
+    terminal cin=0100110011101001100111 (up to rotation by 11)
+single pattern: OUTER SOLUTION EXISTS, 19.9 s wall, 16 threads
+  ov=1100010000111000100001  reachable=26365607 canon=13191834 sym=2 depth=87 terminals=1
+single pattern: OUTER SOLUTION EXISTS, 142.4 s
+  ov=0010111000100101110001  reachable=43763921 canon=21896729 sym=2 depth=55 terminals=0
+single pattern: no outer solution of any length, 30.5 s wall, 16 threads
+  ov=0010111000100101110001  reachable=43763921 canon=21896729 sym=2 depth=54 terminals=0
+single pattern: no outer solution of any length, 236.6 s
+  ov=000100010001  reachable=136653 canon=136653 sym=1 depth=71 terminals=0
+single pattern: no outer solution of any length, 1.0 s wall, 16 threads
+  ov=000100010001  reachable=136653 canon=136653 sym=1 depth=70 terminals=0
+single pattern: no outer solution of any length, 0.8 s
+  ov=1000110001  reachable=5 canon=4 sym=2 depth=2 terminals=0
+single pattern: no outer solution of any length, 0.0 s wall, 16 threads
+  ov=1000110001  reachable=5 canon=4 sym=2 depth=1 terminals=0
+single pattern: no outer solution of any length, 0.0 s
+[end] 2026-11-16 21:51:52 rc=0

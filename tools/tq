@@ -1,0 +1,21 @@
+#!/bin/sh
+# tq NAME RESOURCE H_RT -- command...   : UGE にジョブを1つ投げる（作業ディレクトリはプロジェクト直下）
+# 課金グループは環境変数 TSUBAME_GROUP で渡す。例: TSUBAME_GROUP=... tools/tq p16 cpu_4 0:30:00 -- ./bin/outauto2 10 0101010101010101
+D=${LYCHREL_DIR:-$(cd "$(dirname "$0")/.." && pwd)}   # リポジトリの場所（既定はこのスクリプトの1つ上）
+name=$1; res=$2; hrt=$3; shift 3; [ "$1" = "--" ] && shift
+js=$D/runs/$name.job.sh
+{
+  echo "#!/bin/sh"
+  echo "#\$ -cwd"
+  echo "#\$ -l $res=1"
+  echo "#\$ -l h_rt=$hrt"
+  echo "#\$ -N $name"
+  echo "#\$ -o $D/runs/$name.out"
+  echo "#\$ -e $D/runs/$name.err"
+  echo "cd $D"
+  echo "echo \"[start] \$(date +%F\\ %T) host=\$(hostname) nproc=\$(nproc)\""
+  echo "$*"
+  echo "echo \"[end] \$(date +%F\\ %T) rc=\$?\""
+} > $js
+rm -f $D/runs/$name.out $D/runs/$name.err
+cd $D/runs && qsub -g "${TSUBAME_GROUP:?set TSUBAME_GROUP to your TSUBAME group}" $js

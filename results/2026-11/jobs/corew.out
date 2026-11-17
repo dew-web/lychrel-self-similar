@@ -1,0 +1,13 @@
+[start] 2026-11-16 21:29:54 host=r13n4 nproc=16
+compared=50 different=0
+== base 10, center period 11
+B=10 P=11 par0=0 delta=2  RUN self-loop=ok  reachable states=17934  => no periodic core of ANY length
+B=10 P=11 par0=1 delta=2  RUN self-loop=ok  reachable states=17934  => no periodic core of ANY length
+== base 10, center period 22
+B=10 P=22 par0=0 delta=4  RUN self-loop=ok  reachable states=134217728  CAPACITY EXCEEDED (inconclusive)
+B=10 P=22 par0=1 delta=4  RUN self-loop=ok  reachable states=134217728  CAPACITY EXCEEDED (inconclusive)
+== base 10, center period 33
+B=10 P=33 par0=0 delta=6  RUN self-loop=ok  reachable states=134217728  CAPACITY EXCEEDED (inconclusive)
+B=10 P=33 par0=1 delta=6  RUN self-loop=ok  reachable states=134217728  CAPACITY EXCEEDED (inconclusive)
+== base 10, center period 44
+[end] 2026-11-16 21:55:47 rc=0

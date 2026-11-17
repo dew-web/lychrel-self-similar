@@ -1,0 +1,10 @@
+[start] 2026-11-16 21:54:07 host=r22n10 nproc=32
+compared=50 different=0
+B=10 P=11 par0=0 delta=2  RUN self-loop=ok  reachable states=17934  => no periodic core of ANY length
+B=10 P=11 par0=1 delta=2  RUN self-loop=ok  reachable states=17934  => no periodic core of ANY length
+B=10 P=11 par0=0 delta=2  RUN self-loop=ok  reachable states=17934  => no periodic core of ANY length
+B=10 P=11 par0=1 delta=2  RUN self-loop=ok  reachable states=17934  => no periodic core of ANY length
+== base 10, center period 22, cap 2^29
+B=10 P=22 par0=0 delta=4  RUN self-loop=ok  reachable states=158665178  => no periodic core of ANY length
+B=10 P=22 par0=1 delta=4  RUN self-loop=ok  reachable states=158665178  => no periodic core of ANY length
+[end] 2026-11-16 22:00:03 rc=0

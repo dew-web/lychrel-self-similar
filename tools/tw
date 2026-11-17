@@ -1,0 +1,3 @@
+#!/bin/sh
+# tw JOBID [JOBID...] : ジョブが全部終わるまで待つ
+for j in "$@"; do while qstat 2>/dev/null | grep -q "^ *$j "; do sleep 10; done; done

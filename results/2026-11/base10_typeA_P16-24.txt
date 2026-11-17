@@ -1,0 +1,341 @@
+summary: base=10 P=16 part=0/8 patterns=259 with_outer_solution=0 inconclusive=0 maxreach=273 sumreach=963 time=0.0s
+  ov=0101010101010101  reachable=268243693 canon=33554433 sym=8 depth=65 terminals=0 (CAPACITY)
+summary: base=10 P=16 part=1/8 patterns=259 with_outer_solution=0 inconclusive=1 maxreach=268243693 sumreach=268244367 time=262.9s
+summary: base=10 P=16 part=2/8 patterns=259 with_outer_solution=0 inconclusive=0 maxreach=97 sumreach=515 time=0.0s
+  ov=1100011000100001  reachable=144899 canon=144899 sym=1 depth=42 terminals=0
+summary: base=10 P=16 part=3/8 patterns=258 with_outer_solution=0 inconclusive=0 maxreach=144899 sumreach=145508 time=1.1s
+summary: base=10 P=16 part=4/8 patterns=258 with_outer_solution=0 inconclusive=0 maxreach=289 sumreach=934 time=0.0s
+  ov=0001000100010001  reachable=13170 canon=3399 sym=4 depth=12 terminals=0
+summary: base=10 P=16 part=5/8 patterns=258 with_outer_solution=0 inconclusive=0 maxreach=13170 sumreach=13619 time=0.0s
+summary: base=10 P=16 part=6/8 patterns=258 with_outer_solution=0 inconclusive=0 maxreach=129 sumreach=610 time=0.0s
+summary: base=10 P=16 part=7/8 patterns=258 with_outer_solution=0 inconclusive=0 maxreach=161 sumreach=626 time=0.0s
+summary: base=10 P=17 part=0/8 patterns=482 with_outer_solution=0 inconclusive=0 maxreach=129 sumreach=1026 time=0.0s
+summary: base=10 P=17 part=1/8 patterns=482 with_outer_solution=0 inconclusive=0 maxreach=289 sumreach=1290 time=0.0s
+summary: base=10 P=17 part=2/8 patterns=482 with_outer_solution=0 inconclusive=0 maxreach=97 sumreach=898 time=0.0s
+  ov=10001100010010001  reachable=1965 canon=1965 sym=1 depth=5 terminals=0
+  ov=01010101010101001  reachable=6137 canon=6137 sym=1 depth=4 terminals=0
+summary: base=10 P=17 part=3/8 patterns=482 with_outer_solution=0 inconclusive=0 maxreach=6137 sumreach=8774 time=0.1s
+  ov=01010010100010001  reachable=8781 canon=8781 sym=1 depth=7 terminals=0
+summary: base=10 P=17 part=4/8 patterns=482 with_outer_solution=0 inconclusive=0 maxreach=8781 sumreach=9518 time=0.1s
+summary: base=10 P=17 part=5/8 patterns=482 with_outer_solution=0 inconclusive=0 maxreach=273 sumreach=1282 time=0.0s
+summary: base=10 P=17 part=6/8 patterns=482 with_outer_solution=0 inconclusive=0 maxreach=97 sumreach=834 time=0.0s
+summary: base=10 P=17 part=7/8 patterns=481 with_outer_solution=0 inconclusive=0 maxreach=145 sumreach=1041 time=0.0s
+  ov=100010001100010001  reachable=808563 canon=404973 sym=2 depth=36 terminals=0
+summary: base=10 P=18 part=0/8 patterns=915 with_outer_solution=0 inconclusive=0 maxreach=808563 sumreach=810245 time=3.5s
+summary: base=10 P=18 part=1/8 patterns=915 with_outer_solution=0 inconclusive=0 maxreach=161 sumreach=1779 time=0.0s
+  ov=010101010101001001  reachable=520181 canon=520181 sym=1 depth=21 terminals=0
+  ov=010101001010101001  reachable=7599801 canon=3800689 sym=2 depth=56 terminals=0
+summary: base=10 P=18 part=2/8 patterns=915 with_outer_solution=0 inconclusive=0 maxreach=7599801 sumreach=8121823 time=38.9s
+  ov=010101010011100001  reachable=2769 canon=2769 sym=1 depth=3 terminals=0
+summary: base=10 P=18 part=3/8 patterns=914 with_outer_solution=0 inconclusive=0 maxreach=2769 sumreach=4418 time=0.0s
+summary: base=10 P=18 part=4/8 patterns=914 with_outer_solution=0 inconclusive=0 maxreach=593 sumreach=2658 time=0.0s
+  ov=100011000100010001  reachable=3329 canon=3329 sym=1 depth=6 terminals=0
+  ov=010101010010101001  reachable=2673 canon=2673 sym=1 depth=4 terminals=0
+summary: base=10 P=18 part=5/8 patterns=914 with_outer_solution=0 inconclusive=0 maxreach=3329 sumreach=7394 time=0.1s
+  ov=110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+summary: base=10 P=18 part=6/8 patterns=914 with_outer_solution=0 inconclusive=0 maxreach=1057 sumreach=2835 time=0.0s
+  ov=011100010011100001  reachable=3233 canon=3233 sym=1 depth=4 terminals=0
+summary: base=10 P=18 part=7/8 patterns=914 with_outer_solution=0 inconclusive=0 maxreach=3233 sumreach=5266 time=0.1s
+summary: base=10 P=19 part=0/8 patterns=1725 with_outer_solution=0 inconclusive=0 maxreach=257 sumreach=4413 time=0.1s
+summary: base=10 P=19 part=1/8 patterns=1725 with_outer_solution=0 inconclusive=0 maxreach=449 sumreach=3925 time=0.1s
+  ov=1100010001000100001  reachable=5693 canon=5693 sym=1 depth=5 terminals=0
+  ov=0101010010011100001  reachable=40249 canon=40249 sym=1 depth=9 terminals=0
+summary: base=10 P=19 part=2/8 patterns=1725 with_outer_solution=0 inconclusive=0 maxreach=40249 sumreach=49585 time=0.5s
+  ov=0111000100011100001  reachable=1089 canon=1089 sym=1 depth=2 terminals=0
+  ov=0101010101001010001  reachable=2433 canon=2433 sym=1 depth=2 terminals=0
+  ov=0101010010101001001  reachable=14753 canon=14753 sym=1 depth=5 terminals=0
+  ov=0101001010101001001  reachable=2465 canon=2465 sym=1 depth=3 terminals=0
+summary: base=10 P=19 part=3/8 patterns=1725 with_outer_solution=0 inconclusive=0 maxreach=14753 sumreach=24397 time=0.2s
+  ov=0101001110001010001  reachable=742857 canon=742857 sym=1 depth=31 terminals=0
+summary: base=10 P=19 part=4/8 patterns=1725 with_outer_solution=0 inconclusive=0 maxreach=742857 sumreach=746277 time=6.8s
+  ov=1100001110001100001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+summary: base=10 P=19 part=5/8 patterns=1724 with_outer_solution=0 inconclusive=0 maxreach=1057 sumreach=4844 time=0.1s
+summary: base=10 P=19 part=6/8 patterns=1724 with_outer_solution=0 inconclusive=0 maxreach=257 sumreach=2684 time=0.0s
+  ov=0101010011100010001  reachable=2625 canon=2625 sym=1 depth=3 terminals=0
+  ov=0101010100101001001  reachable=1025 canon=1025 sym=1 depth=2 terminals=0
+summary: base=10 P=19 part=7/8 patterns=1724 with_outer_solution=0 inconclusive=0 maxreach=2625 sumreach=6716 time=0.1s
+  ov=11000100011100010001  reachable=4673 canon=2373 sym=2 depth=2 terminals=0
+summary: base=10 P=20 part=0/8 patterns=3284 with_outer_solution=0 inconclusive=0 maxreach=4673 sumreach=11220 time=0.1s
+  ov=01010010100011100001  reachable=1025 canon=1025 sym=1 depth=2 terminals=0
+  ov=01010010011100010001  reachable=2433 canon=2433 sym=1 depth=2 terminals=0
+  ov=10001100011000110001  reachable=12249 canon=3118 sym=4 depth=5 terminals=0
+summary: base=10 P=20 part=1/8 patterns=3284 with_outer_solution=0 inconclusive=0 maxreach=12249 sumreach=22508 time=0.2s
+  ov=00110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+summary: base=10 P=20 part=2/8 patterns=3284 with_outer_solution=0 inconclusive=0 maxreach=1057 sumreach=9972 time=0.2s
+summary: base=10 P=20 part=3/8 patterns=3284 with_outer_solution=0 inconclusive=0 maxreach=865 sumreach=7732 time=0.1s
+  ov=01010101010010100001  reachable=1601 canon=1601 sym=1 depth=2 terminals=0
+  ov=11000100110001100001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=01010101010101010101  reachable=29697 canon=3009 sym=10 depth=2 terminals=0
+summary: base=10 P=20 part=4/8 patterns=3284 with_outer_solution=0 inconclusive=0 maxreach=29697 sumreach=39876 time=0.1s
+  ov=01010010101001010001  reachable=3841 canon=3841 sym=1 depth=3 terminals=0
+summary: base=10 P=20 part=5/8 patterns=3284 with_outer_solution=0 inconclusive=0 maxreach=3841 sumreach=10324 time=0.2s
+  ov=11000100111000100001  reachable=815179 canon=815179 sym=1 depth=47 terminals=0
+  ov=01010010010101001001  reachable=2385 canon=1231 sym=2 depth=3 terminals=0
+summary: base=10 P=20 part=6/8 patterns=3284 with_outer_solution=0 inconclusive=0 maxreach=815179 sumreach=825710 time=8.0s
+summary: base=10 P=20 part=7/8 patterns=3283 with_outer_solution=0 inconclusive=0 maxreach=897 sumreach=9395 time=0.1s
+  ov=110000101010010100001  reachable=3761 canon=3761 sym=1 depth=4 terminals=0
+  ov=001001110001100010001  reachable=1089 canon=1089 sym=1 depth=2 terminals=0
+  ov=010010010101001010001  reachable=1369 canon=1369 sym=1 depth=4 terminals=0
+summary: base=10 P=21 part=0/8 patterns=6243 with_outer_solution=0 inconclusive=0 maxreach=3761 sumreach=18283 time=0.3s
+summary: base=10 P=21 part=1/8 patterns=6243 with_outer_solution=0 inconclusive=0 maxreach=577 sumreach=11875 time=0.2s
+  ov=110001100011000100001  reachable=7329 canon=7329 sym=1 depth=5 terminals=0
+  ov=110001000110001100001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+summary: base=10 P=21 part=2/8 patterns=6243 with_outer_solution=0 inconclusive=0 maxreach=7329 sumreach=21379 time=0.4s
+  ov=110001000111000100001  reachable=4161 canon=4161 sym=1 depth=2 terminals=0
+  ov=110000111000100100001  reachable=3393 canon=3393 sym=1 depth=5 terminals=0
+  ov=110001100010001100001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=100010001000100010001  reachable=29909 canon=29909 sym=1 depth=7 terminals=0
+summary: base=10 P=21 part=3/8 patterns=6242 with_outer_solution=0 inconclusive=0 maxreach=29909 sumreach=50934 time=0.6s
+  ov=010101010010100010001  reachable=3777 canon=3777 sym=1 depth=2 terminals=0
+  ov=010100101001100010001  reachable=1153 canon=1153 sym=1 depth=2 terminals=0
+summary: base=10 P=21 part=4/8 patterns=6242 with_outer_solution=0 inconclusive=0 maxreach=3777 sumreach=19986 time=0.3s
+  ov=001010001000100010001  reachable=104719 canon=104719 sym=1 depth=19 terminals=0
+summary: base=10 P=21 part=5/8 patterns=6242 with_outer_solution=0 inconclusive=0 maxreach=104719 sumreach=116680 time=1.4s
+  ov=011100010011000100001  reachable=1089 canon=1089 sym=1 depth=2 terminals=0
+  ov=010100100111000100001  reachable=1537 canon=1537 sym=1 depth=2 terminals=0
+  ov=001001010101001010001  reachable=1281 canon=1281 sym=1 depth=2 terminals=0
+summary: base=10 P=21 part=6/8 patterns=6242 with_outer_solution=0 inconclusive=0 maxreach=1537 sumreach=19186 time=0.3s
+  ov=010101010010100100001  reachable=1281 canon=1281 sym=1 depth=2 terminals=0
+  ov=010101001010001100001  reachable=1281 canon=1281 sym=1 depth=2 terminals=0
+  ov=110001000100011100001  reachable=4161 canon=4161 sym=1 depth=2 terminals=0
+  ov=010101010101010101001  reachable=594997 canon=594997 sym=1 depth=15 terminals=0
+summary: base=10 P=21 part=7/8 patterns=6242 with_outer_solution=0 inconclusive=0 maxreach=594997 sumreach=615702 time=6.4s
+  ov=0101010101010101100001  reachable=1281 canon=1281 sym=1 depth=2 terminals=0
+  ov=0011100011000100010001  reachable=1089 canon=1089 sym=1 depth=2 terminals=0
+  ov=0101010010010100010001  reachable=1313 canon=1313 sym=1 depth=2 terminals=0
+  ov=0010010100011100010001  reachable=1153 canon=1153 sym=1 depth=2 terminals=0
+summary: base=10 P=22 part=0/8 patterns=11928 with_outer_solution=0 inconclusive=0 maxreach=1313 sumreach=28792 time=0.5s
+  ov=1100010011000100100001  reachable=2113 canon=2113 sym=1 depth=3 terminals=0
+  ov=0010111000100101110001  reachable=43763921 canon=21896729 sym=2 depth=54 terminals=0
+  ov=0101010101010101001001  reachable=162081 canon=162081 sym=1 depth=6 terminals=0
+summary: base=10 P=22 part=1/8 patterns=11928 with_outer_solution=0 inconclusive=0 maxreach=43763921 sumreach=43953272 time=239.1s
+  ov=0101001010001001100001  reachable=2081 canon=2081 sym=1 depth=2 terminals=0
+  ov=1100010011000100010001  reachable=3393 canon=3393 sym=1 depth=2 terminals=0
+  ov=0101001010001100010001  reachable=3280645 canon=3280645 sym=1 depth=40 terminals=0
+  ov=1000110001100010010001  reachable=44065 canon=44065 sym=1 depth=9 terminals=0
+  ov=0101010101010100101001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=0101010101010010101001  reachable=15425 canon=15425 sym=1 depth=4 terminals=0
+  ov=0101001100010001100001  reachable=1601 canon=1601 sym=1 depth=3 terminals=0
+  ov=0101000111000100010001  reachable=1281 canon=1281 sym=1 depth=2 terminals=0
+  ov=0011000110001100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=1100010001001100010001  reachable=1089 canon=1089 sym=1 depth=2 terminals=0
+summary: base=10 P=22 part=3/8 patterns=11927 with_outer_solution=0 inconclusive=0 maxreach=1601 sumreach=27703 time=0.4s
+summary: base=10 P=22 part=4/8 patterns=11927 with_outer_solution=0 inconclusive=0 maxreach=513 sumreach=24407 time=0.4s
+  ov=0010010101001010010001  reachable=1025 canon=1025 sym=1 depth=2 terminals=0
+summary: base=10 P=22 part=5/8 patterns=11927 with_outer_solution=0 inconclusive=0 maxreach=1025 sumreach=24567 time=0.4s
+  ov=1100001110001000100001  reachable=31809 canon=31809 sym=1 depth=5 terminals=0
+  ov=0101010101001010101001  reachable=16177 canon=16177 sym=1 depth=4 terminals=0
+summary: base=10 P=22 part=6/8 patterns=11927 with_outer_solution=0 inconclusive=0 maxreach=31809 sumreach=70855 time=0.9s
+  ov=0101010100101000100001  reachable=4817 canon=4817 sym=1 depth=4 terminals=0
+  ov=1100010000111000100001  reachable=26365607 canon=13191834 sym=2 depth=87 terminals=1
+  ov=0101010101010011100001  reachable=21633 canon=21633 sym=1 depth=3 terminals=0
+  ov=0011100010001100010001  reachable=1089 canon=1089 sym=1 depth=2 terminals=0
+  ov=0101010101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=0101010100101010101001  reachable=10241 canon=5185 sym=2 depth=2 terminals=0
+summary: base=10 P=22 part=7/8 patterns=11927 with_outer_solution=1 inconclusive=0 maxreach=26365607 sumreach=26429453 time=143.6s
+  ov=11000110001000100100001  reachable=1089 canon=1089 sym=1 depth=2 terminals=0
+  ov=11000100011000100100001  reachable=15521 canon=15521 sym=1 depth=5 terminals=0
+  ov=01010010101010011100001  reachable=5409 canon=5409 sym=1 depth=2 terminals=0
+  ov=11000110001000100010001  reachable=4161 canon=4161 sym=1 depth=2 terminals=0
+  ov=10001100011000100010001  reachable=26457 canon=26457 sym=1 depth=8 terminals=0
+  ov=01010101001011100010001  reachable=4609 canon=4609 sym=1 depth=2 terminals=0
+  ov=01010010101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01010101010010101001001  reachable=207585 canon=207585 sym=1 depth=7 terminals=0
+  ov=01010100101010100101001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01010010100011000100001  reachable=1537 canon=1537 sym=1 depth=2 terminals=0
+  ov=11000100010010100100001  reachable=1153 canon=1153 sym=1 depth=2 terminals=0
+  ov=11000100011000100010001  reachable=4161 canon=4161 sym=1 depth=2 terminals=0
+  ov=01000101010010100010001  reachable=2273 canon=2273 sym=1 depth=3 terminals=0
+  ov=01010101001110001010001  reachable=11137 canon=11137 sym=1 depth=5 terminals=0
+  ov=01010101010010100101001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01010101001010100101001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+summary: base=10 P=23 part=1/8 patterns=22795 with_outer_solution=0 inconclusive=0 maxreach=11137 sumreach=60187 time=1.2s
+  ov=01010010101010101100001  reachable=1665 canon=1665 sym=1 depth=2 terminals=0
+  ov=11000100111000011100001  reachable=2177 canon=2177 sym=1 depth=2 terminals=0
+  ov=01010100101010011100001  reachable=8833 canon=8833 sym=1 depth=2 terminals=0
+  ov=00100101010010100010001  reachable=150033 canon=150033 sym=1 depth=10 terminals=0
+  ov=01001001010100101110001  reachable=1537 canon=1537 sym=1 depth=2 terminals=0
+  ov=01010100101010101001001  reachable=9985 canon=9985 sym=1 depth=2 terminals=0
+  ov=01010010101010101001001  reachable=6145 canon=6145 sym=1 depth=2 terminals=0
+summary: base=10 P=23 part=2/8 patterns=22795 with_outer_solution=0 inconclusive=0 maxreach=150033 sumreach=224475 time=4.2s
+  ov=11000100110001000100001  reachable=215463 canon=215463 sym=1 depth=21 terminals=0
+  ov=01010001110001000100001  reachable=1025 canon=1025 sym=1 depth=2 terminals=0
+  ov=01010100100101000100001  reachable=1089 canon=1089 sym=1 depth=3 terminals=0
+  ov=11000100010010001100001  reachable=1089 canon=1089 sym=1 depth=2 terminals=0
+  ov=01010100101010101100001  reachable=1281 canon=1281 sym=1 depth=2 terminals=0
+  ov=01110001010010011100001  reachable=1537 canon=1537 sym=1 depth=2 terminals=0
+  ov=01010100101000100010001  reachable=4993 canon=4993 sym=1 depth=2 terminals=0
+  ov=10001000111000100010001  reachable=2113 canon=2113 sym=1 depth=2 terminals=0
+  ov=00100100111000100010001  reachable=2177 canon=2177 sym=1 depth=2 terminals=0
+  ov=01010101010101010010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01010100101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01010101010101001001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01010101010100101001001  reachable=8193 canon=8193 sym=1 depth=2 terminals=0
+summary: base=10 P=23 part=3/8 patterns=22795 with_outer_solution=0 inconclusive=0 maxreach=215463 sumreach=282257 time=3.4s
+  ov=11000100010011000100001  reachable=4161 canon=4161 sym=1 depth=2 terminals=0
+  ov=01010101010101010100001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=11000100010001001100001  reachable=4161 canon=4161 sym=1 depth=2 terminals=0
+  ov=01010101010100101100001  reachable=2433 canon=2433 sym=1 depth=2 terminals=0
+  ov=10001100010001100010001  reachable=23905 canon=23905 sym=1 depth=4 terminals=0
+  ov=00100010010011100010001  reachable=1153 canon=1153 sym=1 depth=2 terminals=0
+  ov=01010101010011100010001  reachable=314977 canon=314977 sym=1 depth=9 terminals=0
+  ov=01110001001011100010001  reachable=1793 canon=1793 sym=1 depth=2 terminals=0
+  ov=01001010101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01001010101010101001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+summary: base=10 P=23 part=4/8 patterns=22795 with_outer_solution=0 inconclusive=0 maxreach=314977 sumreach=399691 time=4.4s
+  ov=00101010101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+summary: base=10 P=23 part=5/8 patterns=22795 with_outer_solution=0 inconclusive=0 maxreach=1025 sumreach=40267 time=0.8s
+  ov=11000100100011000100001  reachable=11409 canon=11409 sym=1 depth=4 terminals=0
+  ov=11000100010010010100001  reachable=1665 canon=1665 sym=1 depth=2 terminals=0
+  ov=01010101001010101100001  reachable=1345 canon=1345 sym=1 depth=2 terminals=0
+  ov=01010100111000011100001  reachable=12929 canon=12929 sym=1 depth=3 terminals=0
+  ov=11000100010010100010001  reachable=2177 canon=2177 sym=1 depth=2 terminals=0
+  ov=01010100101110001010001  reachable=1153 canon=1153 sym=1 depth=2 terminals=0
+  ov=01010101010101001010001  reachable=16897 canon=16897 sym=1 depth=2 terminals=0
+  ov=01010101010010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01010101001010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01010101001010101001001  reachable=32257 canon=32257 sym=1 depth=3 terminals=0
+  ov=01010010101010100101001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01010100101010010101001  reachable=31201 canon=31201 sym=1 depth=6 terminals=0
+summary: base=10 P=23 part=6/8 patterns=22795 with_outer_solution=0 inconclusive=0 maxreach=32257 sumreach=151435 time=3.4s
+  ov=01010010100010001100001  reachable=252273 canon=252273 sym=1 depth=8 terminals=0
+  ov=01010101001110001100001  reachable=5761 canon=5761 sym=1 depth=3 terminals=0
+  ov=01010101010010011100001  reachable=8455917 canon=8455917 sym=1 depth=65 terminals=0
+  ov=01010101010100101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=01001001010101001110001  reachable=1825 canon=1825 sym=1 depth=3 terminals=0
+summary: base=10 P=23 part=7/8 patterns=22795 with_outer_solution=0 inconclusive=0 maxreach=8455917 sumreach=8760087 time=102.6s
+  ov=110001100010001000100001  reachable=49313 canon=49313 sym=1 depth=6 terminals=0
+  ov=110001000100101000100001  reachable=22913 canon=22913 sym=1 depth=6 terminals=0
+  ov=110001000100011000100001  reachable=65505 canon=65505 sym=1 depth=5 terminals=0
+  ov=010101001010101010100001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=011100010001110001100001  reachable=4225 canon=4225 sym=1 depth=2 terminals=0
+  ov=110000101110001001100001  reachable=4225 canon=4225 sym=1 depth=2 terminals=0
+  ov=010100101010010011100001  reachable=327433 canon=327433 sym=1 depth=11 terminals=0
+  ov=000100010001000100010001  reachable=201252204 canon=33554433 sym=6 depth=45 terminals=0 (CAPACITY)
+  ov=010101010101010100010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=001011100010011100010001  reachable=1281 canon=1281 sym=1 depth=2 terminals=0
+  ov=011100010001011100010001  reachable=4353 canon=2217 sym=2 depth=2 terminals=0
+  ov=001010010001100010010001  reachable=1025 canon=1025 sym=1 depth=3 terminals=0
+  ov=010101010101010010010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010010101010010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010010101010101010010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001001110001010001  reachable=14209 canon=14209 sym=1 depth=3 terminals=0
+  ov=010100100101110001010001  reachable=10625 canon=10625 sym=1 depth=4 terminals=0
+  ov=010010101010010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010010101001010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010010100101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010100101001001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010010101001001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100101001010100101001  reachable=1025 canon=529 sym=2 depth=1 terminals=0
+  ov=010101010101010101010101  reachable=402624129 canon=33554433 sym=12 depth=16 terminals=0 (CAPACITY)
+summary: base=10 P=24 rep=1 part=0/8 patterns=43715 with_outer_solution=0 inconclusive=2 maxreach=402624129 sumreach=604471542 time=738.1s
+  ov=110001000110001000100001  reachable=185377 canon=185377 sym=1 depth=7 terminals=0
+  ov=010101010010101010100001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100111000110001100001  reachable=1153 canon=1153 sym=1 depth=2 terminals=0
+  ov=010101001001110001100001  reachable=5633 canon=5633 sym=1 depth=2 terminals=0
+  ov=110001001110001001100001  reachable=2177 canon=2177 sym=1 depth=2 terminals=0
+  ov=010100101010100101100001  reachable=3105 canon=3105 sym=1 depth=2 terminals=0
+  ov=010101001110001100010001  reachable=27155321 canon=27155321 sym=1 depth=42 terminals=0
+  ov=001001010001001100010001  reachable=1025 canon=1025 sym=1 depth=2 terminals=0
+  ov=001010101010101010010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001010101001010001  reachable=10369 canon=10369 sym=1 depth=2 terminals=0
+  ov=010100101010100101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=001010101010010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=001010101001010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=001010100101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001010100101001001  reachable=6657 canon=6657 sym=1 depth=2 terminals=0
+  ov=010100101010100101001001  reachable=4225 canon=4225 sym=1 depth=2 terminals=0
+  ov=010010101010010101001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001001010101001001  reachable=112865 canon=56701 sym=2 depth=5 terminals=0
+  ov=010100101001010101001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100101010010100101001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+summary: base=10 P=24 rep=1 part=1/8 patterns=43715 with_outer_solution=0 inconclusive=0 maxreach=27155321 sumreach=27578075 time=326.5s
+  ov=110001000100010100100001  reachable=2177 canon=2177 sym=1 depth=2 terminals=0
+  ov=010101010100101010100001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001010100101100001  reachable=3457 canon=3457 sym=1 depth=2 terminals=0
+  ov=010100100101010101100001  reachable=2561 canon=2561 sym=1 depth=3 terminals=0
+  ov=010101001010010011100001  reachable=2945 canon=2945 sym=1 depth=2 terminals=0
+  ov=001100010011000100010001  reachable=1089 canon=1089 sym=1 depth=2 terminals=0
+  ov=010101010101001001010001  reachable=6529 canon=6529 sym=1 depth=2 terminals=0
+  ov=010101010100101001010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010010101010101001010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010100010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010010010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010001010101010001  reachable=1025 canon=529 sym=2 depth=1 terminals=0
+  ov=010010010101001001110001  reachable=51265 canon=51265 sym=1 depth=5 terminals=0
+  ov=010101010101001001001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+summary: base=10 P=24 rep=1 part=2/8 patterns=43715 with_outer_solution=0 inconclusive=0 maxreach=51265 sumreach=155523 time=2.9s
+  ov=110001000101010011100001  reachable=23905 canon=23905 sym=1 depth=5 terminals=0
+  ov=010101010010011100010001  reachable=13953 canon=13953 sym=1 depth=2 terminals=0
+  ov=010101001001011100010001  reachable=3585 canon=3585 sym=1 depth=2 terminals=0
+  ov=001010101010101001010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=001001010101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010010101010100101001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010010010101001001  reachable=12435425 canon=12435425 sym=1 depth=36 terminals=0
+  ov=010010101001010101001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001010010100101001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+summary: base=10 P=24 rep=1 part=3/8 patterns=43714 with_outer_solution=0 inconclusive=0 maxreach=12435425 sumreach=12561618 time=154.4s
+  ov=010101010101010100100001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010101001010100001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100101110001001100001  reachable=2817 canon=2817 sym=1 depth=2 terminals=0
+  ov=010100010101010101100001  reachable=2209 canon=2209 sym=1 depth=3 terminals=0
+  ov=110001000111000011100001  reachable=16513 canon=16513 sym=1 depth=2 terminals=0
+  ov=010101010010100011100001  reachable=10049 canon=10049 sym=1 depth=2 terminals=0
+  ov=010100110001000100010001  reachable=1665 canon=1665 sym=1 depth=2 terminals=0
+  ov=001001010011000100010001  reachable=1153 canon=1153 sym=1 depth=2 terminals=0
+  ov=001010001001100010010001  reachable=1281 canon=1281 sym=1 depth=3 terminals=0
+  ov=010101010101001010010001  reachable=1537 canon=1537 sym=1 depth=2 terminals=0
+  ov=010100101010101010010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010010101001010001  reachable=101249 canon=101249 sym=1 depth=5 terminals=0
+  ov=010101001010100101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100101010010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100101001010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100100101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001010101001001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100101010101001001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010010100101010101001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+summary: base=10 P=24 rep=1 part=4/8 patterns=43714 with_outer_solution=0 inconclusive=0 maxreach=101249 sumreach=228770 time=4.1s
+  ov=010101010101010010100001  reachable=12801 canon=12801 sym=1 depth=2 terminals=0
+  ov=110000111000110001100001  reachable=4161 canon=4161 sym=1 depth=2 terminals=0
+  ov=110001100001110001100001  reachable=4161 canon=2117 sym=2 depth=2 terminals=0
+  ov=010101001110001001100001  reachable=4865 canon=4865 sym=1 depth=2 terminals=0
+  ov=010100100101010011100001  reachable=3457 canon=3457 sym=1 depth=2 terminals=0
+  ov=010100100101000100010001  reachable=2305 canon=2305 sym=1 depth=2 terminals=0
+  ov=110001001110001100010001  reachable=3201 canon=3201 sym=1 depth=2 terminals=0
+  ov=010010101010100101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010010010101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010010100101001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+summary: base=10 P=24 rep=1 part=5/8 patterns=43714 with_outer_solution=0 inconclusive=0 maxreach=12801 sumreach=117762 time=2.1s
+  ov=010101010100111000100001  reachable=714577 canon=714577 sym=1 depth=13 terminals=0
+  ov=010101010100101001100001  reachable=9729 canon=9729 sym=1 depth=2 terminals=0
+  ov=010100100111000011100001  reachable=154145 canon=154145 sym=1 depth=9 terminals=0
+  ov=001000101010010100010001  reachable=1537 canon=1537 sym=1 depth=2 terminals=0
+  ov=100010010001100010010001  reachable=8575477 canon=4291962 sym=2 depth=38 terminals=0
+  ov=010101010011100010010001  reachable=1281 canon=1281 sym=1 depth=2 terminals=0
+  ov=010101010100101010010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010101010001010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100101010101001010001  reachable=8193 canon=8193 sym=1 depth=2 terminals=0
+  ov=001010101010100101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=001010010101010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010010101010101001001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+summary: base=10 P=24 rep=1 part=6/8 patterns=43714 with_outer_solution=0 inconclusive=0 maxreach=8575477 sumreach=9545703 time=66.4s
+  ov=010101001010001000100001  reachable=3713 canon=3713 sym=1 depth=3 terminals=0
+  ov=110001000100010010100001  reachable=2177 canon=2177 sym=1 depth=2 terminals=0
+  ov=010100101010101010100001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=110001000100010001100001  reachable=4161 canon=4161 sym=1 depth=2 terminals=0
+  ov=010100111000100011100001  reachable=2817 canon=2817 sym=1 depth=2 terminals=0
+  ov=010100010101010011100001  reachable=1681 canon=1681 sym=1 depth=2 terminals=0
+  ov=001001110001000100010001  reachable=4225 canon=4225 sym=1 depth=2 terminals=0
+  ov=001100010001001100010001  reachable=2369 canon=1213 sym=2 depth=2 terminals=0
+  ov=110001010010011100010001  reachable=2305 canon=2305 sym=1 depth=2 terminals=0
+  ov=010100101010011100010001  reachable=5377 canon=5377 sym=1 depth=3 terminals=0
+  ov=010101001010101010010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010101000101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010100100101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010010100101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001010010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001001010101010001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101010100100101001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010101001010010101001001  reachable=1025 canon=1025 sym=1 depth=1 terminals=0
+  ov=010100101010010101001001  reachable=17025 canon=17025 sym=1 depth=3 terminals=0
+summary: base=10 P=24 rep=1 part=7/8 patterns=43714 with_outer_solution=0 inconclusive=0 maxreach=17025 sumreach=131554 time=2.6s

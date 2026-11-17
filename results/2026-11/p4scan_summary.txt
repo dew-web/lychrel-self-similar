@@ -1,0 +1,600 @@
+# ov=0101 (period 4), bases 2..600: base, reachable states, window K, center result
+2 11 2 VERIFIED center digits 3,4
+3 10 - no outer solution
+4 9 - no outer solution
+5 51 - no outer solution
+6 65 5 no center
+7 35 - no outer solution
+8 87 3 no center
+9 18 - no outer solution
+10 17 - no outer solution
+11 134 - no outer solution
+12 61 - no outer solution
+13 70 - no outer solution
+14 143 7 no center
+15 90 - no outer solution
+16 157 - no outer solution
+17 259 - no outer solution
+18 70 - no outer solution
+19 94 - no outer solution
+20 902 4 no center
+21 34 - no outer solution
+22 69 - no outer solution
+23 258 - no outer solution
+24 359 7 no center
+25 210 - no outer solution
+26 756 8 VERIFIED center digits 5,4
+27 850 - no outer solution
+28 93 - no outer solution
+29 1659 - no outer solution
+30 551 27 no center
+31 755 - no outer solution
+32 1863 19 no center
+33 163 - no outer solution
+34 735 - no outer solution
+35 206 - no outer solution
+36 816 29 no center
+37 574 - no outer solution
+38 7939 10 no center
+39 298 - no outer solution
+40 973 - no outer solution
+41 1799 - no outer solution
+42 1118 - no outer solution
+43 179 - no outer solution
+44 3043 5 no center
+45 258 - no outer solution
+46 717 - no outer solution
+47 2030 - no outer solution
+48 1247 42 no center
+49 1182 - no outer solution
+50 1803 36 VERIFIED center digits 9,8
+51 675 - no outer solution
+52 1119 - no outer solution
+53 587 - no outer solution
+54 915 25 no center
+55 2006 - no outer solution
+56 1722 - no outer solution
+57 254 - no outer solution
+58 169 - no outer solution
+59 8026 - no outer solution
+60 73 - no outer solution
+61 106 - no outer solution
+62 3004 58 no center
+63 258 - no outer solution
+64 317 - no outer solution
+65 7187 - no outer solution
+66 1964 28 no center
+67 1039 - no outer solution
+68 1208 32 no center
+69 283 - no outer solution
+70 393 - no outer solution
+71 6038 - no outer solution
+72 257 - no outer solution
+73 2142 - no outer solution
+74 5745 - no outer solution
+75 5379 - no outer solution
+76 769 - no outer solution
+77 1539 - no outer solution
+78 6271 61 no center
+79 1790 - no outer solution
+80 16652 35 no center
+81 610 - no outer solution
+82 2683 - no outer solution
+83 6508 - no outer solution
+84 4115 43 no center
+85 1874 - no outer solution
+86 6224 70 no center
+87 846 - no outer solution
+88 1133 - no outer solution
+89 2859 - no outer solution
+90 5310 - no outer solution
+91 518 - no outer solution
+92 38576 6 no center
+93 138 - no outer solution
+94 113 - no outer solution
+95 406 - no outer solution
+96 4812 14 no center
+97 1792 - no outer solution
+98 3907 37 VERIFIED center digits 15,16
+99 26123 - no outer solution
+100 9405 - no outer solution
+101 1926 - no outer solution
+102 3456 62 no center
+103 1291 - no outer solution
+104 1585 - no outer solution
+105 3051 - no outer solution
+106 341 - no outer solution
+107 20508 45 no center
+108 2397 - no outer solution
+109 4618 - no outer solution
+110 42741 67 no center
+111 899 - no outer solution
+112 3157 - no outer solution
+113 21779 - no outer solution
+114 20587 73 no center
+115 23693 62 no center
+116 18348 71 no center
+117 2443 - no outer solution
+118 829 - no outer solution
+119 11480 - no outer solution
+120 1399 14 no center
+121 794 - no outer solution
+122 2805 - no outer solution
+123 29956 110 no center
+124 145 - no outer solution
+125 603 - no outer solution
+126 3131 28 no center
+127 1350 - no outer solution
+128 38159 48 no center
+129 723 - no outer solution
+130 185 - no outer solution
+131 490 - no outer solution
+132 14611 72 no center
+133 432 - no outer solution
+134 24481 - no outer solution
+135 15373 43 no center
+136 293 - no outer solution
+137 9648 - no outer solution
+138 625 - no outer solution
+139 3294 - no outer solution
+140 8309 - no outer solution
+141 6379 - no outer solution
+142 15693 - no outer solution
+143 87163 - no outer solution
+144 11263 95 no center
+145 898 - no outer solution
+146 13782 80 VERIFIED center digits 7,6
+147 762 - no outer solution
+148 921 - no outer solution
+149 3323 - no outer solution
+150 19323 9 no center
+151 2755 - no outer solution
+152 58853 63 no center
+153 3906 - no outer solution
+154 6085 - no outer solution
+155 23846 - no outer solution
+156 9424 37 no center
+157 1610 - no outer solution
+158 1710 - no outer solution
+159 35035 - no outer solution
+160 6237 - no outer solution
+161 14715 - no outer solution
+162 14785 - no outer solution
+163 12866 - no outer solution
+164 31471 93 no center
+165 563 - no outer solution
+166 885 - no outer solution
+167 17718 - no outer solution
+168 46989 25 no center
+169 5782 - no outer solution
+170 14711 21 no center
+171 19355 - no outer solution
+172 281 - no outer solution
+173 21851 - no outer solution
+174 13875 89 no center
+175 3990 - no outer solution
+176 7460 110 no center
+177 9838 - no outer solution
+178 2857 - no outer solution
+179 1226 - no outer solution
+180 27817 48 no center
+181 558 - no outer solution
+182 16886 61 no center
+183 25578 - no outer solution
+184 1537 - no outer solution
+185 3715 - no outer solution
+186 9460 52 no center
+187 1171 - no outer solution
+188 51570 7 no center
+189 342 - no outer solution
+190 169 - no outer solution
+191 24338 - no outer solution
+192 1198 - no outer solution
+193 4480 - no outer solution
+194 56995 107 no center
+195 1827 - no outer solution
+196 977 - no outer solution
+197 37855 - no outer solution
+198 25785 - no outer solution
+199 10030 - no outer solution
+200 34580 82 no center
+201 1642 - no outer solution
+202 1737 - no outer solution
+203 16074 - no outer solution
+204 7013 51 no center
+205 6124 - no outer solution
+206 31240 109 no center
+207 1310 - no outer solution
+208 14157 - no outer solution
+209 2586 - no outer solution
+210 23337 - no outer solution
+211 8878 - no outer solution
+212 3123 30 no center
+213 1203 - no outer solution
+214 10213 - no outer solution
+215 20556 - no outer solution
+216 20983 10 no center
+217 4810 - no outer solution
+218 36499 124 no center
+219 614 - no outer solution
+220 5613 - no outer solution
+221 27027 - no outer solution
+222 1201 - no outer solution
+223 2235 - no outer solution
+224 31129 - no outer solution
+225 2035 - no outer solution
+226 581 - no outer solution
+227 113678 - no outer solution
+228 29848 197 no center
+229 282 - no outer solution
+230 59883 16 no center
+231 3562 - no outer solution
+232 1321 - no outer solution
+233 2754 - no outer solution
+234 67101 113 no center
+235 29404 156 VERIFIED center digits 17,16
+236 52116 214 no center
+237 6123 - no outer solution
+238 881 - no outer solution
+239 586 - no outer solution
+240 35376 146 no center
+241 5478 - no outer solution
+242 73816 170 center undecided
+243 24778 - no outer solution
+244 13625 - no outer solution
+245 149495 - no outer solution
+246 1811 15 no center
+247 21835 - no outer solution
+248 46408 121 no center
+249 1299 - no outer solution
+250 7663 - no outer solution
+251 18406 - no outer solution
+252 349 - no outer solution
+253 486 - no outer solution
+254 46471 195 no center
+255 2346 - no outer solution
+256 9161 - no outer solution
+257 17773 - no outer solution
+258 52955 225 no center
+259 6910 - no outer solution
+260 1101 - no outer solution
+261 1962 - no outer solution
+262 1929 - no outer solution
+263 39771 - no outer solution
+264 19365 195 no center
+265 1810 - no outer solution
+266 8452 67 no center
+267 32674 - no outer solution
+268 9433 - no outer solution
+269 1483 - no outer solution
+270 48875 117 no center
+271 3046 - no outer solution
+272 182748 23 no center
+273 1003 - no outer solution
+274 13957 - no outer solution
+275 33322 - no outer solution
+276 5802 - no outer solution
+277 6602 - no outer solution
+278 19187 32 no center
+279 22155 - no outer solution
+280 1329 - no outer solution
+281 37723 - no outer solution
+282 2849 - no outer solution
+283 26107 - no outer solution
+284 117007 113 no center
+285 2930 - no outer solution
+286 2581 - no outer solution
+287 176546 - no outer solution
+288 95132 217 no center
+289 21794 - no outer solution
+290 100871 108 no center
+291 2094 - no outer solution
+292 12193 - no outer solution
+293 17459 - no outer solution
+294 4605 - no outer solution
+295 51195 - no outer solution
+296 25715 124 no center
+297 16627 - no outer solution
+298 3885 - no outer solution
+299 78118 - no outer solution
+300 7487 124 no center
+301 4810 - no outer solution
+302 40084 188 no center
+303 50034 - no outer solution
+304 6537 - no outer solution
+305 31126 - no outer solution
+306 38492 234 VERIFIED center digits 39
+307 6038 - no outer solution
+308 2389 - no outer solution
+309 6438 - no outer solution
+310 1993 - no outer solution
+311 25322 - no outer solution
+312 14073 - no outer solution
+313 30058 - no outer solution
+314 3781 - no outer solution
+315 3222 - no outer solution
+316 7541 - no outer solution
+317 103971 - no outer solution
+318 8075 39 no center
+319 570 - no outer solution
+320 26960 243 no center
+321 4378 - no outer solution
+322 17249 - no outer solution
+323 126066 - no outer solution
+324 114527 123 no center
+325 5930 - no outer solution
+326 30664 143 no center
+327 1446 - no outer solution
+328 2869 - no outer solution
+329 3726 - no outer solution
+330 102971 135 no center
+331 2019 - no outer solution
+332 139910 - no outer solution
+333 16611 - no outer solution
+334 5497 - no outer solution
+335 14006 - no outer solution
+336 1681 - no outer solution
+337 2078 - no outer solution
+338 2765 - no outer solution
+339 54643 - no outer solution
+340 11389 - no outer solution
+341 36059 - no outer solution
+342 52761 - no outer solution
+343 2722 - no outer solution
+344 197983 97 no center
+345 1426 - no outer solution
+346 657 - no outer solution
+347 62314 - no outer solution
+348 98023 - no outer solution
+349 29990 - no outer solution
+350 111035 181 center undecided
+351 11138 - no outer solution
+352 29173 - no outer solution
+353 153939 - no outer solution
+354 921 - no outer solution
+355 36859 - no outer solution
+356 68483 135 no center
+357 16883 - no outer solution
+358 3837 - no outer solution
+359 135787 - no outer solution
+360 13261 20 no center
+361 10250 - no outer solution
+362 28630 - no outer solution
+363 15051 - no outer solution
+364 19587 - no outer solution
+365 29690 - no outer solution
+366 11843 - no outer solution
+367 1982 - no outer solution
+368 224668 261 no center
+369 36344 - no outer solution
+370 6441 - no outer solution
+371 86835 - no outer solution
+372 67836 64 no center
+373 602 - no outer solution
+374 7719 - no outer solution
+375 20246 - no outer solution
+376 9153 - no outer solution
+377 139141 - no outer solution
+378 20374 - no outer solution
+379 186 - no outer solution
+380 179984 8 no center
+381 170 - no outer solution
+382 13877 - no outer solution
+383 247882 - no outer solution
+384 2613 - no outer solution
+385 6310 - no outer solution
+386 16581 - no outer solution
+387 3510 - no outer solution
+388 17765 - no outer solution
+389 10115 - no outer solution
+390 28859 87 VERIFIED center digits 21
+391 4899 - no outer solution
+392 2221 - no outer solution
+393 63443 - no outer solution
+394 3397 - no outer solution
+395 12362 - no outer solution
+396 7766 - no outer solution
+397 1414 - no outer solution
+398 41521 - no outer solution
+399 79830 - no outer solution
+400 19605 - no outer solution
+401 29027 - no outer solution
+402 4465 - no outer solution
+403 97139 - no outer solution
+404 298905 61 no center
+405 6174 - no outer solution
+406 489 - no outer solution
+407 191244 - no outer solution
+408 64558 35 no center
+409 14590 - no outer solution
+410 115455 157 no center
+411 8846 - no outer solution
+412 1941 - no outer solution
+413 43986 - no outer solution
+414 96911 201 no center
+415 18882 - no outer solution
+416 90951 191 no center
+417 21084 - no outer solution
+418 64329 - no outer solution
+419 6787 - no outer solution
+420 47016 187 no center
+421 990 - no outer solution
+422 156102 190 no center
+423 33918 - no outer solution
+424 1125 - no outer solution
+425 127379 - no outer solution
+426 18728 310 no center
+427 1414 - no outer solution
+428 26459 289 no center
+429 7354 - no outer solution
+430 3643 - no outer solution
+431 87486 - no outer solution
+432 18945 - no outer solution
+433 13670 - no outer solution
+434 204491 43 center undecided
+435 3126 - no outer solution
+436 29205 - no outer solution
+437 26875 - no outer solution
+438 74227 140 no center
+439 60014 - no outer solution
+440 137811 184 no center
+441 1579 - no outer solution
+442 8757 - no outer solution
+443 136558 - no outer solution
+444 30199 159 no center
+445 12252 - no outer solution
+446 48469 - no outer solution
+447 76534 - no outer solution
+448 1281 - no outer solution
+449 58771 - no outer solution
+450 111071 158 no center
+451 9226 - no outer solution
+452 130721 - no outer solution
+453 3482 - no outer solution
+454 2297 - no outer solution
+455 57402 - no outer solution
+456 12027 133 no center
+457 16842 - no outer solution
+458 199999 404 no center
+459 41723 - no outer solution
+460 13993 - no outer solution
+461 109819 - no outer solution
+462 2901 - no outer solution
+463 43835 - no outer solution
+464 7205 - no outer solution
+465 3434 - no outer solution
+466 6313 - no outer solution
+467 194944 105 center undecided
+468 14009 - no outer solution
+469 258 - no outer solution
+470 280705 32 no center
+471 722 - no outer solution
+472 3177 - no outer solution
+473 2379 - no outer solution
+474 20735 101 no center
+475 78462 - no outer solution
+476 66222 - no outer solution
+477 12907 - no outer solution
+478 5421 - no outer solution
+479 54758 - no outer solution
+480 73971 432 no center
+481 2306 - no outer solution
+482 82061 - no outer solution
+483 562 - no outer solution
+484 2633 - no outer solution
+485 172363 - no outer solution
+486 9073 - no outer solution
+487 7466 - no outer solution
+488 291016 13 no center
+489 3123 - no outer solution
+490 57277 - no outer solution
+491 44214 - no outer solution
+492 22005 303 no center
+493 5286 - no outer solution
+494 168051 311 no center
+495 16590 - no outer solution
+496 14561 - no outer solution
+497 4198 - no outer solution
+498 17238 - no outer solution
+499 6450 - no outer solution
+500 261076 347 no center
+501 5138 - no outer solution
+502 42569 - no outer solution
+503 16571 - no outer solution
+504 82965 - no outer solution
+505 14046 - no outer solution
+506 113384 60 no center
+507 19566 - no outer solution
+508 169 - no outer solution
+509 1195 - no outer solution
+510 4143 146 center undecided
+511 49019 - no outer solution
+512 221624 29 no center
+513 82636 - no outer solution
+514 75443 - no outer solution
+515 281646 - no outer solution
+516 14979 302 no center
+517 40572 - no outer solution
+518 194043 283 center undecided
+519 22310 - no outer solution
+520 85569 - no outer solution
+521 26322 - no outer solution
+522 50457 - no outer solution
+523 22430 - no outer solution
+524 172859 377 no center
+525 5307 - no outer solution
+526 4689 - no outer solution
+527 - - outer timeout
+528 78807 38 no center
+529 59496 - no outer solution
+530 165175 197 center undecided
+531 25483 - no outer solution
+532 1005 - no outer solution
+533 169175 - no outer solution
+534 5421 - no outer solution
+535 175733 245 no center
+536 69747 92 no center
+537 144870 - no outer solution
+538 70991 - no outer solution
+539 17258 - no outer solution
+540 188311 346 no center
+541 15374 - no outer solution
+542 282128 25 no center
+543 20102 - no outer solution
+544 2825 - no outer solution
+545 78084 - no outer solution
+546 11594 - no outer solution
+547 91443 - no outer solution
+548 86305 - no outer solution
+549 6234 - no outer solution
+550 1473 - no outer solution
+551 39174 - no outer solution
+552 6777 - no outer solution
+553 10270 - no outer solution
+554 19329 - no outer solution
+555 194 - no outer solution
+556 37053 - no outer solution
+557 104762 - no outer solution
+558 120587 364 no center
+559 11350 - no outer solution
+560 292705 - no outer solution
+561 2314 - no outer solution
+562 901 - no outer solution
+563 15306 - no outer solution
+564 56695 67 no center
+565 62626 - no outer solution
+566 43766 - no outer solution
+567 20934 - no outer solution
+568 537 - no outer solution
+569 14723 - no outer solution
+570 56837 - no outer solution
+571 34299 - no outer solution
+572 258752 291 no center
+573 8227 - no outer solution
+574 16667 - no outer solution
+575 248236 - no outer solution
+576 32833 - no outer solution
+577 7866 - no outer solution
+578 8557 - no outer solution
+579 2338 - no outer solution
+580 12057 - no outer solution
+581 54355 - no outer solution
+582 103772 430 no center
+583 6518 - no outer solution
+584 221883 73 no center
+585 22308 - no outer solution
+586 16169 - no outer solution
+587 43667 - no outer solution
+588 7838 - no outer solution
+589 4626 - no outer solution
+590 210515 540 no center
+591 23195 - no outer solution
+592 1077 - no outer solution
+593 78300 - no outer solution
+594 114331 309 no center
+595 58474 - no outer solution
+596 122866 - no outer solution
+597 618 - no outer solution
+598 17579 - no outer solution
+599 83402 - no outer solution
+600 80738 - no outer solution

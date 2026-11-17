@@ -1,0 +1,10 @@
+[start] 2026-11-16 22:17:13 host=r8n5 nproc=32
+== base 10, outer period 12, center period 48
+B=10 P=48 par0=0 delta=6  RUN self-loop=ok  reachable states=536870912  CAPACITY EXCEEDED (inconclusive)
+B=10 P=48 par0=1 delta=6  RUN self-loop=ok  reachable states=536870912  CAPACITY EXCEEDED (inconclusive)
+layer 4 total 536870912  104s
+== base 10, outer period 11, center period 33
+B=10 P=33 par0=0 delta=6  RUN self-loop=ok  reachable states=536870912  CAPACITY EXCEEDED (inconclusive)
+B=10 P=33 par0=1 delta=6  RUN self-loop=ok  reachable states=536870912  CAPACITY EXCEEDED (inconclusive)
+layer 4 total 536870912  120s
+[end] 2026-11-16 22:24:40 rc=0

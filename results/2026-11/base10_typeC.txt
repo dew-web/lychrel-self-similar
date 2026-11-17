@@ -1,0 +1,360 @@
+type C, base 10, period 10, central run digits: 3 6 3 6 3 6 3 6 3 6
+summary: base=10 P=10 part=0/1 patterns=107 with_outer_solution=0 inconclusive=0 maxreach=289 sumreach=783 time=0.0s
+type C, base 10, period 10, central run digits: 6 3 6 3 6 3 6 3 6 3
+summary: base=10 P=10 part=0/1 patterns=107 with_outer_solution=0 inconclusive=0 maxreach=289 sumreach=783 time=0.0s
+type C, base 10, period 12, central run digits: 1 2 4 8 7 5 1 2 4 8 7 5
+  ov=000100010001  reachable=136653 canon=136653 sym=1 depth=70 terminals=0
+  ov=100010010001  reachable=8447 canon=8447 sym=1 depth=23 terminals=0
+summary: base=10 P=12 part=0/1 patterns=351 with_outer_solution=0 inconclusive=0 maxreach=136653 sumreach=147154 time=0.9s
+type C, base 10, period 12, central run digits: 2 4 8 7 5 1 2 4 8 7 5 1
+  ov=000100010001  reachable=136653 canon=136653 sym=1 depth=70 terminals=0
+  ov=100010010001  reachable=8447 canon=8447 sym=1 depth=23 terminals=0
+summary: base=10 P=12 part=0/1 patterns=351 with_outer_solution=0 inconclusive=0 maxreach=136653 sumreach=147154 time=0.9s
+type C, base 10, period 12, central run digits: 3 6 3 6 3 6 3 6 3 6 3 6
+  ov=000100010001  reachable=136653 canon=45571 sym=3 depth=70 terminals=0
+  ov=100010010001  reachable=8447 canon=8447 sym=1 depth=23 terminals=0
+summary: base=10 P=12 part=0/1 patterns=351 with_outer_solution=0 inconclusive=0 maxreach=136653 sumreach=147154 time=0.7s
+type C, base 10, period 12, central run digits: 4 8 7 5 1 2 4 8 7 5 1 2
+  ov=000100010001  reachable=136653 canon=136653 sym=1 depth=70 terminals=0
+  ov=100010010001  reachable=8447 canon=8447 sym=1 depth=23 terminals=0
+summary: base=10 P=12 part=0/1 patterns=351 with_outer_solution=0 inconclusive=0 maxreach=136653 sumreach=147154 time=0.9s
+type C, base 10, period 12, central run digits: 5 1 2 4 8 7 5 1 2 4 8 7
+  ov=000100010001  reachable=136653 canon=136653 sym=1 depth=70 terminals=0
+  ov=100010010001  reachable=8447 canon=8447 sym=1 depth=23 terminals=0
+summary: base=10 P=12 part=0/1 patterns=351 with_outer_solution=0 inconclusive=0 maxreach=136653 sumreach=147154 time=0.9s
+type C, base 10, period 12, central run digits: 6 3 6 3 6 3 6 3 6 3 6 3
+  ov=000100010001  reachable=136653 canon=45571 sym=3 depth=70 terminals=0
+  ov=100010010001  reachable=8447 canon=8447 sym=1 depth=23 terminals=0
+summary: base=10 P=12 part=0/1 patterns=351 with_outer_solution=0 inconclusive=0 maxreach=136653 sumreach=147154 time=0.3s
+type C, base 10, period 12, central run digits: 7 5 1 2 4 8 7 5 1 2 4 8
+  ov=000100010001  reachable=136653 canon=136653 sym=1 depth=70 terminals=0
+  ov=100010010001  reachable=8447 canon=8447 sym=1 depth=23 terminals=0
+summary: base=10 P=12 part=0/1 patterns=351 with_outer_solution=0 inconclusive=0 maxreach=136653 sumreach=147154 time=0.9s
+type C, base 10, period 12, central run digits: 8 7 5 1 2 4 8 7 5 1 2 4
+  ov=000100010001  reachable=136653 canon=136653 sym=1 depth=70 terminals=0
+  ov=100010010001  reachable=8447 canon=8447 sym=1 depth=23 terminals=0
+summary: base=10 P=12 part=0/1 patterns=351 with_outer_solution=0 inconclusive=0 maxreach=136653 sumreach=147154 time=0.9s
+type C, base 10, period 14, central run digits: 3 6 3 6 3 6 3 6 3 6 3 6 3 6
+  ov=11000011100001  reachable=182837 canon=182837 sym=1 depth=54 terminals=0
+  ov=01010101001001  reachable=13021 canon=13021 sym=1 depth=15 terminals=0
+  ov=01010010101001  reachable=3265 canon=3265 sym=1 depth=6 terminals=0
+  ov=01010101010101  reachable=1409 canon=209 sym=7 depth=2 terminals=0
+summary: base=10 P=14 part=0/1 patterns=1181 with_outer_solution=0 inconclusive=0 maxreach=182837 sumreach=203925 time=1.4s
+type C, base 10, period 14, central run digits: 6 3 6 3 6 3 6 3 6 3 6 3 6 3
+  ov=11000011100001  reachable=182837 canon=182837 sym=1 depth=54 terminals=0
+  ov=01010101001001  reachable=13021 canon=13021 sym=1 depth=15 terminals=0
+  ov=01010010101001  reachable=3265 canon=3265 sym=1 depth=6 terminals=0
+  ov=01010101010101  reachable=1409 canon=209 sym=7 depth=2 terminals=0
+summary: base=10 P=14 part=0/1 patterns=1181 with_outer_solution=0 inconclusive=0 maxreach=182837 sumreach=203925 time=1.6s
+type C, base 10, period 16, central run digits: 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6
+  ov=1100011000100001  reachable=144899 canon=144899 sym=1 depth=42 terminals=0
+  ov=1100010011100001  reachable=55497 canon=55497 sym=1 depth=21 terminals=0
+  ov=0001000100010001  reachable=13170 canon=3399 sym=4 depth=12 terminals=0
+  ov=0010010100010001  reachable=1885 canon=1885 sym=1 depth=8 terminals=0
+  ov=0101010101001001  reachable=80865 canon=80865 sym=1 depth=18 terminals=0
+  ov=0101010010101001  reachable=2193 canon=2193 sym=1 depth=4 terminals=0
+  ov=0101010101010101  reachable=268243693 canon=33554433 sym=8 depth=65 terminals=0 (CAPACITY)
+summary: base=10 P=16 part=0/1 patterns=4115 with_outer_solution=0 inconclusive=1 maxreach=268243693 sumreach=268552586 time=284.3s
+type C, base 10, period 16, central run digits: 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3
+  ov=1100011000100001  reachable=144899 canon=144899 sym=1 depth=42 terminals=0
+  ov=1100010011100001  reachable=55497 canon=55497 sym=1 depth=21 terminals=0
+  ov=0001000100010001  reachable=13170 canon=3399 sym=4 depth=12 terminals=0
+  ov=0010010100010001  reachable=1885 canon=1885 sym=1 depth=8 terminals=0
+  ov=0101010101001001  reachable=80865 canon=80865 sym=1 depth=18 terminals=0
+  ov=0101010010101001  reachable=2193 canon=2193 sym=1 depth=4 terminals=0
+  ov=0101010101010101  reachable=268243693 canon=33554433 sym=8 depth=65 terminals=0 (CAPACITY)
+summary: base=10 P=16 part=0/1 patterns=4115 with_outer_solution=0 inconclusive=1 maxreach=268243693 sumreach=268552586 time=269.7s
+type C, base 10, period 18, central run digits: 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5
+  ov=110000111000100001  reachable=21273 canon=21273 sym=1 depth=9 terminals=0
+  ov=011100010011100001  reachable=3233 canon=3233 sym=1 depth=4 terminals=0
+  ov=010101010011100001  reachable=2769 canon=2769 sym=1 depth=3 terminals=0
+  ov=110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=100011000100010001  reachable=3329 canon=3329 sym=1 depth=6 terminals=0
+  ov=100010001100010001  reachable=808563 canon=808563 sym=1 depth=36 terminals=0
+  ov=010101010101001001  reachable=520181 canon=520181 sym=1 depth=21 terminals=0
+  ov=010101010010101001  reachable=2673 canon=2673 sym=1 depth=4 terminals=0
+  ov=010101001010101001  reachable=7599801 canon=7599801 sym=1 depth=56 terminals=0
+  ov=010101010101010101  reachable=11265 canon=3777 sym=3 depth=2 terminals=0
+summary: base=10 P=18 part=0/1 patterns=14601 with_outer_solution=0 inconclusive=0 maxreach=7599801 sumreach=9006840 time=80.7s
+type C, base 10, period 18, central run digits: 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1
+  ov=110000111000100001  reachable=21273 canon=21273 sym=1 depth=9 terminals=0
+  ov=011100010011100001  reachable=3233 canon=3233 sym=1 depth=4 terminals=0
+  ov=010101010011100001  reachable=2769 canon=2769 sym=1 depth=3 terminals=0
+  ov=110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=100011000100010001  reachable=3329 canon=3329 sym=1 depth=6 terminals=0
+  ov=100010001100010001  reachable=808563 canon=808563 sym=1 depth=36 terminals=0
+  ov=010101010101001001  reachable=520181 canon=520181 sym=1 depth=21 terminals=0
+  ov=010101010010101001  reachable=2673 canon=2673 sym=1 depth=4 terminals=0
+  ov=010101001010101001  reachable=7599801 canon=7599801 sym=1 depth=56 terminals=0
+  ov=010101010101010101  reachable=11265 canon=3777 sym=3 depth=2 terminals=0
+summary: base=10 P=18 part=0/1 patterns=14601 with_outer_solution=0 inconclusive=0 maxreach=7599801 sumreach=9006840 time=80.5s
+type C, base 10, period 18, central run digits: 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6
+  ov=110000111000100001  reachable=21273 canon=21273 sym=1 depth=9 terminals=0
+  ov=011100010011100001  reachable=3233 canon=3233 sym=1 depth=4 terminals=0
+  ov=010101010011100001  reachable=2769 canon=2769 sym=1 depth=3 terminals=0
+  ov=110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=100011000100010001  reachable=3329 canon=3329 sym=1 depth=6 terminals=0
+  ov=100010001100010001  reachable=808563 canon=808563 sym=1 depth=36 terminals=0
+  ov=010101010101001001  reachable=520181 canon=520181 sym=1 depth=21 terminals=0
+  ov=010101010010101001  reachable=2673 canon=2673 sym=1 depth=4 terminals=0
+  ov=010101001010101001  reachable=7599801 canon=7599801 sym=1 depth=56 terminals=0
+  ov=010101010101010101  reachable=11265 canon=1265 sym=9 depth=2 terminals=0
+summary: base=10 P=18 part=0/1 patterns=14601 with_outer_solution=0 inconclusive=0 maxreach=7599801 sumreach=9006840 time=80.7s
+type C, base 10, period 18, central run digits: 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2
+  ov=110000111000100001  reachable=21273 canon=21273 sym=1 depth=9 terminals=0
+  ov=011100010011100001  reachable=3233 canon=3233 sym=1 depth=4 terminals=0
+  ov=010101010011100001  reachable=2769 canon=2769 sym=1 depth=3 terminals=0
+  ov=110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=100011000100010001  reachable=3329 canon=3329 sym=1 depth=6 terminals=0
+  ov=100010001100010001  reachable=808563 canon=808563 sym=1 depth=36 terminals=0
+  ov=010101010101001001  reachable=520181 canon=520181 sym=1 depth=21 terminals=0
+  ov=010101010010101001  reachable=2673 canon=2673 sym=1 depth=4 terminals=0
+  ov=010101001010101001  reachable=7599801 canon=7599801 sym=1 depth=56 terminals=0
+  ov=010101010101010101  reachable=11265 canon=3777 sym=3 depth=2 terminals=0
+summary: base=10 P=18 part=0/1 patterns=14601 with_outer_solution=0 inconclusive=0 maxreach=7599801 sumreach=9006840 time=80.4s
+type C, base 10, period 18, central run digits: 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7
+  ov=110000111000100001  reachable=21273 canon=21273 sym=1 depth=9 terminals=0
+  ov=011100010011100001  reachable=3233 canon=3233 sym=1 depth=4 terminals=0
+  ov=010101010011100001  reachable=2769 canon=2769 sym=1 depth=3 terminals=0
+  ov=110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=100011000100010001  reachable=3329 canon=3329 sym=1 depth=6 terminals=0
+  ov=100010001100010001  reachable=808563 canon=808563 sym=1 depth=36 terminals=0
+  ov=010101010101001001  reachable=520181 canon=520181 sym=1 depth=21 terminals=0
+  ov=010101010010101001  reachable=2673 canon=2673 sym=1 depth=4 terminals=0
+  ov=010101001010101001  reachable=7599801 canon=7599801 sym=1 depth=56 terminals=0
+  ov=010101010101010101  reachable=11265 canon=3777 sym=3 depth=2 terminals=0
+summary: base=10 P=18 part=0/1 patterns=14601 with_outer_solution=0 inconclusive=0 maxreach=7599801 sumreach=9006840 time=80.8s
+type C, base 10, period 18, central run digits: 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3
+  ov=110000111000100001  reachable=21273 canon=21273 sym=1 depth=9 terminals=0
+  ov=011100010011100001  reachable=3233 canon=3233 sym=1 depth=4 terminals=0
+  ov=010101010011100001  reachable=2769 canon=2769 sym=1 depth=3 terminals=0
+  ov=110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=100011000100010001  reachable=3329 canon=3329 sym=1 depth=6 terminals=0
+  ov=100010001100010001  reachable=808563 canon=808563 sym=1 depth=36 terminals=0
+  ov=010101010101001001  reachable=520181 canon=520181 sym=1 depth=21 terminals=0
+  ov=010101010010101001  reachable=2673 canon=2673 sym=1 depth=4 terminals=0
+  ov=010101001010101001  reachable=7599801 canon=7599801 sym=1 depth=56 terminals=0
+  ov=010101010101010101  reachable=11265 canon=1265 sym=9 depth=2 terminals=0
+summary: base=10 P=18 part=0/1 patterns=14601 with_outer_solution=0 inconclusive=0 maxreach=7599801 sumreach=9006840 time=80.9s
+type C, base 10, period 18, central run digits: 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8
+  ov=110000111000100001  reachable=21273 canon=21273 sym=1 depth=9 terminals=0
+  ov=011100010011100001  reachable=3233 canon=3233 sym=1 depth=4 terminals=0
+  ov=010101010011100001  reachable=2769 canon=2769 sym=1 depth=3 terminals=0
+  ov=110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=100011000100010001  reachable=3329 canon=3329 sym=1 depth=6 terminals=0
+  ov=100010001100010001  reachable=808563 canon=808563 sym=1 depth=36 terminals=0
+  ov=010101010101001001  reachable=520181 canon=520181 sym=1 depth=21 terminals=0
+  ov=010101010010101001  reachable=2673 canon=2673 sym=1 depth=4 terminals=0
+  ov=010101001010101001  reachable=7599801 canon=7599801 sym=1 depth=56 terminals=0
+  ov=010101010101010101  reachable=11265 canon=3777 sym=3 depth=2 terminals=0
+summary: base=10 P=18 part=0/1 patterns=14601 with_outer_solution=0 inconclusive=0 maxreach=7599801 sumreach=9006840 time=80.8s
+type C, base 10, period 18, central run digits: 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4
+  ov=110000111000100001  reachable=21273 canon=21273 sym=1 depth=9 terminals=0
+  ov=011100010011100001  reachable=3233 canon=3233 sym=1 depth=4 terminals=0
+  ov=010101010011100001  reachable=2769 canon=2769 sym=1 depth=3 terminals=0
+  ov=110001000100010001  reachable=1057 canon=1057 sym=1 depth=2 terminals=0
+  ov=100011000100010001  reachable=3329 canon=3329 sym=1 depth=6 terminals=0
+  ov=100010001100010001  reachable=808563 canon=808563 sym=1 depth=36 terminals=0
+  ov=010101010101001001  reachable=520181 canon=520181 sym=1 depth=21 terminals=0
+  ov=010101010010101001  reachable=2673 canon=2673 sym=1 depth=4 terminals=0
+  ov=010101001010101001  reachable=7599801 canon=7599801 sym=1 depth=56 terminals=0
+  ov=010101010101010101  reachable=11265 canon=3777 sym=3 depth=2 terminals=0
+summary: base=10 P=18 part=0/1 patterns=14601 with_outer_solution=0 inconclusive=0 maxreach=7599801 sumreach=9006840 time=80.7s
+type C, base 10, period 20, central run digits: 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6
+  ov=11000100011000100001  reachable=208861 canon=208861 sym=1 depth=20 terminals=0
+  ov=11000100111000100001  reachable=815179 canon=815179 sym=1 depth=47 terminals=0
+  ov=01010101010101001001  reachable=205649 canon=205649 sym=1 depth=8 terminals=0
+summary: base=10 P=20 part=0/1 patterns=52487 with_outer_solution=0 inconclusive=0 maxreach=815179 sumreach=1518820 time=27.5s
+type C, base 10, period 20, central run digits: 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3
+  ov=11000100011000100001  reachable=208861 canon=208861 sym=1 depth=20 terminals=0
+  ov=11000100111000100001  reachable=815179 canon=815179 sym=1 depth=47 terminals=0
+  ov=01010101010101001001  reachable=205649 canon=205649 sym=1 depth=8 terminals=0
+summary: base=10 P=20 part=0/1 patterns=52487 with_outer_solution=0 inconclusive=0 maxreach=815179 sumreach=1518820 time=14.1s
+type C, base 10, period 22, central run digits: 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6
+  ov=1100010000111000100001  reachable=26365607 canon=26365607 sym=1 depth=87 terminals=0
+  ov=0101001010001100010001  reachable=3280645 canon=3280645 sym=1 depth=40 terminals=0
+  ov=0101010010101001010001  reachable=281401 canon=281401 sym=1 depth=9 terminals=0
+  ov=0010111000100101110001  reachable=33554433 canon=33554433 sym=1 depth=32 terminals=0 (CAPACITY)
+  ov=0101010101010101001001  reachable=162081 canon=162081 sym=1 depth=6 terminals=0
+summary: base=10 P=22 part=0/1 patterns=190745 with_outer_solution=0 inconclusive=1 maxreach=33554433 sumreach=64675955 time=1301.4s
+type C, base 10, period 22, central run digits: 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3
+  ov=1100010000111000100001  reachable=26365607 canon=26365607 sym=1 depth=87 terminals=0
+  ov=0101001010001100010001  reachable=3280645 canon=3280645 sym=1 depth=40 terminals=0
+  ov=0101010010101001010001  reachable=281401 canon=281401 sym=1 depth=9 terminals=0
+  ov=0010111000100101110001  reachable=33554433 canon=33554433 sym=1 depth=32 terminals=0 (CAPACITY)
+  ov=0101010101010101001001  reachable=162081 canon=162081 sym=1 depth=6 terminals=0
+summary: base=10 P=22 part=0/1 patterns=190745 with_outer_solution=0 inconclusive=1 maxreach=33554433 sumreach=64675955 time=688.6s
+type C, base 10, period 24, central run digits: 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5
+  ov=110001000110001000100001  reachable=185377 canon=185377 sym=1 depth=7 terminals=0
+  ov=110001001110001000100001  reachable=123921 canon=123921 sym=1 depth=10 terminals=0
+  ov=010101010100111000100001  reachable=714577 canon=714577 sym=1 depth=13 terminals=0
+  ov=010100100111000011100001  reachable=154145 canon=154145 sym=1 depth=9 terminals=0
+  ov=010100101010010011100001  reachable=327433 canon=327433 sym=1 depth=11 terminals=0
+  ov=000100010001000100010001  reachable=67081186 canon=33554433 sym=2 depth=28 terminals=0 (CAPACITY)
+  ov=010100101010010100010001  reachable=392129 canon=392129 sym=1 depth=8 terminals=0
+  ov=010101001110001100010001  reachable=27155321 canon=27155321 sym=1 depth=42 terminals=0
+  ov=100010010001100010010001  reachable=8575477 canon=4291962 sym=2 depth=38 terminals=0
+  ov=010101010010101001010001  reachable=101249 canon=101249 sym=1 depth=5 terminals=0
+  ov=010101010010010101001001  reachable=12435425 canon=12435425 sym=1 depth=36 terminals=0
+  ov=010101001001010101001001  reachable=112865 canon=56701 sym=2 depth=5 terminals=0
+  ov=010101010101010101001001  reachable=385153 canon=385153 sym=1 depth=6 terminals=0
+  ov=010101010101010010101001  reachable=347681 canon=347681 sym=1 depth=6 terminals=0
+  ov=010101010101001010101001  reachable=147737 canon=147737 sym=1 depth=6 terminals=0
+  ov=010101010101010101010101  reachable=134217025 canon=33554433 sym=4 depth=11 terminals=0 (CAPACITY)
+summary: base=10 P=24 part=0/1 patterns=699251 with_outer_solution=0 inconclusive=2 maxreach=134217025 sumreach=254590729 time=1266.0s
+type C, base 10, period 24, central run digits: 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1
+  ov=110001000110001000100001  reachable=185377 canon=185377 sym=1 depth=7 terminals=0
+  ov=110001001110001000100001  reachable=123921 canon=123921 sym=1 depth=10 terminals=0
+  ov=010101010100111000100001  reachable=714577 canon=714577 sym=1 depth=13 terminals=0
+  ov=010100100111000011100001  reachable=154145 canon=154145 sym=1 depth=9 terminals=0
+  ov=010100101010010011100001  reachable=327433 canon=327433 sym=1 depth=11 terminals=0
+  ov=000100010001000100010001  reachable=67081186 canon=33554433 sym=2 depth=28 terminals=0 (CAPACITY)
+  ov=010100101010010100010001  reachable=392129 canon=392129 sym=1 depth=8 terminals=0
+  ov=010101001110001100010001  reachable=27155321 canon=27155321 sym=1 depth=42 terminals=0
+  ov=100010010001100010010001  reachable=8575477 canon=4291962 sym=2 depth=38 terminals=0
+  ov=010101010010101001010001  reachable=101249 canon=101249 sym=1 depth=5 terminals=0
+  ov=010101010010010101001001  reachable=12435425 canon=12435425 sym=1 depth=36 terminals=0
+  ov=010101001001010101001001  reachable=112865 canon=56701 sym=2 depth=5 terminals=0
+  ov=010101010101010101001001  reachable=385153 canon=385153 sym=1 depth=6 terminals=0
+  ov=010101010101010010101001  reachable=347681 canon=347681 sym=1 depth=6 terminals=0
+  ov=010101010101001010101001  reachable=147737 canon=147737 sym=1 depth=6 terminals=0
+  ov=010101010101010101010101  reachable=134217025 canon=33554433 sym=4 depth=11 terminals=0 (CAPACITY)
+summary: base=10 P=24 part=0/1 patterns=699251 with_outer_solution=0 inconclusive=2 maxreach=134217025 sumreach=254590729 time=1260.0s
+type C, base 10, period 24, central run digits: 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6
+  ov=110001000110001000100001  reachable=185377 canon=185377 sym=1 depth=7 terminals=0
+  ov=110001001110001000100001  reachable=123921 canon=123921 sym=1 depth=10 terminals=0
+  ov=010101010100111000100001  reachable=714577 canon=714577 sym=1 depth=13 terminals=0
+  ov=010100100111000011100001  reachable=154145 canon=154145 sym=1 depth=9 terminals=0
+  ov=010100101010010011100001  reachable=327433 canon=327433 sym=1 depth=11 terminals=0
+  ov=000100010001000100010001  reachable=201252204 canon=33554433 sym=6 depth=45 terminals=0 (CAPACITY)
+  ov=010100101010010100010001  reachable=392129 canon=392129 sym=1 depth=8 terminals=0
+  ov=010101001110001100010001  reachable=27155321 canon=27155321 sym=1 depth=42 terminals=0
+  ov=100010010001100010010001  reachable=8575477 canon=4291962 sym=2 depth=38 terminals=0
+  ov=010101010010101001010001  reachable=101249 canon=101249 sym=1 depth=5 terminals=0
+  ov=010101010010010101001001  reachable=12435425 canon=12435425 sym=1 depth=36 terminals=0
+  ov=010101001001010101001001  reachable=112865 canon=56701 sym=2 depth=5 terminals=0
+  ov=010101010101010101001001  reachable=385153 canon=385153 sym=1 depth=6 terminals=0
+  ov=010101010101010010101001  reachable=347681 canon=347681 sym=1 depth=6 terminals=0
+  ov=010101010101001010101001  reachable=147737 canon=147737 sym=1 depth=6 terminals=0
+  ov=010101010101010101010101  reachable=402624129 canon=33554433 sym=12 depth=16 terminals=0 (CAPACITY)
+summary: base=10 P=24 part=0/1 patterns=699251 with_outer_solution=0 inconclusive=2 maxreach=402624129 sumreach=657168851 time=1632.9s
+type C, base 10, period 24, central run digits: 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2
+  ov=110001000110001000100001  reachable=185377 canon=185377 sym=1 depth=7 terminals=0
+  ov=110001001110001000100001  reachable=123921 canon=123921 sym=1 depth=10 terminals=0
+  ov=010101010100111000100001  reachable=714577 canon=714577 sym=1 depth=13 terminals=0
+  ov=010100100111000011100001  reachable=154145 canon=154145 sym=1 depth=9 terminals=0
+  ov=010100101010010011100001  reachable=327433 canon=327433 sym=1 depth=11 terminals=0
+  ov=000100010001000100010001  reachable=67081186 canon=33554433 sym=2 depth=28 terminals=0 (CAPACITY)
+  ov=010100101010010100010001  reachable=392129 canon=392129 sym=1 depth=8 terminals=0
+  ov=010101001110001100010001  reachable=27155321 canon=27155321 sym=1 depth=42 terminals=0
+  ov=100010010001100010010001  reachable=8575477 canon=4291962 sym=2 depth=38 terminals=0
+  ov=010101010010101001010001  reachable=101249 canon=101249 sym=1 depth=5 terminals=0
+  ov=010101010010010101001001  reachable=12435425 canon=12435425 sym=1 depth=36 terminals=0
+  ov=010101001001010101001001  reachable=112865 canon=56701 sym=2 depth=5 terminals=0
+  ov=010101010101010101001001  reachable=385153 canon=385153 sym=1 depth=6 terminals=0
+  ov=010101010101010010101001  reachable=347681 canon=347681 sym=1 depth=6 terminals=0
+  ov=010101010101001010101001  reachable=147737 canon=147737 sym=1 depth=6 terminals=0
+  ov=010101010101010101010101  reachable=134217025 canon=33554433 sym=4 depth=11 terminals=0 (CAPACITY)
+summary: base=10 P=24 part=0/1 patterns=699251 with_outer_solution=0 inconclusive=2 maxreach=134217025 sumreach=254590729 time=1870.7s
+type C, base 10, period 24, central run digits: 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7
+  ov=110001000110001000100001  reachable=185377 canon=185377 sym=1 depth=7 terminals=0
+  ov=110001001110001000100001  reachable=123921 canon=123921 sym=1 depth=10 terminals=0
+  ov=010101010100111000100001  reachable=714577 canon=714577 sym=1 depth=13 terminals=0
+  ov=010100100111000011100001  reachable=154145 canon=154145 sym=1 depth=9 terminals=0
+  ov=010100101010010011100001  reachable=327433 canon=327433 sym=1 depth=11 terminals=0
+  ov=000100010001000100010001  reachable=67081186 canon=33554433 sym=2 depth=28 terminals=0 (CAPACITY)
+  ov=010100101010010100010001  reachable=392129 canon=392129 sym=1 depth=8 terminals=0
+  ov=010101001110001100010001  reachable=27155321 canon=27155321 sym=1 depth=42 terminals=0
+  ov=100010010001100010010001  reachable=8575477 canon=4291962 sym=2 depth=38 terminals=0
+  ov=010101010010101001010001  reachable=101249 canon=101249 sym=1 depth=5 terminals=0
+  ov=010101010010010101001001  reachable=12435425 canon=12435425 sym=1 depth=36 terminals=0
+  ov=010101001001010101001001  reachable=112865 canon=56701 sym=2 depth=5 terminals=0
+  ov=010101010101010101001001  reachable=385153 canon=385153 sym=1 depth=6 terminals=0
+  ov=010101010101010010101001  reachable=347681 canon=347681 sym=1 depth=6 terminals=0
+  ov=010101010101001010101001  reachable=147737 canon=147737 sym=1 depth=6 terminals=0
+  ov=010101010101010101010101  reachable=134217025 canon=33554433 sym=4 depth=11 terminals=0 (CAPACITY)
+summary: base=10 P=24 part=0/1 patterns=699251 with_outer_solution=0 inconclusive=2 maxreach=134217025 sumreach=254590729 time=1263.3s
+type C, base 10, period 24, central run digits: 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3 6 3
+  ov=110001000110001000100001  reachable=185377 canon=185377 sym=1 depth=7 terminals=0
+  ov=110001001110001000100001  reachable=123921 canon=123921 sym=1 depth=10 terminals=0
+  ov=010101010100111000100001  reachable=714577 canon=714577 sym=1 depth=13 terminals=0
+  ov=010100100111000011100001  reachable=154145 canon=154145 sym=1 depth=9 terminals=0
+  ov=010100101010010011100001  reachable=327433 canon=327433 sym=1 depth=11 terminals=0
+  ov=000100010001000100010001  reachable=201252204 canon=33554433 sym=6 depth=45 terminals=0 (CAPACITY)
+  ov=010100101010010100010001  reachable=392129 canon=392129 sym=1 depth=8 terminals=0
+  ov=010101001110001100010001  reachable=27155321 canon=27155321 sym=1 depth=42 terminals=0
+  ov=100010010001100010010001  reachable=8575477 canon=4291962 sym=2 depth=38 terminals=0
+  ov=010101010010101001010001  reachable=101249 canon=101249 sym=1 depth=5 terminals=0
+  ov=010101010010010101001001  reachable=12435425 canon=12435425 sym=1 depth=36 terminals=0
+  ov=010101001001010101001001  reachable=112865 canon=56701 sym=2 depth=5 terminals=0
+  ov=010101010101010101001001  reachable=385153 canon=385153 sym=1 depth=6 terminals=0
+  ov=010101010101010010101001  reachable=347681 canon=347681 sym=1 depth=6 terminals=0
+  ov=010101010101001010101001  reachable=147737 canon=147737 sym=1 depth=6 terminals=0
+  ov=010101010101010101010101  reachable=402624129 canon=33554433 sym=12 depth=16 terminals=0 (CAPACITY)
+summary: base=10 P=24 part=0/1 patterns=699251 with_outer_solution=0 inconclusive=2 maxreach=402624129 sumreach=657168851 time=1295.3s
+type C, base 10, period 24, central run digits: 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8
+  ov=110001000110001000100001  reachable=185377 canon=185377 sym=1 depth=7 terminals=0
+  ov=110001001110001000100001  reachable=123921 canon=123921 sym=1 depth=10 terminals=0
+  ov=010101010100111000100001  reachable=714577 canon=714577 sym=1 depth=13 terminals=0
+  ov=010100100111000011100001  reachable=154145 canon=154145 sym=1 depth=9 terminals=0
+  ov=010100101010010011100001  reachable=327433 canon=327433 sym=1 depth=11 terminals=0
+  ov=000100010001000100010001  reachable=67081186 canon=33554433 sym=2 depth=28 terminals=0 (CAPACITY)
+  ov=010100101010010100010001  reachable=392129 canon=392129 sym=1 depth=8 terminals=0
+  ov=010101001110001100010001  reachable=27155321 canon=27155321 sym=1 depth=42 terminals=0
+  ov=100010010001100010010001  reachable=8575477 canon=4291962 sym=2 depth=38 terminals=0
+  ov=010101010010101001010001  reachable=101249 canon=101249 sym=1 depth=5 terminals=0
+  ov=010101010010010101001001  reachable=12435425 canon=12435425 sym=1 depth=36 terminals=0
+  ov=010101001001010101001001  reachable=112865 canon=56701 sym=2 depth=5 terminals=0
+  ov=010101010101010101001001  reachable=385153 canon=385153 sym=1 depth=6 terminals=0
+  ov=010101010101010010101001  reachable=347681 canon=347681 sym=1 depth=6 terminals=0
+  ov=010101010101001010101001  reachable=147737 canon=147737 sym=1 depth=6 terminals=0
+  ov=010101010101010101010101  reachable=134217025 canon=33554433 sym=4 depth=11 terminals=0 (CAPACITY)
+summary: base=10 P=24 part=0/1 patterns=699251 with_outer_solution=0 inconclusive=2 maxreach=134217025 sumreach=254590729 time=1592.3s
+type C, base 10, period 24, central run digits: 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4 8 7 5 1 2 4
+  ov=110001000110001000100001  reachable=185377 canon=185377 sym=1 depth=7 terminals=0
+  ov=110001001110001000100001  reachable=123921 canon=123921 sym=1 depth=10 terminals=0
+  ov=010101010100111000100001  reachable=714577 canon=714577 sym=1 depth=13 terminals=0
+  ov=010100100111000011100001  reachable=154145 canon=154145 sym=1 depth=9 terminals=0
+  ov=010100101010010011100001  reachable=327433 canon=327433 sym=1 depth=11 terminals=0
+  ov=000100010001000100010001  reachable=67081186 canon=33554433 sym=2 depth=28 terminals=0 (CAPACITY)
+  ov=010100101010010100010001  reachable=392129 canon=392129 sym=1 depth=8 terminals=0
+  ov=010101001110001100010001  reachable=27155321 canon=27155321 sym=1 depth=42 terminals=0
+  ov=100010010001100010010001  reachable=8575477 canon=4291962 sym=2 depth=38 terminals=0
+  ov=010101010010101001010001  reachable=101249 canon=101249 sym=1 depth=5 terminals=0
+  ov=010101010010010101001001  reachable=12435425 canon=12435425 sym=1 depth=36 terminals=0
+  ov=010101001001010101001001  reachable=112865 canon=56701 sym=2 depth=5 terminals=0
+  ov=010101010101010101001001  reachable=385153 canon=385153 sym=1 depth=6 terminals=0
+  ov=010101010101010010101001  reachable=347681 canon=347681 sym=1 depth=6 terminals=0
+  ov=010101010101001010101001  reachable=147737 canon=147737 sym=1 depth=6 terminals=0
+  ov=010101010101010101010101  reachable=134217025 canon=33554433 sym=4 depth=11 terminals=0 (CAPACITY)
+summary: base=10 P=24 part=0/1 patterns=699251 with_outer_solution=0 inconclusive=2 maxreach=134217025 sumreach=254590729 time=1270.3s
+type C, base 10, period 2, central run digits: 3 6
+summary: base=10 P=2 part=0/1 patterns=2 with_outer_solution=0 inconclusive=0 maxreach=9 sumreach=10 time=0.0s
+type C, base 10, period 2, central run digits: 6 3
+summary: base=10 P=2 part=0/1 patterns=2 with_outer_solution=0 inconclusive=0 maxreach=9 sumreach=10 time=0.0s
+type C, base 10, period 4, central run digits: 3 6 3 6
+summary: base=10 P=4 part=0/1 patterns=5 with_outer_solution=0 inconclusive=0 maxreach=30 sumreach=50 time=0.0s
+type C, base 10, period 4, central run digits: 6 3 6 3
+summary: base=10 P=4 part=0/1 patterns=5 with_outer_solution=0 inconclusive=0 maxreach=30 sumreach=50 time=0.0s
+type C, base 10, period 6, central run digits: 1 2 4 8 7 5
+summary: base=10 P=6 part=0/1 patterns=13 with_outer_solution=0 inconclusive=0 maxreach=33 sumreach=58 time=0.0s
+type C, base 10, period 6, central run digits: 2 4 8 7 5 1
+summary: base=10 P=6 part=0/1 patterns=13 with_outer_solution=0 inconclusive=0 maxreach=33 sumreach=58 time=0.0s
+type C, base 10, period 6, central run digits: 3 6 3 6 3 6
+summary: base=10 P=6 part=0/1 patterns=13 with_outer_solution=0 inconclusive=0 maxreach=33 sumreach=58 time=0.0s
+type C, base 10, period 6, central run digits: 4 8 7 5 1 2
+summary: base=10 P=6 part=0/1 patterns=13 with_outer_solution=0 inconclusive=0 maxreach=33 sumreach=58 time=0.0s
+type C, base 10, period 6, central run digits: 5 1 2 4 8 7
+summary: base=10 P=6 part=0/1 patterns=13 with_outer_solution=0 inconclusive=0 maxreach=33 sumreach=58 time=0.0s
+type C, base 10, period 6, central run digits: 6 3 6 3 6 3
+summary: base=10 P=6 part=0/1 patterns=13 with_outer_solution=0 inconclusive=0 maxreach=33 sumreach=58 time=0.0s
+type C, base 10, period 6, central run digits: 7 5 1 2 4 8
+summary: base=10 P=6 part=0/1 patterns=13 with_outer_solution=0 inconclusive=0 maxreach=33 sumreach=58 time=0.0s
+type C, base 10, period 6, central run digits: 8 7 5 1 2 4
+summary: base=10 P=6 part=0/1 patterns=13 with_outer_solution=0 inconclusive=0 maxreach=33 sumreach=58 time=0.0s
+type C, base 10, period 8, central run digits: 3 6 3 6 3 6 3 6
+  ov=01010101  reachable=244785 canon=61249 sym=4 depth=87 terminals=0
+summary: base=10 P=8 part=0/1 patterns=35 with_outer_solution=0 inconclusive=0 maxreach=244785 sumreach=245222 time=0.5s
+type C, base 10, period 8, central run digits: 6 3 6 3 6 3 6 3
+  ov=01010101  reachable=244785 canon=61249 sym=4 depth=87 terminals=0
+summary: base=10 P=8 part=0/1 patterns=35 with_outer_solution=0 inconclusive=0 maxreach=244785 sumreach=245222 time=0.5s

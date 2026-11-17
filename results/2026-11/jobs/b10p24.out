@@ -1,0 +1,4 @@
+[start] 2026-11-16 22:10:05 host=r13n9 nproc=32
+B=10 P=24 par0=0 delta=3  RUN self-loop=ok  reachable states=26617111  => no periodic core of ANY length
+B=10 P=24 par0=1 delta=3  RUN self-loop=ok  reachable states=26617111  => no periodic core of ANY length
+[end] 2026-11-16 22:10:57 rc=0

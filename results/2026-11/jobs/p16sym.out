@@ -1,0 +1,5 @@
+[start] 2026-11-16 21:12:16 host=r14n1 nproc=8
+type A, base 10, period 16
+  ov=0101010101010101  reachable=2056506689 canon=257093987 sym=8 depth=591 terminals=0
+single pattern: no outer solution of any length, 2076.8 s
+[end] 2026-11-16 21:47:02 rc=0
