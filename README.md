@@ -78,3 +78,9 @@ Developed with the assistance of an AI model (Claude, Anthropic).
 ## License and citation
 
 MIT (see [LICENSE](LICENSE)). Citation metadata: [CITATION.cff](CITATION.cff).
+
+## Added in November 2026
+- `carries/`: exact carry-including transfer operator for the decay rate (`op.py`) and relaxation experiments (`relax_perstep.py`, `relax_buckets.py`).
+- `scripts/halfsearch.py`: fast search restricted to doubled (ww) overflow patterns; results in `results/halfsearch_2026-10.md`.
+- `paper/`: draft paper on the base-9 family (English and Japanese).
+- `docs/RUNBOOK.md`: how to run everything on another computer (Japanese). `make env` prints the environment, `make check` runs a smoke test.

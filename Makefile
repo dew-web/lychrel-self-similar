@@ -33,4 +33,22 @@ validate: bin/outauto_s bin/coreauto2
 clean:
 	rm -rf bin work
 
-.PHONY: all p196 verify-base9 validate clean
+
+
+# --- 2026-11 追加 ---
+env:
+	sh scripts/check_env.sh
+
+check: bin/outauto_s bin/coreauto2
+	sh scripts/check.sh
+
+carries:
+	python3 carries/op.py | tee carries/results/op_output.txt
+
+relax:
+	python3 carries/relax_perstep.py --bases 3,4,8,10,12,15,16,17,24,32,64 --jobs 4
+
+half: bin/outauto_s bin/coreauto2
+	python3 scripts/halfsearch.py 9 10
+
+.PHONY: all p196 verify-base9 validate clean env check carries relax half

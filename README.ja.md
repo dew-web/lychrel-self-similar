@@ -28,3 +28,9 @@ make validate        # 2・4・11・26進の再発見と、9進の族の発見�
 - 9進の結果の新規性は、まだ専門家の確認を受けていない。
 
 ライセンス: MIT（[LICENSE](LICENSE)）。引用情報: [CITATION.cff](CITATION.cff)。AI（Claude, Anthropic）の支援を受けて作成。
+
+## 2026年11月の追加
+- `carries/` 繰り上がり込みの厳密な転送作用素（`op.py`）と、緩和の実験（`relax_perstep.py`, `relax_buckets.py`）
+- `scripts/halfsearch.py` 桁あふれのパターンを ww 型に絞った高速な探索（結果は `results/halfsearch_2026-10.md`）
+- `paper/` 9進の族の論文の下書き（英語・日本語）
+- `docs/RUNBOOK.md` 別の PC での実行手順。`make env`（環境の表示）、`make check`（動作確認）

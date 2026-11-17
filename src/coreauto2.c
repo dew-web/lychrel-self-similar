@@ -31,8 +31,11 @@ static void unpack(u128 k, st_t *s) {
 }
 
 typedef struct { u128 key; int32_t parent; uint8_t lo0, hi0; } entry;
-static entry *E; static int64_t NE, ECAP = 1 << 24;
-static int32_t *H; static uint64_t HCAP = 1ull << 25;
+#ifndef ECAP_LOG
+#define ECAP_LOG 24   /* 状態数の上限 = 2^ECAP_LOG（大きい PC では -DECAP_LOG=26 など） */
+#endif
+static entry *E; static int64_t NE, ECAP = (int64_t)1 << ECAP_LOG;
+static int32_t *H; static uint64_t HCAP = 1ull << (ECAP_LOG + 1);
 static int cap_hit;
 static int64_t insert(u128 key, int32_t parent, int lo0, int hi0) {
     uint64_t h = (uint64_t)((key * (u128)0x9E3779B97F4A7C15ull) >> 64) & (HCAP - 1);
@@ -203,6 +206,7 @@ int main(int argc, char **argv) {
         for (int k = 0; k < Q; k++) w[n++] = lay[k][1];
         printf("=> CORE FOUND (%d layers + center, window %d digits)\n   core (low->high): ", Q, n);
         for (int j = 0; j < n; j++) printf("%d", w[j]); printf("\n");
+        printf("   core-list:"); for (int j = 0; j < n; j++) printf("%s%d", j ? "," : "", w[j]); printf("\n");
         int okw = window_period_ok(w, n);
         printf("   independent window simulation over one period: %s\n", okw ? "PERIODIC (ok)" : "FAILED");
         if (argc > 4 && okw) {
