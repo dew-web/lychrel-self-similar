@@ -1,0 +1,9 @@
+[start] 2026-11-18 06:21:43 host=r10n8 nproc=192
+               total        used        free      shared  buff/cache   available
+Mem:             755         186         563          27          36         568
+  ov=010101010101010101010101  reachable=155999501889 canon=13000000001 sym=12 depth=138 terminals=0 (CAPACITY)
+    type-C candidates among reachable states (flags ignored, 8 digit cycles): 0  => no type-C solution for this pattern either
+single pattern: INCONCLUSIVE (capacity), 2907.3 s wall, 192 threads
+layer 136 size 124385864 total 12851049409  2888s
+layer 137 size 107509376 total 12958558785  2907s
+[end] 2026-11-18 07:10:26 rc=0

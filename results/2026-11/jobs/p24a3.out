@@ -1,0 +1,10 @@
+[start] 2026-11-18 06:17:31 host=r10n8 nproc=192
+               total        used        free      shared  buff/cache   available
+Mem:             755          99         650          27          36         655
+  ov=000100010001000100010001  reachable=39751991163 canon=6625354894 sym=6 depth=1346 terminals=3
+    terminal cin=101101010010101101010010 (up to rotation by 4)
+    type-C candidates among reachable states (flags ignored, 8 digit cycles): 0  => no type-C solution for this pattern either
+single pattern: OUTER SOLUTION EXISTS, 1368.1 s wall, 192 threads
+layer 1344 size 756 total 6625354238  1368s
+layer 1345 size 656 total 6625354894  1368s
+[end] 2026-11-18 06:40:34 rc=0
