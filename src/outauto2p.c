@@ -3,8 +3,8 @@
 // 探索の論理（状態、遷移、受理条件、回転対称性による商）は outauto2.c と同じ。違いは次の点だけ:
 //   - BFS を段ごとに並列化する。1つの段の状態を複数スレッドで展開し、新しい状態は共有の表に追加する。
 //   - 表は最初に上限ぶん確保する。追加は compare-and-swap で行う。状態の番号は 64 ビットなので、2^32 個を超えてもよい。
-//     メモリは 1 状態あたり 16 バイト（キー）＋ ハッシュ表（上限の 1.4 倍以上の 2 のべき × 8 バイト）。
-//     例: -capm 24000（240億状態）で約 660GB。
+//     メモリは 1 状態あたり 26 バイト（キー 16 ＋ ハッシュ表 上限の 1.25 倍 × 8）。
+//     例: -capm 6900（69億状態）で約 180GB、-capm 28000 で約 730GB。
 //     2つのスレッドが同じ新しい状態を同時に追加しようとしたときは、片方の場所を「無効」にする（キーを全ビット1にする）。
 //   - 型A の探索中に、型C の受理条件（旗を除く）に合う状態も数える。0 個なら、このパターンに型C の解もない。
 // 到達状態数（対称性なしで数えた値）は outauto2 / outauto と一致するはず（検証済みの値と比べること）。
@@ -36,7 +36,7 @@ static inline uint64_t hash128(u128 k) {
 }
 // 戻り値: 1 = 新規に追加した, 0 = 既にあった, -1 = 上限超過
 static int insert(u128 key, int orb) {
-    uint64_t h = hash128(key) & (HSIZE - 1); int64_t mine = -1;
+    uint64_t h = (uint64_t)(((u128)hash128(key) * HSIZE) >> 64); int64_t mine = -1;   // 0..HSIZE-1 に写す（HSIZE は 2 のべきでなくてよい）
     for (;;) {
         uint64_t s = __atomic_load_n(&SLOT[h], __ATOMIC_ACQUIRE);
         if (s == 0) {
@@ -50,7 +50,7 @@ static int insert(u128 key, int orb) {
             s = expect;                                    // 他のスレッドが先にこの場所を取った
         }
         if (KEYS[s - 1] == key) { if (mine >= 0) { KEYS[mine] = DEADKEY; __atomic_fetch_add(&NDEAD, 1, __ATOMIC_RELAXED); } return 0; }   // 同じ状態が既にある（自分の場所は無効にする）
-        h = (h + 1) & (HSIZE - 1);
+        if (++h == HSIZE) h = 0;
     }
 }
 
@@ -185,7 +185,7 @@ int main(int argc, char **argv) {
 
     if (CAPLOG > 40) CAPLOG = 40;
     KCAP = capm ? capm * 1000000ull : (1ull << CAPLOG);
-    HSIZE = 1; while (HSIZE * 10 < KCAP * 14) HSIZE <<= 1;     // 上限の 1.4 倍以上の 2 のべき（-cap N なら 2^(N+1)）
+    HSIZE = KCAP + KCAP / 4 + 64;                              // ハッシュ表は上限の 1.25 倍（埋まり具合は最大 0.8）
     KEYS = malloc(sizeof(u128) * KCAP); SLOT = calloc(HSIZE, sizeof(uint64_t));
     if (!KEYS || !SLOT) { fprintf(stderr, "out of memory\n"); return 2; }
     if (!TYPEC) for (int d0 = 1; d0 < B - 1 && NCC < 64; d0++) {    // 型C の候補の表（0 と B-1 は周期的になれない）
