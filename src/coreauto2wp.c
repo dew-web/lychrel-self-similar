@@ -1,0 +1,275 @@
+// coreauto2wp.c — coreauto2w.c の並列版（OpenMP）。BFS を段ごとに並列化し、表への追加は compare-and-swap で行う。
+// coreauto2w.c — coreauto2.c の状態キーを 256 ビットに広げた版（長い周期・大きい基数用）。探索の論理は coreauto2.c と同じ。
+//   違い: 数字は6ビット（基数63まで）、キーが256ビットを超えるときはエラーで止まる、状態数の上限は環境変数 CORE_CAP_LOG（既定24）。
+// coreauto2.c — 中心コアを「外側（長い 0/ω 列）から中心へ」1層ずつ組み立てるオートマトン。
+// 列の中の状態 RUN から出発するので、周期の閉条件（位相P=位相0、δ層ずれ）が最初から効き、到達集合が小さい。
+// 各状態から「ここで中心に到達して閉じる」δ+1 層の閉じ込み列を試し、成功すればコアが存在する。
+// 到達集合を全部調べて閉じ込みが一度も成功しなければ、長さに関係なくコアは存在しない。
+//
+// 位相 t の距離（中心から）: d_t = d_0 + OO[t],  OO[t+1] = OO[t] + [ov_t=1 かつ 偶数長->奇数長]
+// usage: ./coreauto2 B ovbits cinbits [outerfile]
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <string.h>
+#include <omp.h>
+typedef unsigned __int128 u128;
+
+static int B, P, CIN[64], OV[64], PAR[65], OO[65], DELTA, PAR0;
+typedef struct { int lam[64], mu[64], ph[64]; int lag[32][2]; } st_t;
+#ifndef DB
+#define DB 6          /* 数字1つのビット数。-DDB=8 で基数254まで */
+#endif
+#define DM ((1 << DB) - 1)
+#define SENT DM
+typedef struct { uint64_t w[4]; } kkey;
+static inline void setb(kkey *k, int *sh, uint64_t v, int nb) { for (int i = 0; i < nb; i++, (*sh)++) if ((v >> i) & 1) k->w[*sh >> 6] |= 1ull << (*sh & 63); }
+static inline uint64_t getb(const kkey *k, int *sh, int nb) { uint64_t v = 0; for (int i = 0; i < nb; i++, (*sh)++) v |= ((k->w[*sh >> 6] >> (*sh & 63)) & 1ull) << i; return v; }
+static inline int keq(const kkey *a, const kkey *b) { return a->w[0] == b->w[0] && a->w[1] == b->w[1] && a->w[2] == b->w[2] && a->w[3] == b->w[3]; }
+
+static kkey pack(const st_t *s) {
+    kkey k = {{0, 0, 0, 0}}; int sh = 0;
+    for (int t = 0; t < P; t++) setb(&k, &sh, s->lam[t] & 1, 1);
+    for (int t = 0; t < P; t++) setb(&k, &sh, s->mu[t] & 1, 1);
+    for (int t = 0; t < P; t++) if (OV[t]) setb(&k, &sh, s->ph[t] & DM, DB);
+    for (int i = 0; i < DELTA; i++) { setb(&k, &sh, s->lag[i][0] & DM, DB); setb(&k, &sh, s->lag[i][1] & DM, DB); }
+    return k;
+}
+static void unpack(kkey k, st_t *s) {
+    memset(s, 0, sizeof *s); int sh = 0;
+    for (int t = 0; t < P; t++) s->lam[t] = (int)getb(&k, &sh, 1);
+    for (int t = 0; t < P; t++) s->mu[t] = (int)getb(&k, &sh, 1);
+    for (int t = 0; t < P; t++) if (OV[t]) s->ph[t] = (int)getb(&k, &sh, DB);
+    for (int i = 0; i < DELTA; i++) { s->lag[i][0] = (int)getb(&k, &sh, DB); s->lag[i][1] = (int)getb(&k, &sh, DB); }
+}
+
+typedef struct { kkey key; int32_t parent; uint16_t lo0, hi0; uint8_t dead; } entry;
+static entry *E; static uint64_t NE; static int64_t ECAP = 1 << 24;
+static uint32_t *H; static uint64_t HCAP = 1ull << 25;   // main で CORE_CAP_LOG から決め直す
+static volatile int cap_hit;
+// 追加できたら番号、既にあれば -2、上限超過なら -1
+static int64_t insert(kkey key, int32_t parent, int lo0, int hi0) {
+    uint64_t x = key.w[0] * 0x9E3779B97F4A7C15ull ^ key.w[1] * 0xC2B2AE3D27D4EB4Full ^ key.w[2] * 0x165667B19E3779F9ull ^ key.w[3] * 0x27D4EB2F165667C5ull;
+    uint64_t h = (x ^ (x >> 31)) & (HCAP - 1); int64_t mine = -1;
+    for (;;) {
+        uint32_t sl = __atomic_load_n(&H[h], __ATOMIC_ACQUIRE);
+        if (sl == 0) {
+            if (mine < 0) {
+                mine = (int64_t)__atomic_fetch_add(&NE, 1, __ATOMIC_RELAXED);
+                if (mine >= ECAP) { cap_hit = 1; return -1; }
+                E[mine].key = key; E[mine].parent = parent; E[mine].lo0 = (uint16_t)lo0; E[mine].hi0 = (uint16_t)hi0; E[mine].dead = 0;
+            }
+            uint32_t expect = 0;
+            if (__atomic_compare_exchange_n(&H[h], &expect, (uint32_t)(mine + 1), 0, __ATOMIC_RELEASE, __ATOMIC_ACQUIRE)) return mine;
+            sl = expect;
+        }
+        if (keq(&E[sl - 1].key, &key)) { if (mine >= 0) E[mine].dead = 1; return -2; }
+        h = (h + 1) & (HCAP - 1);
+    }
+}
+
+// ---- 通常の層（全位相が距離1以上）----
+static __thread st_t S, N; static __thread int64_t curidx;
+static __thread int lowout[66], highout[66], ch_lo0, ch_hi0;
+static void norm_dfs(int t, int lo, int hi) {
+    if (cap_hit) return;
+    if (t == P) {
+        if (lo != S.lag[0][0] || hi != S.lag[0][1]) return;          // 位相P = δ層前の位相0
+        for (int i = 0; i + 1 < DELTA; i++) { N.lag[i][0] = S.lag[i + 1][0]; N.lag[i][1] = S.lag[i + 1][1]; }
+        N.lag[DELTA - 1][0] = ch_lo0; N.lag[DELTA - 1][1] = ch_hi0;
+        insert(pack(&N), (int32_t)curidx, ch_lo0, ch_hi0);
+        return;
+    }
+    int s = lo + hi, v = s + S.lam[t];
+    lowout[t] = v % B; N.lam[t] = v >= B;
+    for (int g = 0; g <= 1; g++) {
+        if (((s + g) >= B) != S.mu[t]) continue;                    // 上側の桁から出る繰り上がりが要求どおり
+        highout[t] = (s + g) % B; N.mu[t] = g;
+        if (OV[t]) N.ph[t] = highout[t];
+        int nlo = lowout[t], nhi = OV[t] ? S.ph[t] : highout[t];    // 桁あふれ位相は「今の下 + 1層前の上」
+        norm_dfs(t + 1, nlo, nhi);
+    }
+}
+
+// ---- 閉じ込み（中心に到達する δ+1 層）----
+static __thread int close_lo0, close_hi0; static __thread int close_found = 0;
+static __thread int cl_mid0, cl_pair0[2];
+static void close_layer(int j, st_t *Sx);
+static __thread st_t CS[40];   // 閉じ込みの各層の状態
+static __thread int cl_low[66], cl_high[66], cl_mid[66];
+static void close_dfs(int j, int t, st_t *Sx, st_t *Nx, int in_lo, int in_hi, int in_mid, int p0lo, int p0hi) {
+    if (close_found) return;
+    if (t == P) {                                                    // 位相P のチェック
+        if (OO[P] > j) { if (Sx->lag[0][1] == SENT || in_lo != Sx->lag[0][0] || in_hi != Sx->lag[0][1]) return; }
+        else if (OO[P] == j) {
+            if (PAR[0] == 0) { if (Sx->lag[0][1] != SENT || in_mid != Sx->lag[0][0]) return; }
+            else { if (Sx->lag[0][1] == SENT || in_lo != Sx->lag[0][0] || in_hi != Sx->lag[0][1]) return; }
+            close_found = 1; return;                                // 全位相が中心に到達して整合
+        }
+        for (int i = 0; i + 1 < DELTA; i++) { Nx->lag[i][0] = Sx->lag[i + 1][0]; Nx->lag[i][1] = Sx->lag[i + 1][1]; }
+        Nx->lag[DELTA - 1][0] = p0lo; Nx->lag[DELTA - 1][1] = p0hi;
+        st_t nn = *Nx; CS[j + 1] = nn;
+        close_layer(j + 1, &CS[j + 1]);
+        return;
+    }
+    if (OO[t] < j) {                                                 // この位相は終了済み
+        // 次の位相の入力: 偶数長->奇数長 なら中央の数字 = 1層前の上の出力（中心の上）
+        close_dfs(j, t + 1, Sx, Nx, -1, -1, Sx->ph[t], p0lo, p0hi);
+        return;
+    }
+    if (OO[t] == j) {                                                // この位相は中心
+        if (PAR[t] == 0) {
+            int m = in_mid, v = 2 * m + Sx->lam[t];
+            if ((v >= B) != Sx->mu[t]) return;
+            cl_mid[t] = v % B;
+            // 次の位相: 桁あふれなし -> 中央; 奇数長->偶数長 -> (中央の出力, 1層前の上)
+            if (!OV[t]) close_dfs(j, t + 1, Sx, Nx, -1, -1, cl_mid[t], p0lo, p0hi);
+            else close_dfs(j, t + 1, Sx, Nx, cl_mid[t], Sx->ph[t], -1, p0lo, p0hi);
+        } else {
+            int s = in_lo + in_hi, v = s + Sx->lam[t], c = v >= B, w = s + c;
+            if ((w >= B) != Sx->mu[t]) return;
+            cl_low[t] = v % B; cl_high[t] = w % B;
+            Nx->ph[t] = cl_high[t];                                  // 偶数長->奇数長 の次位相は次の層でこれを中央に使う
+            if (!OV[t]) close_dfs(j, t + 1, Sx, Nx, cl_low[t], cl_high[t], -1, p0lo, p0hi);
+            else close_dfs(j, t + 1, Sx, Nx, cl_low[t], Sx->ph[t], -1, p0lo, p0hi);   // 次の位相は距離1（中心でない）
+        }
+        return;
+    }
+    // 通常の対
+    int s = in_lo + in_hi, v = s + Sx->lam[t];
+    int lowo = v % B; Nx->lam[t] = v >= B;
+    for (int g = 0; g <= 1; g++) {
+        if (((s + g) >= B) != Sx->mu[t]) continue;
+        int higho = (s + g) % B; Nx->mu[t] = g;
+        int oldph = Sx->ph[t];
+        if (OV[t]) Nx->ph[t] = higho;
+        close_dfs(j, t + 1, Sx, Nx, lowo, OV[t] ? oldph : higho, -1, p0lo, p0hi);
+        if (close_found) return;
+    }
+}
+static void close_layer(int j, st_t *Sx) {
+    if (close_found || j > DELTA) return;
+    st_t Nx; memset(&Nx, 0, sizeof Nx);
+    if (j == 0) {
+        if (PAR[0] == 0) for (int m = 0; m < B && !close_found; m++) { cl_mid0 = m; memset(&Nx, 0, sizeof Nx); close_dfs(0, 0, Sx, &Nx, -1, -1, m, m, SENT); }
+        else for (int lo = 0; lo < B && !close_found; lo++) for (int hi = 0; hi < B && !close_found; hi++) { cl_pair0[0] = lo; cl_pair0[1] = hi; memset(&Nx, 0, sizeof Nx); close_dfs(0, 0, Sx, &Nx, lo, hi, -1, lo, hi); }
+    } else {
+        // 位相0 は終了済み。位相0 からの入力は「中央 = 1層前の上の出力」（偶数長->奇数長のときのみ意味を持つ）
+        close_dfs(j, 0, Sx, &Nx, -1, -1, -1, 0, 0);
+    }
+}
+
+// ---- 検証 ----
+static int window_period_ok(const int *w0, int n0) {
+    static int w[8192], start[8192], y[8192]; int n = n0, pad = 40, D = 0;
+    int L0 = (B - 1) * (1 - CIN[P - 1]), H0 = (B - 1) * CIN[P - 1];
+    for (int i = 0; i < pad; i++) w[D++] = L0; for (int i = 0; i < n; i++) w[D++] = w0[i]; for (int i = 0; i < pad; i++) w[D++] = H0;
+    int Ds = D; memcpy(start, w, sizeof(int) * D);
+    for (int t = 0; t < P; t++) {
+        int c = CIN[t];
+        for (int j = 0; j < D; j++) { int v = w[j] + w[D - 1 - j] + c; c = v >= B; y[j] = v - (c ? B : 0); }
+        if (c != 1 - CIN[t]) return 0;
+        int Lp = (B - 1) * (1 - CIN[t]), Hp = (B - 1) * CIN[t];
+        if (!OV[t]) memcpy(w, y, sizeof(int) * D);
+        else if (D % 2 == 1) { memcpy(w, y, sizeof(int) * D); w[D++] = Hp; }
+        else { if (y[0] != Lp) return 0; memcpy(w, y + 1, sizeof(int) * (D - 1)); D--; }
+        while (D > Ds + 1 && w[0] == Lp && w[D - 1] == Hp) { memmove(w, w + 1, sizeof(int) * (D - 2)); D -= 2; }
+        while (D < Ds - 1) { memmove(w + 1, w, sizeof(int) * D); w[0] = Lp; w[D + 1] = Hp; D += 2; }
+    }
+    return D == Ds && memcmp(w, start, sizeof(int) * D) == 0;
+}
+static int rev_add(int *x, int D) {
+    static int t[1 << 16]; int c = 0;
+    for (int i = 0; i < D; i++) t[i] = x[i] + x[D - 1 - i];
+    for (int i = 0; i < D; i++) { int v = t[i] + c; c = v >= B; x[i] = v - (c ? B : 0); }
+    if (c) x[D++] = 1;
+    return D;
+}
+static int is_pal(const int *x, int D) { for (int i = 0, j = D - 1; i < j; i++, j--) if (x[i] != x[j]) return 0; return 1; }
+
+int main(int argc, char **argv) {
+    B = atoi(argv[1]); P = (int)strlen(argv[2]);
+    for (int t = 0; t < P; t++) { OV[t] = argv[2][t] - '0'; CIN[t] = argv[3][t] - '0'; }
+    int nov = 0; for (int t = 0; t < P; t++) nov += OV[t];
+    if (B > DM - 1) { fprintf(stderr, "base must be <= %d (rebuild with -DDB=8)\n", DM - 1); return 2; }
+    if (getenv("CORE_CAP_LOG")) { int cl = atoi(getenv("CORE_CAP_LOG")); if (cl > 30) cl = 30; ECAP = 1ll << cl; HCAP = 1ull << (cl + 1); }
+    E = malloc(sizeof(entry) * ECAP); H = malloc(sizeof(uint32_t) * HCAP);
+    if (!E || !H) { fprintf(stderr, "out of memory\n"); return 2; }
+    for (PAR0 = 0; PAR0 <= 1; PAR0++) {
+        PAR[0] = PAR0; OO[0] = 0;
+        for (int t = 0; t < P; t++) { PAR[t + 1] = PAR[t] ^ OV[t]; OO[t + 1] = OO[t] + (OV[t] && PAR[t] == 1); }
+        DELTA = OO[P];
+        if (DELTA > 31 || 2 * P + DB * nov + 2 * DB * DELTA > 256) { fprintf(stderr, "key too long: P=%d nov=%d delta=%d\n", P, nov, DELTA); return 2; }
+        int L0 = (B - 1) * (1 - CIN[P - 1]), H0 = (B - 1) * CIN[P - 1];
+        st_t R; memset(&R, 0, sizeof R);
+        for (int t = 0; t < P; t++) { R.lam[t] = CIN[t]; R.mu[t] = 1 - CIN[t]; if (OV[t]) R.ph[t] = (B - 1) * CIN[t]; }
+        for (int i = 0; i < DELTA; i++) { R.lag[i][0] = L0; R.lag[i][1] = H0; }
+        memset(H, 0, sizeof(uint32_t) * HCAP);
+        NE = 0; cap_hit = 0;
+        insert(pack(&R), -1, L0, H0);
+        // 自己検査: RUN から列の対を選ぶと RUN に戻る
+        unpack(E[0].key, &S); curidx = 0; memset(&N, 0, sizeof N); ch_lo0 = L0; ch_hi0 = H0; norm_dfs(0, L0, H0);
+        int selfloop = (NE == 1);
+        int64_t acc = -1; int acc_m = -1, acc_lo = -1, acc_hi = -1;
+        uint64_t lstart = 0, lend = NE; int depth = 0; double t0 = omp_get_wtime();
+        while (lstart < lend && !cap_hit && acc < 0) {
+            #pragma omp parallel
+            {
+                #pragma omp for schedule(dynamic, 512)
+                for (uint64_t q = lstart; q < lend; q++) {
+                    if (cap_hit || acc >= 0 || E[q].dead) continue;
+                    // まず、この状態から中心で閉じられるか
+                    st_t Sx; unpack(E[q].key, &Sx); close_found = 0; CS[0] = Sx; close_layer(0, &CS[0]);
+                    if (close_found) {
+                        #pragma omp critical(acc)
+                        { if (acc < 0 || (int64_t)q < acc) { acc = (int64_t)q; acc_m = cl_mid0; acc_lo = cl_pair0[0]; acc_hi = cl_pair0[1]; } }
+                        continue;
+                    }
+                    close_found = 0;
+                    // 次の層へ
+                    unpack(E[q].key, &S); curidx = (int64_t)q;
+                    for (int lo = 0; lo < B; lo++) for (int hi = 0; hi < B; hi++) { memset(&N, 0, sizeof N); ch_lo0 = lo; ch_hi0 = hi; norm_dfs(0, lo, hi); }
+                }
+            }
+            depth++; lstart = lend; lend = NE < (uint64_t)ECAP ? NE : (uint64_t)ECAP;
+            if (getenv("CORE_LAYERS")) fprintf(stderr, "layer %d total %llu  %.0fs\n", depth, (unsigned long long)lend, omp_get_wtime() - t0);
+        }
+        if (NE > (uint64_t)ECAP) NE = ECAP;
+        printf("B=%d P=%d par0=%d delta=%d  RUN self-loop=%s  reachable states=%lld  ", B, P, PAR0, DELTA, selfloop ? "ok" : "NG", (long long)NE);
+        if (acc < 0) { printf(cap_hit ? "CAPACITY EXCEEDED (inconclusive)\n" : "=> no periodic core of ANY length\n"); fflush(stdout); continue; }
+        // 復元: RUN からの層（外側から）＋中心
+        int lay[8192][2], Q = 0; int64_t v = acc;
+        while (E[v].parent >= 0) { lay[Q][0] = E[v].lo0; lay[Q][1] = E[v].hi0; Q++; v = E[v].parent; }
+        // lay[0] が最も内側（中心の1つ外）、lay[Q-1] が最も外側
+        int w[8192], n = 0;
+        for (int k = Q - 1; k >= 0; k--) w[n++] = lay[k][0];
+        if (PAR0 == 0) w[n++] = acc_m; else { w[n++] = acc_lo; w[n++] = acc_hi; }
+        for (int k = 0; k < Q; k++) w[n++] = lay[k][1];
+        printf("=> CORE FOUND (%d layers + center, window %d digits)\n   core (low->high): ", Q, n);
+        for (int j = 0; j < n; j++) printf(B > 10 ? "%d " : "%d", w[j]); printf("\n");
+        int okw = window_period_ok(w, n);
+        printf("   independent window simulation over one period: %s\n", okw ? "PERIODIC (ok)" : "FAILED");
+        if (argc > 4 && okw) {
+            FILE *f = fopen(argv[4], "r"); int bb, pp, K; char ovs[64], cbs[64], bar[4]; static int OA[512], OBw[512];
+            if (fscanf(f, "%d %d %d %s %s", &bb, &pp, &K, ovs, cbs) != 5) return 1;
+            for (int i = 0; i < K; i++) if (fscanf(f, "%d", &OA[i]) != 1) return 1;
+            if (fscanf(f, "%3s", bar) != 1) return 1;
+            for (int i = 0; i < K; i++) if (fscanf(f, "%d", &OBw[i]) != 1) return 1;
+            fclose(f);
+            static int x[1 << 16], xe[1 << 16];
+            int nn = 20, D;
+            #define BUILD(arr, runs) ({ int d_ = 0; for (int i = 0; i < K; i++) arr[d_++] = OBw[i]; for (int i = 0; i < (runs); i++) arr[d_++] = L0; \
+                for (int i = 0; i < n; i++) arr[d_++] = w[i]; for (int i = 0; i < (runs); i++) arr[d_++] = H0; for (int i = K - 1; i >= 0; i--) arr[d_++] = OA[i]; d_; })
+            D = BUILD(x, nn); int ok = 1;
+            printf("   FULL NUMBER x0 (%d digits): ", D); for (int i = D - 1; i >= 0; i--) { if (B <= 36) putchar("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"[x[i]]); else printf("%d ", x[i]); } printf("\n");
+            for (int rep = 1; rep <= 6 && ok; rep++) {
+                for (int t = 0; t < P; t++) { D = rev_add(x, D); if (is_pal(x, D)) { ok = 0; break; } }
+                int De = BUILD(xe, nn + rep * (nov / 2));
+                if (De != D || memcmp(x, xe, sizeof(int) * D)) ok = 0;
+            }
+            printf("   direct reverse-and-add simulation, 6 periods: %s\n", ok ? "SELF-SIMILAR, NO PALINDROME (VERIFIED)" : "FAILED");
+        }
+        fflush(stdout);
+    }
+    return 0;
+}

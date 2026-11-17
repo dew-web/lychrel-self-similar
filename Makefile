@@ -51,4 +51,19 @@ relax:
 half: bin/outauto_s bin/coreauto2
 	python3 scripts/halfsearch.py 9 10
 
-.PHONY: all p196 verify-base9 validate clean env check carries relax half
+.PHONY: all p196 verify-base9 validate clean env check carries relax half new parallel verify-base50
+
+# --- 2026-11-17 追加（docs/NOTES-2026-11-16.md）---
+# 新しい探索プログラム。並列版は OpenMP が必要（Linux の gcc。macOS 標準の clang では作れない）
+new: bin/outauto2 bin/coreauto2w
+bin/outauto2: src/outauto2.c
+	mkdir -p bin && $(CC) -O3 -w -o $@ $<
+bin/coreauto2w: src/coreauto2w.c
+	mkdir -p bin && $(CC) -O3 -w -o $@ $<
+bin/outauto2p: src/outauto2p.c
+	mkdir -p bin && $(CC) -O3 -fopenmp -w -o $@ $<
+bin/coreauto2wp: src/coreauto2wp.c
+	mkdir -p bin && $(CC) -O3 -fopenmp -w -o $@ $<
+parallel: bin/outauto2p bin/coreauto2wp
+verify-base50:
+	python3 base50/verify_quick.py

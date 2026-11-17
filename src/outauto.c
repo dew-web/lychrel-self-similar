@@ -14,7 +14,6 @@
 #include <string.h>
 
 static int B, P, OV[32], TYPEC, Dg[33], Gg[33], NEEDBAD[32], NEEDNB[32];
-static uint64_t HCAP = 1ull << 24;
 static int32_t *hv;
 typedef struct { uint64_t w[4]; } skey_t;   // 256bit の状態キー（64bit では 2P+5·#ov ビットが溢れていた）
 static inline int keq(const skey_t *a, const skey_t *b) { return a->w[0]==b->w[0] && a->w[1]==b->w[1] && a->w[2]==b->w[2] && a->w[3]==b->w[3]; }
@@ -25,7 +24,11 @@ static uint32_t *SLOT;
 #ifndef ECAP_LOG
 #define ECAP_LOG 23   /* 状態数の上限 = 2^ECAP_LOG（-DECAP_LOG=21 で小さく） */
 #endif
-static entry *E; static int64_t NE, ECAP = 1 << ECAP_LOG;
+#if ECAP_LOG > 30
+#error "ECAP_LOG <= 30 (state ids are int32)"
+#endif
+static uint64_t HCAP = 1ull << (ECAP_LOG + 1);   /* ハッシュ表は上限の2倍（負荷率0.5） */
+static entry *E; static int64_t NE, ECAP = 1ll << ECAP_LOG;
 
 static int nflagbits(void) { int n = 0; for (int t = 0; t < P; t++) n += NEEDBAD[t] + NEEDNB[t]; return n; }
 
@@ -232,11 +235,18 @@ static int run_pattern(int rmax) {
     int cb[32], ca[32], pd[32];
     for (int t = 0; t < P; t++) { cb[t] = 0; ca[t] = OV[t]; pd[t] = OV[t] ? 1 : 0; }
     int isnew; hfind_or_add(pack(cb, ca, pd, 0, 1), -1, 0, 0, 0, &isnew);
+    // OA_LAYERS を設定すると、BFS の段（外側から何対目か）ごとの新しい状態数を stderr に出す
+    int layers = getenv("OA_LAYERS") != NULL; int64_t lend = NE, lstart = 0; int depth = 0;
     for (int64_t q = 0; q < NE && found_terminal < 0 && !cap_hit; q++) {
+        if (layers && q == lend) {
+            fprintf(stderr, "layer %d size %lld total %lld\n", depth, (long long)(lend - lstart), (long long)lend);
+            depth++; lstart = lend; lend = NE;
+        }
         uint64_t fl; unpack(E[q].key, cur_cb, cur_ca, cur_pd, &fl, &cur_root);
         cur_flags = fl; cur_parent = q;
         for (int a0 = 0; a0 < B; a0++) for (int b0 = 0; b0 < B; b0++) dfs(0, a0, b0, 0, fl, a0, b0);
     }
+    if (layers) fprintf(stderr, "end depth %d layer_in_progress %lld total %lld%s\n", depth, (long long)(NE - lstart), (long long)NE, cap_hit ? " CAPACITY" : "");
     if (ALLMODE) {
         printf("  ov="); for (int t = 0; t < P; t++) putchar('0' + OV[t]);
         printf("  reachable=%lld terminals=%d%s\n", (long long)NE, NTERMS, cap_hit ? " (CAPACITY)" : "");
