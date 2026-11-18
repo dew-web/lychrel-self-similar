@@ -1,0 +1,18 @@
+# orbit_record: base 10, start rand:500:2, 300000 steps after 3000 burn-in; final length 126013 digits; cpu 65.4 s
+overflow rate (digits per step) = 0.41426   [log_B 2 = 0.30103]
+N-runs between O's: n0:0.1276 n1:0.5294 n2:0.1869 n3:0.1135 n4:0.0426 n5:0.0000 n6:0.0000 n7:0.0000 n8:0.0000
+leading digit (orbit / Benford): 1:0.465/0.301 2:0.041/0.176 3:0.049/0.125 4:0.062/0.097 5:0.056/0.079 6:0.039/0.067 7:0.057/0.058 8:0.104/0.051 9:0.127/0.046
+middle carry m into the top window (carry into position D-k):
+  k= 4  P(m=1)=0.4988  corr with m 1..4 steps before: -0.1723 -0.0739 -0.0139 +0.0043  P(m = carry out of bottom window)=0.5326  P(m=1|O)=0.5004  P(m=1|N)=0.4977  exactness mismatches=0
+  k= 8  P(m=1)=0.5008  corr with m 1..4 steps before: -0.1710 -0.0672 -0.0194 +0.0063  P(m = carry out of bottom window)=0.5356  P(m=1|O)=0.5020  P(m=1|N)=0.5000  exactness mismatches=0
+  k=12  P(m=1)=0.5012  corr with m 1..4 steps before: -0.1685 -0.0707 -0.0210 +0.0099  P(m = carry out of bottom window)=0.5342  P(m=1|O)=0.4998  P(m=1|N)=0.5022  exactness mismatches=0
+  k=16  P(m=1)=0.4994  corr with m 1..4 steps before: -0.1684 -0.0740 -0.0177 +0.0070  P(m = carry out of bottom window)=0.5357  P(m=1|O)=0.4982  P(m=1|N)=0.5002  exactness mismatches=0
+  k=24  P(m=1)=0.4990  corr with m 1..4 steps before: -0.1702 -0.0717 -0.0156 +0.0045  P(m = carry out of bottom window)=0.5357  P(m=1|O)=0.4971  P(m=1|N)=0.5003  exactness mismatches=0
+  k=32  P(m=1)=0.4990  corr with m 1..4 steps before: -0.1736 -0.0700 -0.0199 +0.0085  P(m = carry out of bottom window)=0.5347  P(m=1|O)=0.5006  P(m=1|N)=0.4979  exactness mismatches=0
+steps until a window model with random m (p=1/2) disagrees with the real orbit (mean, censored at L=3000; share not yet disagreeing):
+  k= 8 ( 480 runs):  outer 1 digits 42.2 (0.000)  outer 2 digits 36.4 (0.000)  outer 4 digits 25.2 (0.000)  outer 8 digits 2.9 (0.000)  overflow sequence 47.1 (0.000)
+        overflow-sequence agreement length, histogram by powers of 2: [1,2):0 [2,4):0 [4,8):0 [8,16):0 [16,32):3 [32,64):447 [64,128):30 [128,256):0 [256,512):0 [512,1024):0 [1024,2048):0 [2048,4096):0 [4096,8192):0 [8192,16384):0
+  k=16 ( 480 runs):  outer 1 digits 87.8 (0.000)  outer 2 digits 82.1 (0.000)  outer 4 digits 70.2 (0.000)  outer 8 digits 48.3 (0.000)  overflow sequence 92.4 (0.000)
+        overflow-sequence agreement length, histogram by powers of 2: [1,2):0 [2,4):0 [4,8):0 [8,16):0 [16,32):0 [32,64):16 [64,128):454 [128,256):10 [256,512):0 [512,1024):0 [1024,2048):0 [2048,4096):0 [4096,8192):0 [8192,16384):0
+  k=32 ( 480 runs):  outer 1 digits 177.6 (0.000)  outer 2 digits 172.8 (0.000)  outer 4 digits 161.5 (0.000)  outer 8 digits 139.6 (0.000)  overflow sequence 182.6 (0.000)
+        overflow-sequence agreement length, histogram by powers of 2: [1,2):0 [2,4):0 [4,8):0 [8,16):0 [16,32):0 [32,64):0 [64,128):0 [128,256):479 [256,512):1 [512,1024):0 [1024,2048):0 [2048,4096):0 [4096,8192):0 [8192,16384):0

@@ -1,0 +1,2 @@
+base 127, k=1, p=0.500: overflow rate = 0.3377308707   (16129 states, 377 with positive weight, 140 iterations)
+   leading digit: 1:0.3404 2:0.0053 3:0.0053 4:0.0053 5:0.0053 6:0.0053 7:0.0053 8:0.0053 9:0.0053

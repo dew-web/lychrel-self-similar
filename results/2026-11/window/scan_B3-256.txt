@@ -1,0 +1,762 @@
+B=3 # log_B 2 = 0.63093 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=3 k= 8  overflow rate (digits per step) = 0.59848
+B=3 k=12  overflow rate (digits per step) = 0.59755
+B=4 # log_B 2 = 0.50000 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=4 k= 8  overflow rate (digits per step) = 0.46122
+B=4 k=12  overflow rate (digits per step) = 0.46075
+B=5 # log_B 2 = 0.43068 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=5 k= 8  overflow rate (digits per step) = 0.45080
+B=5 k=12  overflow rate (digits per step) = 0.45021
+B=6 # log_B 2 = 0.38685 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=6 k= 8  overflow rate (digits per step) = 0.42037
+B=6 k=12  overflow rate (digits per step) = 0.42029
+B=7 # log_B 2 = 0.35621 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=7 k= 8  overflow rate (digits per step) = 0.40699
+B=7 k=12  overflow rate (digits per step) = 0.40707
+B=8 # log_B 2 = 0.33333 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=8 k= 8  overflow rate (digits per step) = 0.39321
+B=8 k=12  overflow rate (digits per step) = 0.39312
+B=9 # log_B 2 = 0.31546 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=9 k= 8  overflow rate (digits per step) = 0.36780
+B=9 k=12  overflow rate (digits per step) = 0.36774
+B=10 # log_B 2 = 0.30103 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=10 k= 8  overflow rate (digits per step) = 0.41405
+B=10 k=12  overflow rate (digits per step) = 0.41390
+B=11 # log_B 2 = 0.28906 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=11 k= 8  overflow rate (digits per step) = 0.40463
+B=11 k=12  overflow rate (digits per step) = 0.40464
+B=12 # log_B 2 = 0.27894 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=12 k= 8  overflow rate (digits per step) = 0.40850
+B=12 k=12  overflow rate (digits per step) = 0.40851
+B=13 # log_B 2 = 0.27024 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=13 k= 8  overflow rate (digits per step) = 0.37454
+B=13 k=12  overflow rate (digits per step) = 0.37449
+B=14 # log_B 2 = 0.26265 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=14 k= 8  overflow rate (digits per step) = 0.40079
+B=14 k=12  overflow rate (digits per step) = 0.40073
+B=15 # log_B 2 = 0.25596 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=15 k= 8  overflow rate (digits per step) = 0.37437
+B=15 k=12  overflow rate (digits per step) = 0.37446
+B=16 # log_B 2 = 0.25000 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=16 k= 8  overflow rate (digits per step) = 0.36715
+B=16 k=12  overflow rate (digits per step) = 0.36711
+B=17 # log_B 2 = 0.24465 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=17 k= 8  overflow rate (digits per step) = 0.32407
+B=17 k=12  overflow rate (digits per step) = 0.32418
+B=18 # log_B 2 = 0.23981 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=18 k= 8  overflow rate (digits per step) = 0.43629
+B=18 k=12  overflow rate (digits per step) = 0.43637
+B=19 # log_B 2 = 0.23541 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=19 k= 8  overflow rate (digits per step) = 0.38138
+B=19 k=12  overflow rate (digits per step) = 0.38146
+B=20 # log_B 2 = 0.23138 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=20 k= 8  overflow rate (digits per step) = 0.37507
+B=20 k=12  overflow rate (digits per step) = 0.37496
+B=21 # log_B 2 = 0.22767 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=21 k= 8  overflow rate (digits per step) = 0.36272
+B=21 k=12  overflow rate (digits per step) = 0.36275
+B=22 # log_B 2 = 0.22424 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=22 k= 8  overflow rate (digits per step) = 0.35618
+B=22 k=12  overflow rate (digits per step) = 0.35618
+B=23 # log_B 2 = 0.22106 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=23 k= 8  overflow rate (digits per step) = 0.35546
+B=23 k=12  overflow rate (digits per step) = 0.35543
+B=24 # log_B 2 = 0.21810 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=24 k= 8  overflow rate (digits per step) = 0.37246
+B=24 k=12  overflow rate (digits per step) = 0.37251
+B=25 # log_B 2 = 0.21534 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=25 k= 8  overflow rate (digits per step) = 0.34500
+B=25 k=12  overflow rate (digits per step) = 0.34511
+B=26 # log_B 2 = 0.21275 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=26 k= 8  overflow rate (digits per step) = 0.40492
+B=26 k=12  overflow rate (digits per step) = 0.40472
+B=27 # log_B 2 = 0.21031 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=27 k= 8  overflow rate (digits per step) = 0.35548
+B=27 k=12  overflow rate (digits per step) = 0.35547
+B=28 # log_B 2 = 0.20801 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=28 k= 8  overflow rate (digits per step) = 0.35754
+B=28 k=12  overflow rate (digits per step) = 0.35749
+B=29 # log_B 2 = 0.20585 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=29 k= 8  overflow rate (digits per step) = 0.35252
+B=29 k=12  overflow rate (digits per step) = 0.35246
+B=30 # log_B 2 = 0.20380 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=30 k= 8  overflow rate (digits per step) = 0.39414
+B=30 k=12  overflow rate (digits per step) = 0.39391
+B=31 # log_B 2 = 0.20185 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=31 k= 8  overflow rate (digits per step) = 0.35384
+B=31 k=12  overflow rate (digits per step) = 0.35394
+B=32 # log_B 2 = 0.20000 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=32 k= 8  overflow rate (digits per step) = 0.35791
+B=32 k=12  overflow rate (digits per step) = 0.35782
+B=33 # log_B 2 = 0.19824 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=33 k= 8  overflow rate (digits per step) = 0.30063
+B=33 k=12  overflow rate (digits per step) = 0.30060
+B=34 # log_B 2 = 0.19656 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=34 k= 8  overflow rate (digits per step) = 0.42302
+B=34 k=12  overflow rate (digits per step) = 0.42259
+B=35 # log_B 2 = 0.19496 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=35 k= 8  overflow rate (digits per step) = 0.37946
+B=35 k=12  overflow rate (digits per step) = 0.37945
+B=36 # log_B 2 = 0.19343 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=36 k= 8  overflow rate (digits per step) = 0.35489
+B=36 k=12  overflow rate (digits per step) = 0.35477
+B=37 # log_B 2 = 0.19196 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=37 k= 8  overflow rate (digits per step) = 0.35225
+B=37 k=12  overflow rate (digits per step) = 0.35215
+B=38 # log_B 2 = 0.19055 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=38 k= 8  overflow rate (digits per step) = 0.36985
+B=38 k=12  overflow rate (digits per step) = 0.36968
+B=39 # log_B 2 = 0.18920 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=39 k= 8  overflow rate (digits per step) = 0.35066
+B=39 k=12  overflow rate (digits per step) = 0.35069
+B=40 # log_B 2 = 0.18790 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=40 k= 8  overflow rate (digits per step) = 0.35587
+B=40 k=12  overflow rate (digits per step) = 0.35582
+B=41 # log_B 2 = 0.18665 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=41 k= 8  overflow rate (digits per step) = 0.34371
+B=41 k=12  overflow rate (digits per step) = 0.34383
+B=42 # log_B 2 = 0.18545 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=42 k= 8  overflow rate (digits per step) = 0.38930
+B=42 k=12  overflow rate (digits per step) = 0.38904
+B=43 # log_B 2 = 0.18429 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=43 k= 8  overflow rate (digits per step) = 0.36481
+B=43 k=12  overflow rate (digits per step) = 0.36486
+B=44 # log_B 2 = 0.18317 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=44 k= 8  overflow rate (digits per step) = 0.36354
+B=44 k=12  overflow rate (digits per step) = 0.36361
+B=45 # log_B 2 = 0.18209 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=45 k= 8  overflow rate (digits per step) = 0.35558
+B=45 k=12  overflow rate (digits per step) = 0.35547
+B=46 # log_B 2 = 0.18104 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=46 k= 8  overflow rate (digits per step) = 0.38129
+B=46 k=12  overflow rate (digits per step) = 0.38128
+B=47 # log_B 2 = 0.18003 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=47 k= 8  overflow rate (digits per step) = 0.35549
+B=47 k=12  overflow rate (digits per step) = 0.35538
+B=48 # log_B 2 = 0.17905 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=48 k= 8  overflow rate (digits per step) = 0.34988
+B=48 k=12  overflow rate (digits per step) = 0.34993
+B=49 # log_B 2 = 0.17810 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=49 k= 8  overflow rate (digits per step) = 0.33989
+B=49 k=12  overflow rate (digits per step) = 0.33994
+B=50 # log_B 2 = 0.17718 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=50 k= 8  overflow rate (digits per step) = 0.41720
+B=50 k=12  overflow rate (digits per step) = 0.41730
+B=51 # log_B 2 = 0.17629 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=51 k= 8  overflow rate (digits per step) = 0.39075
+B=51 k=12  overflow rate (digits per step) = 0.39038
+B=52 # log_B 2 = 0.17543 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=52 k= 8  overflow rate (digits per step) = 0.36142
+B=52 k=12  overflow rate (digits per step) = 0.36145
+B=53 # log_B 2 = 0.17458 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=53 k= 8  overflow rate (digits per step) = 0.34347
+B=53 k=12  overflow rate (digits per step) = 0.34337
+B=54 # log_B 2 = 0.17377 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=54 k= 8  overflow rate (digits per step) = 0.37296
+B=54 k=12  overflow rate (digits per step) = 0.37315
+B=55 # log_B 2 = 0.17297 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=55 k= 8  overflow rate (digits per step) = 0.35482
+B=55 k=12  overflow rate (digits per step) = 0.35480
+B=56 # log_B 2 = 0.17220 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=56 k= 8  overflow rate (digits per step) = 0.36602
+B=56 k=12  overflow rate (digits per step) = 0.36628
+B=57 # log_B 2 = 0.17144 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=57 k= 8  overflow rate (digits per step) = 0.34183
+B=57 k=12  overflow rate (digits per step) = 0.34176
+B=58 # log_B 2 = 0.17071 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=58 k= 8  overflow rate (digits per step) = 0.38522
+B=58 k=12  overflow rate (digits per step) = 0.38525
+B=59 # log_B 2 = 0.16999 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=59 k= 8  overflow rate (digits per step) = 0.36720
+B=59 k=12  overflow rate (digits per step) = 0.36721
+B=60 # log_B 2 = 0.16929 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=60 k= 8  overflow rate (digits per step) = 0.35390
+B=60 k=12  overflow rate (digits per step) = 0.35401
+B=61 # log_B 2 = 0.16861 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=61 k= 8  overflow rate (digits per step) = 0.34464
+B=61 k=12  overflow rate (digits per step) = 0.34469
+B=62 # log_B 2 = 0.16795 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=62 k= 8  overflow rate (digits per step) = 0.37443
+B=62 k=12  overflow rate (digits per step) = 0.37467
+B=63 # log_B 2 = 0.16730 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=63 k= 8  overflow rate (digits per step) = 0.35360
+B=63 k=12  overflow rate (digits per step) = 0.35341
+B=64 # log_B 2 = 0.16667 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=64 k= 8  overflow rate (digits per step) = 0.37283
+B=64 k=12  overflow rate (digits per step) = 0.37261
+B=65 # log_B 2 = 0.16605 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=65 k= 8  overflow rate (digits per step) = 0.29071
+B=65 k=12  overflow rate (digits per step) = 0.29066
+B=66 # log_B 2 = 0.16544 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=66 k= 8  overflow rate (digits per step) = 0.48160
+B=66 k=12  overflow rate (digits per step) = 0.48155
+B=67 # log_B 2 = 0.16485 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=67 k= 8  overflow rate (digits per step) = 0.36559
+B=67 k=12  overflow rate (digits per step) = 0.36538
+B=68 # log_B 2 = 0.16427 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=68 k= 8  overflow rate (digits per step) = 0.34131
+B=68 k=12  overflow rate (digits per step) = 0.34120
+B=69 # log_B 2 = 0.16371 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=69 k= 8  overflow rate (digits per step) = 0.34715
+B=69 k=12  overflow rate (digits per step) = 0.34752
+B=70 # log_B 2 = 0.16315 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=70 k= 8  overflow rate (digits per step) = 0.36530
+B=70 k=12  overflow rate (digits per step) = 0.36512
+B=71 # log_B 2 = 0.16261 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=71 k= 8  overflow rate (digits per step) = 0.35297
+B=71 k=12  overflow rate (digits per step) = 0.35311
+B=72 # log_B 2 = 0.16208 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=72 k= 8  overflow rate (digits per step) = 0.35355
+B=72 k=12  overflow rate (digits per step) = 0.35353
+B=73 # log_B 2 = 0.16156 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=73 k= 8  overflow rate (digits per step) = 0.34378
+B=73 k=12  overflow rate (digits per step) = 0.34384
+B=74 # log_B 2 = 0.16104 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=74 k= 8  overflow rate (digits per step) = 0.39647
+B=74 k=12  overflow rate (digits per step) = 0.39710
+B=75 # log_B 2 = 0.16054 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=75 k= 8  overflow rate (digits per step) = 0.35152
+B=75 k=12  overflow rate (digits per step) = 0.35162
+B=76 # log_B 2 = 0.16005 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=76 k= 8  overflow rate (digits per step) = 0.35287
+B=76 k=12  overflow rate (digits per step) = 0.35269
+B=77 # log_B 2 = 0.15957 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=77 k= 8  overflow rate (digits per step) = 0.35460
+B=77 k=12  overflow rate (digits per step) = 0.35466
+B=78 # log_B 2 = 0.15910 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=78 k= 8  overflow rate (digits per step) = 0.36266
+B=78 k=12  overflow rate (digits per step) = 0.36273
+B=79 # log_B 2 = 0.15863 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=79 k= 8  overflow rate (digits per step) = 0.36167
+B=79 k=12  overflow rate (digits per step) = 0.36122
+B=80 # log_B 2 = 0.15818 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=80 k= 8  overflow rate (digits per step) = 0.36212
+B=80 k=12  overflow rate (digits per step) = 0.36200
+B=81 # log_B 2 = 0.15773 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=81 k= 8  overflow rate (digits per step) = 0.33650
+B=81 k=12  overflow rate (digits per step) = 0.33665
+B=82 # log_B 2 = 0.15729 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=82 k= 8  overflow rate (digits per step) = 0.39789
+B=82 k=12  overflow rate (digits per step) = 0.39814
+B=83 # log_B 2 = 0.15686 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=83 k= 8  overflow rate (digits per step) = 0.36405
+B=83 k=12  overflow rate (digits per step) = 0.36426
+B=84 # log_B 2 = 0.15644 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=84 k= 8  overflow rate (digits per step) = 0.35561
+B=84 k=12  overflow rate (digits per step) = 0.35554
+B=85 # log_B 2 = 0.15602 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=85 k= 8  overflow rate (digits per step) = 0.34919
+B=85 k=12  overflow rate (digits per step) = 0.34906
+B=86 # log_B 2 = 0.15561 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=86 k= 8  overflow rate (digits per step) = 0.36631
+B=86 k=12  overflow rate (digits per step) = 0.36614
+B=87 # log_B 2 = 0.15521 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=87 k= 8  overflow rate (digits per step) = 0.34698
+B=87 k=12  overflow rate (digits per step) = 0.34712
+B=88 # log_B 2 = 0.15481 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=88 k= 8  overflow rate (digits per step) = 0.36195
+B=88 k=12  overflow rate (digits per step) = 0.36217
+B=89 # log_B 2 = 0.15442 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=89 k= 8  overflow rate (digits per step) = 0.34043
+B=89 k=12  overflow rate (digits per step) = 0.34055
+B=90 # log_B 2 = 0.15404 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=90 k= 8  overflow rate (digits per step) = 0.38874
+B=90 k=12  overflow rate (digits per step) = 0.38899
+B=91 # log_B 2 = 0.15366 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=91 k= 8  overflow rate (digits per step) = 0.35073
+B=91 k=12  overflow rate (digits per step) = 0.35065
+B=92 # log_B 2 = 0.15329 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=92 k= 8  overflow rate (digits per step) = 0.35202
+B=92 k=12  overflow rate (digits per step) = 0.35251
+B=93 # log_B 2 = 0.15292 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=93 k= 8  overflow rate (digits per step) = 0.34464
+B=93 k=12  overflow rate (digits per step) = 0.34470
+B=94 # log_B 2 = 0.15256 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=94 k= 8  overflow rate (digits per step) = 0.37404
+B=94 k=12  overflow rate (digits per step) = 0.37400
+B=95 # log_B 2 = 0.15221 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=95 k= 8  overflow rate (digits per step) = 0.35176
+B=95 k=12  overflow rate (digits per step) = 0.35168
+B=96 # log_B 2 = 0.15186 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=96 k= 8  overflow rate (digits per step) = 0.35048
+B=96 k=12  overflow rate (digits per step) = 0.35014
+B=97 # log_B 2 = 0.15152 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=97 k= 8  overflow rate (digits per step) = 0.33621
+B=97 k=12  overflow rate (digits per step) = 0.33613
+B=98 # log_B 2 = 0.15118 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=98 k= 8  overflow rate (digits per step) = 0.42680
+B=98 k=12  overflow rate (digits per step) = 0.42700
+B=99 # log_B 2 = 0.15084 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=99 k= 8  overflow rate (digits per step) = 0.37638
+B=99 k=12  overflow rate (digits per step) = 0.37609
+B=100 # log_B 2 = 0.15051 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=100 k= 8  overflow rate (digits per step) = 0.35420
+B=100 k=12  overflow rate (digits per step) = 0.35422
+B=101 # log_B 2 = 0.15019 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=101 k= 8  overflow rate (digits per step) = 0.34415
+B=101 k=12  overflow rate (digits per step) = 0.34441
+B=102 # log_B 2 = 0.14987 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=102 k= 8  overflow rate (digits per step) = 0.36077
+B=102 k=12  overflow rate (digits per step) = 0.36075
+B=103 # log_B 2 = 0.14956 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=103 k= 8  overflow rate (digits per step) = 0.34673
+B=103 k=12  overflow rate (digits per step) = 0.34672
+B=104 # log_B 2 = 0.14924 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=104 k= 8  overflow rate (digits per step) = 0.37089
+B=104 k=12  overflow rate (digits per step) = 0.37101
+B=105 # log_B 2 = 0.14894 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=105 k= 8  overflow rate (digits per step) = 0.33980
+B=105 k=12  overflow rate (digits per step) = 0.33981
+B=106 # log_B 2 = 0.14863 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=106 k= 8  overflow rate (digits per step) = 0.40452
+B=106 k=12  overflow rate (digits per step) = 0.40529
+B=107 # log_B 2 = 0.14834 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=107 k= 8  overflow rate (digits per step) = 0.35916
+B=107 k=12  overflow rate (digits per step) = 0.35883
+B=108 # log_B 2 = 0.14804 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=108 k= 8  overflow rate (digits per step) = 0.34780
+B=108 k=12  overflow rate (digits per step) = 0.34790
+B=109 # log_B 2 = 0.14775 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=109 k= 8  overflow rate (digits per step) = 0.34563
+B=109 k=12  overflow rate (digits per step) = 0.34555
+B=110 # log_B 2 = 0.14746 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=110 k= 8  overflow rate (digits per step) = 0.37189
+B=110 k=12  overflow rate (digits per step) = 0.37155
+B=111 # log_B 2 = 0.14718 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=111 k= 8  overflow rate (digits per step) = 0.36243
+B=111 k=12  overflow rate (digits per step) = 0.36282
+B=112 # log_B 2 = 0.14690 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=112 k= 8  overflow rate (digits per step) = 0.36176
+B=112 k=12  overflow rate (digits per step) = 0.36187
+B=113 # log_B 2 = 0.14662 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=113 k= 8  overflow rate (digits per step) = 0.33611
+B=113 k=12  overflow rate (digits per step) = 0.33600
+B=114 # log_B 2 = 0.14635 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=114 k= 8  overflow rate (digits per step) = 0.41658
+B=114 k=12  overflow rate (digits per step) = 0.41536
+B=115 # log_B 2 = 0.14608 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=115 k= 8  overflow rate (digits per step) = 0.36561
+B=115 k=12  overflow rate (digits per step) = 0.36593
+B=116 # log_B 2 = 0.14582 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=116 k= 8  overflow rate (digits per step) = 0.35164
+B=116 k=12  overflow rate (digits per step) = 0.35155
+B=117 # log_B 2 = 0.14555 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=117 k= 8  overflow rate (digits per step) = 0.35232
+B=117 k=12  overflow rate (digits per step) = 0.35232
+B=118 # log_B 2 = 0.14529 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=118 k= 8  overflow rate (digits per step) = 0.36712
+B=118 k=12  overflow rate (digits per step) = 0.36723
+B=119 # log_B 2 = 0.14504 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=119 k= 8  overflow rate (digits per step) = 0.34129
+B=119 k=12  overflow rate (digits per step) = 0.34135
+B=120 # log_B 2 = 0.14478 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=120 k= 8  overflow rate (digits per step) = 0.36040
+B=120 k=12  overflow rate (digits per step) = 0.35996
+B=121 # log_B 2 = 0.14453 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=121 k= 8  overflow rate (digits per step) = 0.33474
+B=121 k=12  overflow rate (digits per step) = 0.33473
+B=122 # log_B 2 = 0.14428 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=122 k= 8  overflow rate (digits per step) = 0.42506
+B=122 k=12  overflow rate (digits per step) = 0.42520
+B=123 # log_B 2 = 0.14404 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=123 k= 8  overflow rate (digits per step) = 0.35635
+B=123 k=12  overflow rate (digits per step) = 0.35628
+B=124 # log_B 2 = 0.14380 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=124 k= 8  overflow rate (digits per step) = 0.34703
+B=124 k=12  overflow rate (digits per step) = 0.34707
+B=125 # log_B 2 = 0.14356 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=125 k= 8  overflow rate (digits per step) = 0.34543
+B=125 k=12  overflow rate (digits per step) = 0.34521
+B=126 # log_B 2 = 0.14332 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=126 k= 8  overflow rate (digits per step) = 0.36996
+B=126 k=12  overflow rate (digits per step) = 0.36965
+B=127 # log_B 2 = 0.14309 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=127 k= 8  overflow rate (digits per step) = 0.34350
+B=127 k=12  overflow rate (digits per step) = 0.34371
+B=128 # log_B 2 = 0.14286 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=128 k= 8  overflow rate (digits per step) = 0.37257
+B=128 k=12  overflow rate (digits per step) = 0.37278
+B=129 # log_B 2 = 0.14263 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=129 k= 8  overflow rate (digits per step) = 0.28695
+B=129 k=12  overflow rate (digits per step) = 0.28694
+B=130 # log_B 2 = 0.14240 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=130 k= 8  overflow rate (digits per step) = 0.41510
+B=130 k=12  overflow rate (digits per step) = 0.41489
+B=131 # log_B 2 = 0.14218 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=131 k= 8  overflow rate (digits per step) = 0.35911
+B=131 k=12  overflow rate (digits per step) = 0.35907
+B=132 # log_B 2 = 0.14196 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=132 k= 8  overflow rate (digits per step) = 0.33199
+B=132 k=12  overflow rate (digits per step) = 0.33207
+B=133 # log_B 2 = 0.14174 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=133 k= 8  overflow rate (digits per step) = 0.34025
+B=133 k=12  overflow rate (digits per step) = 0.34025
+B=134 # log_B 2 = 0.14152 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=134 k= 8  overflow rate (digits per step) = 0.36064
+B=134 k=12  overflow rate (digits per step) = 0.36026
+B=135 # log_B 2 = 0.14131 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=135 k= 8  overflow rate (digits per step) = 0.34828
+B=135 k=12  overflow rate (digits per step) = 0.34855
+B=136 # log_B 2 = 0.14109 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=136 k= 8  overflow rate (digits per step) = 0.35437
+B=136 k=12  overflow rate (digits per step) = 0.35426
+B=137 # log_B 2 = 0.14088 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=137 k= 8  overflow rate (digits per step) = 0.33945
+B=137 k=12  overflow rate (digits per step) = 0.33908
+B=138 # log_B 2 = 0.14068 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=138 k= 8  overflow rate (digits per step) = 0.38413
+B=138 k=12  overflow rate (digits per step) = 0.38465
+B=139 # log_B 2 = 0.14047 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=139 k= 8  overflow rate (digits per step) = 0.35403
+B=139 k=12  overflow rate (digits per step) = 0.35356
+B=140 # log_B 2 = 0.14027 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=140 k= 8  overflow rate (digits per step) = 0.34784
+B=140 k=12  overflow rate (digits per step) = 0.34782
+B=141 # log_B 2 = 0.14006 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=141 k= 8  overflow rate (digits per step) = 0.34168
+B=141 k=12  overflow rate (digits per step) = 0.34153
+B=142 # log_B 2 = 0.13987 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=142 k= 8  overflow rate (digits per step) = 0.36675
+B=142 k=12  overflow rate (digits per step) = 0.36653
+B=143 # log_B 2 = 0.13967 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=143 k= 8  overflow rate (digits per step) = 0.35885
+B=143 k=12  overflow rate (digits per step) = 0.35900
+B=144 # log_B 2 = 0.13947 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=144 k= 8  overflow rate (digits per step) = 0.35671
+B=144 k=12  overflow rate (digits per step) = 0.35662
+B=145 # log_B 2 = 0.13928 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=145 k= 8  overflow rate (digits per step) = 0.33586
+B=145 k=12  overflow rate (digits per step) = 0.33568
+B=146 # log_B 2 = 0.13909 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=146 k= 8  overflow rate (digits per step) = 0.40935
+B=146 k=12  overflow rate (digits per step) = 0.40927
+B=147 # log_B 2 = 0.13890 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=147 k= 8  overflow rate (digits per step) = 0.36907
+B=147 k=12  overflow rate (digits per step) = 0.36935
+B=148 # log_B 2 = 0.13871 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=148 k= 8  overflow rate (digits per step) = 0.35080
+B=148 k=12  overflow rate (digits per step) = 0.35035
+B=149 # log_B 2 = 0.13852 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=149 k= 8  overflow rate (digits per step) = 0.35125
+B=149 k=12  overflow rate (digits per step) = 0.35147
+B=150 # log_B 2 = 0.13834 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=150 k= 8  overflow rate (digits per step) = 0.35243
+B=150 k=12  overflow rate (digits per step) = 0.35234
+B=151 # log_B 2 = 0.13815 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=151 k= 8  overflow rate (digits per step) = 0.34424
+B=151 k=12  overflow rate (digits per step) = 0.34391
+B=152 # log_B 2 = 0.13797 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=152 k= 8  overflow rate (digits per step) = 0.35771
+B=152 k=12  overflow rate (digits per step) = 0.35732
+B=153 # log_B 2 = 0.13779 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=153 k= 8  overflow rate (digits per step) = 0.34191
+B=153 k=12  overflow rate (digits per step) = 0.34180
+B=154 # log_B 2 = 0.13761 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=154 k= 8  overflow rate (digits per step) = 0.39630
+B=154 k=12  overflow rate (digits per step) = 0.39635
+B=155 # log_B 2 = 0.13744 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=155 k= 8  overflow rate (digits per step) = 0.34874
+B=155 k=12  overflow rate (digits per step) = 0.34928
+B=156 # log_B 2 = 0.13726 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=156 k= 8  overflow rate (digits per step) = 0.34771
+B=156 k=12  overflow rate (digits per step) = 0.34832
+B=157 # log_B 2 = 0.13709 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=157 k= 8  overflow rate (digits per step) = 0.34670
+B=157 k=12  overflow rate (digits per step) = 0.34658
+B=158 # log_B 2 = 0.13692 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=158 k= 8  overflow rate (digits per step) = 0.37588
+B=158 k=12  overflow rate (digits per step) = 0.37572
+B=159 # log_B 2 = 0.13674 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=159 k= 8  overflow rate (digits per step) = 0.34802
+B=159 k=12  overflow rate (digits per step) = 0.34830
+B=160 # log_B 2 = 0.13658 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=160 k= 8  overflow rate (digits per step) = 0.34386
+B=160 k=12  overflow rate (digits per step) = 0.34392
+B=161 # log_B 2 = 0.13641 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=161 k= 8  overflow rate (digits per step) = 0.33465
+B=161 k=12  overflow rate (digits per step) = 0.33485
+B=162 # log_B 2 = 0.13624 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=162 k= 8  overflow rate (digits per step) = 0.39780
+B=162 k=12  overflow rate (digits per step) = 0.39811
+B=163 # log_B 2 = 0.13608 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=163 k= 8  overflow rate (digits per step) = 0.36106
+B=163 k=12  overflow rate (digits per step) = 0.36081
+B=164 # log_B 2 = 0.13591 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=164 k= 8  overflow rate (digits per step) = 0.35218
+B=164 k=12  overflow rate (digits per step) = 0.35201
+B=165 # log_B 2 = 0.13575 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=165 k= 8  overflow rate (digits per step) = 0.34420
+B=165 k=12  overflow rate (digits per step) = 0.34423
+B=166 # log_B 2 = 0.13559 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=166 k= 8  overflow rate (digits per step) = 0.36960
+B=166 k=12  overflow rate (digits per step) = 0.37000
+B=167 # log_B 2 = 0.13543 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=167 k= 8  overflow rate (digits per step) = 0.34951
+B=167 k=12  overflow rate (digits per step) = 0.34952
+B=168 # log_B 2 = 0.13528 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=168 k= 8  overflow rate (digits per step) = 0.36128
+B=168 k=12  overflow rate (digits per step) = 0.36133
+B=169 # log_B 2 = 0.13512 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=169 k= 8  overflow rate (digits per step) = 0.34033
+B=169 k=12  overflow rate (digits per step) = 0.34038
+B=170 # log_B 2 = 0.13496 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=170 k= 8  overflow rate (digits per step) = 0.40920
+B=170 k=12  overflow rate (digits per step) = 0.40940
+B=171 # log_B 2 = 0.13481 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=171 k= 8  overflow rate (digits per step) = 0.36320
+B=171 k=12  overflow rate (digits per step) = 0.36385
+B=172 # log_B 2 = 0.13466 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=172 k= 8  overflow rate (digits per step) = 0.35593
+B=172 k=12  overflow rate (digits per step) = 0.35602
+B=173 # log_B 2 = 0.13451 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=173 k= 8  overflow rate (digits per step) = 0.34466
+B=173 k=12  overflow rate (digits per step) = 0.34438
+B=174 # log_B 2 = 0.13436 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=174 k= 8  overflow rate (digits per step) = 0.36395
+B=174 k=12  overflow rate (digits per step) = 0.36407
+B=175 # log_B 2 = 0.13421 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=175 k= 8  overflow rate (digits per step) = 0.35430
+B=175 k=12  overflow rate (digits per step) = 0.35413
+B=176 # log_B 2 = 0.13406 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=176 k= 8  overflow rate (digits per step) = 0.35545
+B=176 k=12  overflow rate (digits per step) = 0.35573
+B=177 # log_B 2 = 0.13391 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=177 k= 8  overflow rate (digits per step) = 0.33509
+B=177 k=12  overflow rate (digits per step) = 0.33501
+B=178 # log_B 2 = 0.13377 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=178 k= 8  overflow rate (digits per step) = 0.39721
+B=178 k=12  overflow rate (digits per step) = 0.39706
+B=179 # log_B 2 = 0.13362 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=179 k= 8  overflow rate (digits per step) = 0.36948
+B=179 k=12  overflow rate (digits per step) = 0.36990
+B=180 # log_B 2 = 0.13348 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=180 k= 8  overflow rate (digits per step) = 0.35977
+B=180 k=12  overflow rate (digits per step) = 0.35985
+B=181 # log_B 2 = 0.13334 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=181 k= 8  overflow rate (digits per step) = 0.34577
+B=181 k=12  overflow rate (digits per step) = 0.34548
+B=182 # log_B 2 = 0.13319 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=182 k= 8  overflow rate (digits per step) = 0.36254
+B=182 k=12  overflow rate (digits per step) = 0.36300
+B=183 # log_B 2 = 0.13305 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=183 k= 8  overflow rate (digits per step) = 0.35000
+B=183 k=12  overflow rate (digits per step) = 0.35050
+B=184 # log_B 2 = 0.13292 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=184 k= 8  overflow rate (digits per step) = 0.36316
+B=184 k=12  overflow rate (digits per step) = 0.36316
+B=185 # log_B 2 = 0.13278 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=185 k= 8  overflow rate (digits per step) = 0.33875
+B=185 k=12  overflow rate (digits per step) = 0.33858
+B=186 # log_B 2 = 0.13264 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=186 k= 8  overflow rate (digits per step) = 0.37969
+B=186 k=12  overflow rate (digits per step) = 0.37929
+B=187 # log_B 2 = 0.13250 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=187 k= 8  overflow rate (digits per step) = 0.36729
+B=187 k=12  overflow rate (digits per step) = 0.36701
+B=188 # log_B 2 = 0.13237 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=188 k= 8  overflow rate (digits per step) = 0.35611
+B=188 k=12  overflow rate (digits per step) = 0.35601
+B=189 # log_B 2 = 0.13224 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=189 k= 8  overflow rate (digits per step) = 0.34622
+B=189 k=12  overflow rate (digits per step) = 0.34623
+B=190 # log_B 2 = 0.13210 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=190 k= 8  overflow rate (digits per step) = 0.37317
+B=190 k=12  overflow rate (digits per step) = 0.37316
+B=191 # log_B 2 = 0.13197 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=191 k= 8  overflow rate (digits per step) = 0.34800
+B=191 k=12  overflow rate (digits per step) = 0.34800
+B=192 # log_B 2 = 0.13184 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=192 k= 8  overflow rate (digits per step) = 0.34805
+B=192 k=12  overflow rate (digits per step) = 0.34866
+B=193 # log_B 2 = 0.13171 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=193 k= 8  overflow rate (digits per step) = 0.33191
+B=193 k=12  overflow rate (digits per step) = 0.33190
+B=194 # log_B 2 = 0.13158 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=194 k= 8  overflow rate (digits per step) = 0.41967
+B=194 k=12  overflow rate (digits per step) = 0.41935
+B=195 # log_B 2 = 0.13145 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=195 k= 8  overflow rate (digits per step) = 0.37168
+B=195 k=12  overflow rate (digits per step) = 0.37114
+B=196 # log_B 2 = 0.13132 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=196 k= 8  overflow rate (digits per step) = 0.34503
+B=196 k=12  overflow rate (digits per step) = 0.34518
+B=197 # log_B 2 = 0.13120 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=197 k= 8  overflow rate (digits per step) = 0.34320
+B=197 k=12  overflow rate (digits per step) = 0.34325
+B=198 # log_B 2 = 0.13107 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=198 k= 8  overflow rate (digits per step) = 0.36271
+B=198 k=12  overflow rate (digits per step) = 0.36258
+B=199 # log_B 2 = 0.13095 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=199 k= 8  overflow rate (digits per step) = 0.34961
+B=199 k=12  overflow rate (digits per step) = 0.34998
+B=200 # log_B 2 = 0.13082 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=200 k= 8  overflow rate (digits per step) = 0.35722
+B=200 k=12  overflow rate (digits per step) = 0.35732
+B=201 # log_B 2 = 0.13070 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=201 k= 8  overflow rate (digits per step) = 0.34151
+B=201 k=12  overflow rate (digits per step) = 0.34120
+B=202 # log_B 2 = 0.13058 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=202 k= 8  overflow rate (digits per step) = 0.37386
+B=202 k=12  overflow rate (digits per step) = 0.37371
+B=203 # log_B 2 = 0.13046 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=203 k= 8  overflow rate (digits per step) = 0.36255
+B=203 k=12  overflow rate (digits per step) = 0.36234
+B=204 # log_B 2 = 0.13034 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=204 k= 8  overflow rate (digits per step) = 0.35702
+B=204 k=12  overflow rate (digits per step) = 0.35593
+B=205 # log_B 2 = 0.13022 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=205 k= 8  overflow rate (digits per step) = 0.34778
+B=205 k=12  overflow rate (digits per step) = 0.34836
+B=206 # log_B 2 = 0.13010 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=206 k= 8  overflow rate (digits per step) = 0.35592
+B=206 k=12  overflow rate (digits per step) = 0.35611
+B=207 # log_B 2 = 0.12998 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=207 k= 8  overflow rate (digits per step) = 0.35244
+B=207 k=12  overflow rate (digits per step) = 0.35239
+B=208 # log_B 2 = 0.12986 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=208 k= 8  overflow rate (digits per step) = 0.35982
+B=208 k=12  overflow rate (digits per step) = 0.35946
+B=209 # log_B 2 = 0.12975 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=209 k= 8  overflow rate (digits per step) = 0.33391
+B=209 k=12  overflow rate (digits per step) = 0.33362
+B=210 # log_B 2 = 0.12963 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=210 k= 8  overflow rate (digits per step) = 0.40170
+B=210 k=12  overflow rate (digits per step) = 0.40201
+B=211 # log_B 2 = 0.12952 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=211 k= 8  overflow rate (digits per step) = 0.36565
+B=211 k=12  overflow rate (digits per step) = 0.36573
+B=212 # log_B 2 = 0.12940 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=212 k= 8  overflow rate (digits per step) = 0.35271
+B=212 k=12  overflow rate (digits per step) = 0.35235
+B=213 # log_B 2 = 0.12929 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=213 k= 8  overflow rate (digits per step) = 0.34631
+B=213 k=12  overflow rate (digits per step) = 0.34636
+B=214 # log_B 2 = 0.12917 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=214 k= 8  overflow rate (digits per step) = 0.35991
+B=214 k=12  overflow rate (digits per step) = 0.35970
+B=215 # log_B 2 = 0.12906 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=215 k= 8  overflow rate (digits per step) = 0.34928
+B=215 k=12  overflow rate (digits per step) = 0.34926
+B=216 # log_B 2 = 0.12895 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=216 k= 8  overflow rate (digits per step) = 0.35890
+B=216 k=12  overflow rate (digits per step) = 0.35905
+B=217 # log_B 2 = 0.12884 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=217 k= 8  overflow rate (digits per step) = 0.34030
+B=217 k=12  overflow rate (digits per step) = 0.34013
+B=218 # log_B 2 = 0.12873 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=218 k= 8  overflow rate (digits per step) = 0.38082
+B=218 k=12  overflow rate (digits per step) = 0.38064
+B=219 # log_B 2 = 0.12862 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=219 k= 8  overflow rate (digits per step) = 0.36384
+B=219 k=12  overflow rate (digits per step) = 0.36420
+B=220 # log_B 2 = 0.12851 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=220 k= 8  overflow rate (digits per step) = 0.34894
+B=220 k=12  overflow rate (digits per step) = 0.34855
+B=221 # log_B 2 = 0.12840 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=221 k= 8  overflow rate (digits per step) = 0.33837
+B=221 k=12  overflow rate (digits per step) = 0.33873
+B=222 # log_B 2 = 0.12830 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=222 k= 8  overflow rate (digits per step) = 0.37155
+B=222 k=12  overflow rate (digits per step) = 0.37111
+B=223 # log_B 2 = 0.12819 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=223 k= 8  overflow rate (digits per step) = 0.35130
+B=223 k=12  overflow rate (digits per step) = 0.35113
+B=224 # log_B 2 = 0.12808 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=224 k= 8  overflow rate (digits per step) = 0.35076
+B=224 k=12  overflow rate (digits per step) = 0.35069
+B=225 # log_B 2 = 0.12798 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=225 k= 8  overflow rate (digits per step) = 0.33355
+B=225 k=12  overflow rate (digits per step) = 0.33351
+B=226 # log_B 2 = 0.12787 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=226 k= 8  overflow rate (digits per step) = 0.42476
+B=226 k=12  overflow rate (digits per step) = 0.42501
+B=227 # log_B 2 = 0.12777 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=227 k= 8  overflow rate (digits per step) = 0.36728
+B=227 k=12  overflow rate (digits per step) = 0.36738
+B=228 # log_B 2 = 0.12767 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=228 k= 8  overflow rate (digits per step) = 0.35118
+B=228 k=12  overflow rate (digits per step) = 0.35032
+B=229 # log_B 2 = 0.12756 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=229 k= 8  overflow rate (digits per step) = 0.34051
+B=229 k=12  overflow rate (digits per step) = 0.34018
+B=230 # log_B 2 = 0.12746 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=230 k= 8  overflow rate (digits per step) = 0.36388
+B=230 k=12  overflow rate (digits per step) = 0.36440
+B=231 # log_B 2 = 0.12736 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=231 k= 8  overflow rate (digits per step) = 0.34662
+B=231 k=12  overflow rate (digits per step) = 0.34685
+B=232 # log_B 2 = 0.12726 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=232 k= 8  overflow rate (digits per step) = 0.35562
+B=232 k=12  overflow rate (digits per step) = 0.35593
+B=233 # log_B 2 = 0.12716 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=233 k= 8  overflow rate (digits per step) = 0.33957
+B=233 k=12  overflow rate (digits per step) = 0.33959
+B=234 # log_B 2 = 0.12706 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=234 k= 8  overflow rate (digits per step) = 0.39069
+B=234 k=12  overflow rate (digits per step) = 0.39134
+B=235 # log_B 2 = 0.12696 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=235 k= 8  overflow rate (digits per step) = 0.35903
+B=235 k=12  overflow rate (digits per step) = 0.35873
+B=236 # log_B 2 = 0.12686 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=236 k= 8  overflow rate (digits per step) = 0.34926
+B=236 k=12  overflow rate (digits per step) = 0.34913
+B=237 # log_B 2 = 0.12676 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=237 k= 8  overflow rate (digits per step) = 0.34492
+B=237 k=12  overflow rate (digits per step) = 0.34480
+B=238 # log_B 2 = 0.12667 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=238 k= 8  overflow rate (digits per step) = 0.36346
+B=238 k=12  overflow rate (digits per step) = 0.36387
+B=239 # log_B 2 = 0.12657 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=239 k= 8  overflow rate (digits per step) = 0.35309
+B=239 k=12  overflow rate (digits per step) = 0.35329
+B=240 # log_B 2 = 0.12647 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=240 k= 8  overflow rate (digits per step) = 0.35572
+B=240 k=12  overflow rate (digits per step) = 0.35550
+B=241 # log_B 2 = 0.12638 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=241 k= 8  overflow rate (digits per step) = 0.33500
+B=241 k=12  overflow rate (digits per step) = 0.33503
+B=242 # log_B 2 = 0.12628 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=242 k= 8  overflow rate (digits per step) = 0.39406
+B=242 k=12  overflow rate (digits per step) = 0.39447
+B=243 # log_B 2 = 0.12619 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=243 k= 8  overflow rate (digits per step) = 0.35741
+B=243 k=12  overflow rate (digits per step) = 0.35785
+B=244 # log_B 2 = 0.12609 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=244 k= 8  overflow rate (digits per step) = 0.35127
+B=244 k=12  overflow rate (digits per step) = 0.35145
+B=245 # log_B 2 = 0.12600 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=245 k= 8  overflow rate (digits per step) = 0.34857
+B=245 k=12  overflow rate (digits per step) = 0.34809
+B=246 # log_B 2 = 0.12590 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=246 k= 8  overflow rate (digits per step) = 0.36225
+B=246 k=12  overflow rate (digits per step) = 0.36225
+B=247 # log_B 2 = 0.12581 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=247 k= 8  overflow rate (digits per step) = 0.34625
+B=247 k=12  overflow rate (digits per step) = 0.34635
+B=248 # log_B 2 = 0.12572 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=248 k= 8  overflow rate (digits per step) = 0.36649
+B=248 k=12  overflow rate (digits per step) = 0.36602
+B=249 # log_B 2 = 0.12563 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=249 k= 8  overflow rate (digits per step) = 0.33749
+B=249 k=12  overflow rate (digits per step) = 0.33732
+B=250 # log_B 2 = 0.12554 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=250 k= 8  overflow rate (digits per step) = 0.39674
+B=250 k=12  overflow rate (digits per step) = 0.39723
+B=251 # log_B 2 = 0.12545 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=251 k= 8  overflow rate (digits per step) = 0.35723
+B=251 k=12  overflow rate (digits per step) = 0.35692
+B=252 # log_B 2 = 0.12536 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=252 k= 8  overflow rate (digits per step) = 0.34826
+B=252 k=12  overflow rate (digits per step) = 0.34842
+B=253 # log_B 2 = 0.12527 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=253 k= 8  overflow rate (digits per step) = 0.34311
+B=253 k=12  overflow rate (digits per step) = 0.34320
+B=254 # log_B 2 = 0.12518 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=254 k= 8  overflow rate (digits per step) = 0.37796
+B=254 k=12  overflow rate (digits per step) = 0.37812
+B=255 # log_B 2 = 0.12509 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=255 k= 8  overflow rate (digits per step) = 0.34775
+B=255 k=12  overflow rate (digits per step) = 0.34805
+B=256 # log_B 2 = 0.12500 (the overflow rate if the ends were mirror images and each step doubled the number)
+B=256 k= 8  overflow rate (digits per step) = 0.37495
+B=256 k=12  overflow rate (digits per step) = 0.37487
