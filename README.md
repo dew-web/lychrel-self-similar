@@ -82,5 +82,9 @@ MIT (see [LICENSE](LICENSE)). Citation metadata: [CITATION.cff](CITATION.cff).
 ## Added in November 2026
 - `carries/`: exact carry-including transfer operator for the decay rate (`op.py`) and relaxation experiments (`relax_perstep.py`, `relax_buckets.py`).
 - `scripts/halfsearch.py`: fast search restricted to doubled (ww) overflow patterns; results in `results/halfsearch_2026-10.md`.
-- `paper/`: draft paper on the base-9 family (English and Japanese).
 - `docs/RUNBOOK.md`: how to run everything on another computer (Japanese). `make env` prints the environment, `make check` runs a smoke test.
+- **More Lychrel families** (`families/`): two-run self-similar families in bases 50, 77, 98, 146, 235, 306, 390 and 467, each proved for all run lengths by `scripts/symbolic_proof.py` (the base-9 proof generalized to any base) and checked independently by `scripts/verify_family.py`. Not yet reviewed by an expert.
+- **Base 10**: the two-run type has no self-similar cycle of period 2-23; of the 349,715 overflow patterns of period 24, only `010101010101010101010101` is still open. Details in `docs/NOTES-2026-11-16.md`.
+- **New search programs**: `src/outauto2.c` (outer automaton with the rotation symmetry factored out), `src/outauto2p.c` (OpenMP), `src/coreauto2w.c` and `src/coreauto2wp.c` (center automaton with 256-bit keys). `make new`, `make parallel`.
+- **Two-ended window model** (`explore/window*.c`, `docs/NOTES-2026-11-18-window.md`): following only the outer few digits at each end, with the carry from the middle replaced by a coin, reproduces the growth of 196 (0.41394 digits per step against 0.41393 measured).
+- The draft paper on the base-9 family is kept private until it has been checked by an expert.

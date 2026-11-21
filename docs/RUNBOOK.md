@@ -39,7 +39,7 @@ https://claude.ai/artifact/99sYx47NsWgTzkrHsrPvtE （ドキュメント ID: 4206
 | 196 の軌道 100万桁 | `./bin/p196 1000000` | 約4分（1コア） | 画面 |
 | 波の検証1〜3 | `cd fourier && python3 wave.py` | 数秒 | 画面 |
 | 波の検証4〜6 | `cd fourier && python3 verify2.py && python3 verify3.py` | 数分 | 画面 |
-| 論文の PDF | `cd paper && lualatex base9_lychrel_ja.tex`（2回）、英語版は `pdflatex base9_lychrel.tex`（2回） | 1分 | `paper/*.pdf` |
+| 論文の PDF（`paper/` は公開リポジトリには入っていない） | `cd paper && lualatex base9_lychrel_ja.tex`（2回）、英語版は `pdflatex base9_lychrel.tex`（2回） | 1分 | `paper/*.pdf` |
 
 ## 3. 大きい PC 向けの計算
 - **10進の未決着2パターン:** 両端オートマトンの状態数の上限を上げて作り直す。上限 2^N で約 48×2^N バイト使う（N=26 で約3GB、N=27 で約6GB、N=28 で約13GB）。

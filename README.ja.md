@@ -32,5 +32,9 @@ make validate        # 2・4・11・26進の再発見と、9進の族の発見�
 ## 2026年11月の追加
 - `carries/` 繰り上がり込みの厳密な転送作用素（`op.py`）と、緩和の実験（`relax_perstep.py`, `relax_buckets.py`）
 - `scripts/halfsearch.py` 桁あふれのパターンを ww 型に絞った高速な探索（結果は `results/halfsearch_2026-10.md`）
-- `paper/` 9進の族の論文の下書き（英語・日本語）
 - `docs/RUNBOOK.md` 別の PC での実行手順。`make env`（環境の表示）、`make check`（動作確認）
+- **新しいリクレル数の族**（`families/`）: 50・77・98・146・235・306・390・467進。どれも `scripts/symbolic_proof.py`（9進の証明を任意の基数に一般化したもの）で、すべての列の長さについて証明し、`scripts/verify_family.py` で独立に確かめた。専門家の確認はまだ。
+- **10進**: 2列型の自己相似サイクルは周期 2〜23 に存在しない。周期 24 は 349,715 パターンのうち `010101010101010101010101` だけが未決。くわしくは `docs/NOTES-2026-11-16.md`。
+- **新しい探索プログラム**: `src/outauto2.c`（回転対称性で状態をまとめた端のオートマトン）、`src/outauto2p.c`（並列版）、`src/coreauto2w.c`・`src/coreauto2wp.c`（256ビットのキーの中心オートマトン）。`make new`、`make parallel`。
+- **両端の窓モデル**（`explore/window*.c`、`docs/NOTES-2026-11-18-window.md`）: 両端の数桁だけを追い、真ん中からの繰り上がりをコインにしたモデルで、196 の桁の増え方を再現する（モデル 0.41394、実測 0.41393）。
+- 9進の族の論文の下書きは、専門家の確認が済むまで公開していない。

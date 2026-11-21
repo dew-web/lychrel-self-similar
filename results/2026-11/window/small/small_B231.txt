@@ -1,0 +1,11 @@
+# window model: base 231, middle carry ~ Bernoulli(0.500), lag-1 correlation 0.000, 20000000 steps after 100000 burn-in, seed 7231
+# log_B 2 = 0.12736 (the overflow rate if the ends were mirror images and each step doubled the number)
+k= 2  overflow rate (digits per step) = 0.34387
+      N-runs between O's: n0:0.0059 n1:0.5392 n2:0.2249 n3:0.1164 n4:0.0546 n5:0.0276 n6:0.0143 n7:0.0087 n8:0.0083
+      leading digit (window / Benford): 1:0.347/0.127 2:0.002/0.075 3:0.003/0.053 4:0.003/0.041 5:0.003/0.034 6:0.003/0.028 7:0.002/0.025 8:0.003/0.022 9:0.003/0.019
+k= 3  overflow rate (digits per step) = 0.34669
+      N-runs between O's: n0:0.0056 n1:0.5509 n2:0.2200 n3:0.1123 n4:0.0531 n5:0.0279 n6:0.0136 n7:0.0086 n8:0.0079
+      leading digit (window / Benford): 1:0.349/0.127 2:0.002/0.075 3:0.003/0.053 4:0.003/0.041 5:0.003/0.034 6:0.003/0.028 7:0.002/0.025 8:0.003/0.022 9:0.003/0.019
+k= 4  overflow rate (digits per step) = 0.34735
+      N-runs between O's: n0:0.0056 n1:0.5539 n2:0.2183 n3:0.1120 n4:0.0526 n5:0.0276 n6:0.0135 n7:0.0086 n8:0.0078
+      leading digit (window / Benford): 1:0.350/0.127 2:0.002/0.075 3:0.003/0.053 4:0.003/0.041 5:0.003/0.034 6:0.003/0.028 7:0.002/0.025 8:0.003/0.022 9:0.003/0.019

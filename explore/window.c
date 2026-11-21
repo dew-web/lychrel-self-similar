@@ -32,11 +32,14 @@ int main(int argc, char **argv) {
         for (int j = 0; j < k; j++) { bot[j] = (uint8_t)(rng64() % B); top[j] = (uint8_t)(rng64() % B); }
         if (!top[0]) top[0] = 1;
         double nO = 0, lead[256] = {0}, runh[NRUN + 1] = {0}; long since = -1;
+        double hend[2][KMAX + 2] = {{0}}, nst[2] = {0}; int prevO = 1;   // 外側から良い対（和 <= B-1）が何個続くか（直前が O か N かで分ける）
         int mprev = 0;
         for (long t = 0; t < burn + steps; t++) {
             double q = p + rho * (mprev - p);
             int m = rng01() < q; mprev = m;
+            if (t >= burn) { int L = 0; while (L < k && bot[L] + top[L] <= B - 1) L++; hend[prevO][L]++; nst[prevO]++; }
             int o = wstep(B, k, bot, top, m, 0);
+            prevO = o;
             if (t < burn) { if (o) since = 0; else if (since >= 0) since++; continue; }
             nO += o; lead[top[0]]++;
             if (o) { if (since >= 0) runh[since < NRUN ? since : NRUN]++; since = 0; }
@@ -47,7 +50,14 @@ int main(int argc, char **argv) {
         printf("      N-runs between O's:"); for (int i = 0; i <= 8; i++) printf(" n%d:%.4f", i, runh[i] / nr); printf("\n");
         printf("      leading digit (window / Benford):");
         for (int d = 1; d < B && d < 10; d++) printf(" %d:%.3f/%.3f", d, lead[d] / steps, log(1.0 + 1.0 / d) / log((double)B));
-        printf("\n"); fflush(stdout);
+        printf("\n");
+        for (int st = 1; st >= 0; st--) {
+            printf("      E(j) after %s (P(outermost j pairs all have sum <= B-1)):", st ? "O" : "N");
+            double c = nst[st];
+            for (int j = 1; j <= k && j <= 24; j++) { c -= hend[st][j - 1]; if (j <= 12 || j % 4 == 0) printf(" %d:%.3e", j, c / nst[st]); }
+            printf("\n");
+        }
+        fflush(stdout);
     }
     return 0;
 }
