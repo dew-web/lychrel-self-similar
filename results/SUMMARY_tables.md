@@ -22,6 +22,8 @@
 | 19 | 13797 | 0 | 0 |
 | 20 | 26271 | 0 | 0 |
 
+Note (November 2026): this table counts only overflow patterns with an even number of overflows. Period 12 also has the pattern 000100010001 with three overflows, which has end strings (no center). Both state-limit cases below were later decided (no end strings); see docs/NOTES-2026-11-16.md.
+
 State-limit cases: P=16 pattern 0101010101010101 (over 8,388,608 states, see p16_single.txt); P=18 pattern 010101001010101001 (over 2,097,152).
 
 ## Other bases (two-run type)

@@ -4,5 +4,26 @@ title: "Self-similar reverse-and-add cycles and a base-9 Lychrel family"
 authors:
   - family-names: "Kusayama"
     given-names: "Yuki"
-date-released: 2026-10-11
+version: "2026.11.27"
+date-released: 2026-11-27
+doi: 10.5281/zenodo.23289048
 license: MIT
+repository-code: "https://github.com/dew-web/lychrel-self-similar"
+keywords:
+  - reverse-and-add
+  - Lychrel numbers
+  - 196 problem
+  - palindromes
+  - finite automata
+abstract: >-
+  Programs, proofs and data on the reverse-and-add (196) problem.
+  The first version (11 October 2026, doi:10.5281/zenodo.23289049) gives an explicit
+  infinite family N(m) of base-9 Lychrel numbers with a center string, proved for all m >= 2,
+  and an exact finite-automaton search for two-run self-similar cycles.
+  This version adds results first published on GitHub on 21 November 2026:
+  two-run Lychrel families in bases 50, 77, 98, 146, 235, 306, 390 and 467, each proved for
+  all run lengths (bases 50, 98 and 146 were proved earlier by mizopl,
+  doi:10.5281/zenodo.23468033); the nonexistence of two-run cycles in base 10 for periods
+  2-23; statistics of the palindrome decay rate by overflow history; and a two-ended window
+  model that reproduces the digit growth rate of 196 (0.41394 per step).
+  Discovery dates and related work: docs/PRIORITY.md.
