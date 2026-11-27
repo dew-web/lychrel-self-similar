@@ -4,7 +4,7 @@
 
 逆順加算（x → x + reverse(x) を回文になるまで繰り返す、いわゆる「196問題」）についての研究コードとデータです。英語版: [README.md](README.md)
 
-Zenodo に保存している（全版 [10.5281/zenodo.23289048](https://doi.org/10.5281/zenodo.23289048)、2026年10月11日の最初の版 [10.5281/zenodo.23289049](https://doi.org/10.5281/zenodo.23289049)）。各結果をいつ公開したかは [docs/PRIORITY.md](docs/PRIORITY.md)。
+Zenodo に保存している（全版 [10.5281/zenodo.23289048](https://doi.org/10.5281/zenodo.23289048)、2026年10月11日の最初の版 [10.5281/zenodo.23289049](https://doi.org/10.5281/zenodo.23289049)、11月の結果を含む2026年11月27日の版 [10.5281/zenodo.24581754](https://doi.org/10.5281/zenodo.24581754)）。各結果をいつ公開したかは [docs/PRIORITY.md](docs/PRIORITY.md)。
 
 ## 主な結果
 1. **9進法のリクレル数の族**（2026年10月11日に公開。その時点で調べた範囲では新しい）。m ≥ 2 に対し（9進表記）

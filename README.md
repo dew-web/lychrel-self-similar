@@ -3,7 +3,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23289048.svg)](https://doi.org/10.5281/zenodo.23289048)
 
 Archived at Zenodo: all versions [10.5281/zenodo.23289048](https://doi.org/10.5281/zenodo.23289048);
-first version (11 October 2026) [10.5281/zenodo.23289049](https://doi.org/10.5281/zenodo.23289049).
+first version (11 October 2026) [10.5281/zenodo.23289049](https://doi.org/10.5281/zenodo.23289049);
+November results (released 27 November 2026) [10.5281/zenodo.24581754](https://doi.org/10.5281/zenodo.24581754).
 When and where each result was first made public: [docs/PRIORITY.md](docs/PRIORITY.md).
 
 Code and data for an exploration of the reverse-and-add ("196") problem:
